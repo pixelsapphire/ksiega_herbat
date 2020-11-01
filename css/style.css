@@ -1,0 +1,1171 @@
+/* ============================== Base elements ============================== */
+
+@font-face {
+    font-family: "Apple SD Gothic Neo";
+    src: url("../font/apple-sd-gothic-neo-regular.otf") format("opentype");
+}
+
+html {
+    font-size: 13px;
+}
+
+body {
+    background: url(../img/bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: max(100vw, calc(1.5 * 100vh)) auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img, #title-panel, .flavor-text, .initial, .readmore, .readless, .no-rating {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.bookmark {
+    position: relative;
+}
+
+.bookmark a {
+    position: absolute;
+    bottom: 5rem;
+}
+
+ion-icon {
+    cursor: pointer;
+    transition: all 600ms ease;
+}
+
+/* ============================== Loading cover elements ============================== */
+
+#loading-cover {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(0, 56, 43);
+    z-index: 1000;
+    visibility: visible;
+    opacity: 1;
+}
+
+.loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, calc(-50% - 32px));
+    width: 64px;
+}
+
+.loader .loading-circle {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    opacity: 0;
+    transform: rotate(225deg);
+    animation-iteration-count: infinite;
+    animation-name: orbit;
+    animation-duration: 4s;
+}
+
+.loader .loading-circle:after {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 8px;
+    background: white;
+}
+
+.loader .loading-circle:nth-child(2) {
+    animation-delay: 175ms;
+}
+
+.loader .loading-circle:nth-child(3) {
+    animation-delay: 350ms;
+}
+
+.loader .loading-circle:nth-child(4) {
+    animation-delay: 525ms;
+}
+
+.loader .loading-circle:nth-child(5) {
+    animation-delay: 700ms;
+}
+
+@keyframes orbit {
+    0% {
+        transform: rotate(225deg);
+        opacity: 1;
+        animation-timing-function: ease-out;
+    }
+    7% {
+        transform: rotate(345deg);
+        animation-timing-function: linear;
+    }
+    30% {
+        transform: rotate(455deg);
+        animation-timing-function: ease-in-out;
+    }
+    39% {
+        transform: rotate(690deg);
+        animation-timing-function: linear;
+    }
+    70% {
+        transform: rotate(815deg);
+        opacity: 1;
+        animation-timing-function: ease-out;
+    }
+    75% {
+        transform: rotate(945deg);
+        animation-timing-function: ease-out;
+    }
+    76% {
+        transform: rotate(945deg);
+        opacity: 0;
+    }
+    100% {
+        transform: rotate(945deg);
+        opacity: 0;
+    }
+}
+
+noscript, #no-internet {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+    height: 100vw;
+    background-color: rgb(0, 56, 43);
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+}
+
+noscript div, #no-internet div {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+noscript span, #no-internet span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* ============================== Title panel elements ============================== */
+
+#title-panel {
+    color: white;
+    font-family: 'Kufam', cursive;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: darken;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+#title-panel a {
+    color: white;
+}
+
+#title-center {
+    margin: 0 1.5em;
+    font-size: 2.5rem;
+    line-height: 2.2em;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 50;
+}
+
+#title-center > div {
+    display: inline-block;
+}
+
+#title-big {
+    position: relative;
+    right: 0.1ch;
+    color: rgba(255, 255, 255, 0.67);
+    font-size: 300%;
+    letter-spacing: -5px;
+    text-transform: uppercase;
+}
+
+#button {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 40px;
+    color: white;
+    font-family: 'Kufam', cursive;
+    font-size: 8rem;
+    text-align: center;
+    margin-top: 1em;
+}
+
+#button:hover {
+    color: yellow;
+}
+
+/* ============================== Navbar elements ============================== */
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#navbar-container {
+    width: 100%;
+    max-width: 90rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    box-shadow: none;
+    transition: all 600ms cubic-bezier(0, 0.75, 0.5, 1);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.menu-icons {
+    font-size: 4rem;
+    position: absolute;
+    top: 50%;
+    right: 2rem;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 100;
+    display: none;
+    transition: color 600ms;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 8rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+nav .menu-closing {
+    cursor: pointer;
+}
+
+.logo {
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    margin-right: 8rem;
+    cursor: default;
+    font-family: "Apple SD Gothic Neo";
+    font-size: 4.5rem;
+    letter-spacing: 0.5rem;
+    transition: color 600ms;
+}
+
+.logo i {
+    margin: auto;
+    font-size: 110%;
+}
+
+.nav-list {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.nav-list li {
+    line-height: 8rem;
+    position: relative;
+}
+
+.sub-menu li {
+    line-height: 4rem;
+}
+
+.sub-menu li:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.nav-list a {
+    display: block;
+    padding: 0 1.5rem;
+    font-size: 1.4rem;
+    transition: color 600ms;
+}
+
+.nav-list a:hover {
+    color: yellow;
+}
+
+.sub-menu {
+    width: 18rem;
+    display: block;
+    position: absolute;
+    top: 16rem;
+    border-top: 3px solid yellow;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    z-index: 150;
+    transition: opacity 600ms ease, top 600ms ease;
+}
+
+.sub-menu::before {
+    content: "";
+    position: absolute;
+    top: -2.5rem;
+    left: 3rem;
+    border: 1.2rem solid transparent;
+    border-bottom-color: yellow;
+}
+
+.sub-menu .sub-menu {
+    border-top: none;
+    border-left: 3px solid yellow;
+    top: 0;
+    left: 150%;
+    width: 25rem;
+}
+
+.sub-menu .sub-menu::before {
+    top: 0.9rem;
+    left: -2.5rem;
+    border: 1.2rem solid transparent;
+    border-right-color: yellow;
+}
+
+.nav-list li:hover > .sub-menu {
+    top: 8rem;
+    opacity: 1;
+    visibility: visible;
+}
+
+.sub-menu li:hover > .sub-menu {
+    left: 100%;
+    top: 0;
+}
+
+/* ============================== Fixed navbar elements ============================== */
+
+#navbar-container.fixed {
+    position: fixed;
+    top: 0;
+    padding: 0 max(1.5rem, calc((100vw - 93rem) / 2));
+    max-width: calc(100vw - max(3rem, calc((100vw - 93rem) / 2)));
+    background-color: white;
+    box-shadow: 0px 2px 5px #555;
+    z-index: 500;
+}
+
+#navbar-container.fixed nav {
+    height: 5rem;
+}
+
+#navbar-container.fixed a, #navbar-container.fixed .menu-icons {
+    color: black;
+}
+
+#navbar-container.fixed .sub-menu a {
+    color: white;
+}
+
+/* ============================== Narrow navbar elements ============================== */
+
+@media (max-width: 900px) {
+
+    .nav-list {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding: 3rem;
+        height: 100vh;
+        flex-direction: column;
+        align-items: initial;
+        overflow-y: scroll;
+        background-color: rgba(0, 0, 0, 0.6);
+        backdrop-filter: blur(8px);
+        z-index: 200;
+    }
+
+    .nav-list > li {
+        line-height: 6rem;
+    }
+
+    .nav-list li:hover > .sub-menu {
+        opacity: 1;
+        visibility: visible;
+        max-height: initial;
+    }
+
+    .sub-menu {
+        position: initial;
+        border: 3px solid transparent;
+        border-left-color: yellow;
+        background-color: transparent;
+        margin-left: 1rem;
+        max-height: 0;
+    }
+
+    .sub-menu::before {
+        display: none;
+    }
+
+    .sub-menu li:hover {
+        background-color: transparent;
+    }
+
+    .menu-icons {
+        display: block;
+        z-index: 250;
+    }
+    
+    .ion-md-close {
+        display: none;
+    }
+
+    nav.active .ion-md-close {
+        display: block;
+        color: white;
+    }
+
+    nav.active .ion-md-menu {
+        display: none;
+    }
+
+    nav.active .nav-list {
+        display: flex;
+    }
+
+    nav.active .nav-list a {
+        color: white !important;
+    }
+}
+
+/* ============================== Intro elements ============================== */
+
+#intro .desc {
+    max-width: 50rem;
+    color: #555;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.25rem;
+    text-align: justify;
+    line-height: 2rem;
+    margin: 0 auto;
+    padding: 0rem 4rem 4rem;
+}
+
+/* ============================== Parallax backgrounds elements ============================== */
+
+.parallax-background {
+    height: 500px;
+    width: 100vw;
+    background: transparent;
+    position: relative;
+}
+
+.parallax-container {
+    z-index: -200;
+}
+
+.flavor-text {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, calc(200px - 50%));
+    font-family: 'Kufam', cursive;
+    font-size: max(4rem, 5vw);
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.5vw;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* ============================== Tea descriptions elements ============================== */
+
+#tea-descriptions {
+    box-shadow: 0px 3px 3px black;
+}
+
+.desc-container {
+    width: 100vw;
+    background-color: white;
+    position: relative;
+}
+
+.desc-container .subtitle-container {
+    padding: 4rem;
+    font-family: 'Kufam', cursive;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    transform: translateY(0);
+    transition: transform 600ms ease;
+}
+
+.desc-container .subtitle-container hr {
+    width: 5rem;
+    border-style: solid;
+    margin: 2rem auto 0;
+    transition: all 600ms ease;
+}
+
+.desc-container .subtitle {
+    display: inline-block;
+    position: relative;
+    transition: all 600ms ease;
+}
+
+.desc-container .subtitle-container .initial {
+    position: absolute;
+    left: 50%;
+    top: -10%;
+    transform: translate(-50%) scale(1.5);
+    color: rgba(0, 0, 0, 0.1);
+}
+
+#tea-descriptions .desc {
+    padding: 0rem 4rem 4rem;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.25rem;
+    text-align: justify;
+    line-height: 2rem;
+    color: #888;
+    transition: color 600ms ease;
+}
+
+.desc-photo {
+    height: 20rem;
+    float: right;
+    margin: 3rem;
+    transition: all 600ms cubic-bezier(0, 0.75, 0.5, 1);
+}
+
+.desc-container:nth-child(2n+2) .desc-photo {
+    float: left;
+}
+
+.hidden-desc {
+    display: none;
+}
+
+.readmore, .readless {
+    display: block;
+    text-transform: uppercase;
+    font-size: 90%;
+    text-decoration: underline;
+    cursor: pointer;
+    color: black;
+}
+
+.desc-container:nth-child(2n+2) .readmore {
+    text-align: right;
+}
+
+.source-link {
+    display: block;
+    text-align: right;
+    font-size: 70%;
+    color: #aaa;
+    font-style: italic;
+}
+
+@media (max-width: 860px) {
+
+    .desc-photo {
+        display: block;
+        margin: 0 auto 0 !important;
+        padding: 3rem 0;
+        transform: translateY(0) !important;
+        float: none !important;
+    }
+}
+
+/* ============================== Expanded tea descriptions elements ============================== */
+
+.active .subtitle-container {
+    transform: translateX(15rem);
+}
+
+.active.desc-container:nth-child(2n+2) .subtitle-container {
+    transform: translateX(-15rem);
+}
+
+.active .subtitle-container hr {
+    width: 15rem;
+}
+
+.active .subtitle {
+    opacity: 1;
+    transform: none;
+}
+
+.active .desc-photo {
+    margin-bottom: 15rem;
+    transform: translateY(12rem);
+    opacity: 1;
+}
+
+.active .desc {
+    color: #555;
+}
+
+.active .hidden-desc {
+    display: inline;
+}
+
+.active .readmore, .active .shorthand-only {
+    display: none;
+}
+
+@media (max-width: 860px) {
+
+    .active .subtitle-container {
+        transform: translateX(0);
+    }
+}
+
+/* ============================== Tea collection elements ============================== */
+
+#tea-collection {
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 2.5rem 0;
+}
+
+.shelf-container {
+    position: relative;
+    width: fit-content;
+    max-width: 100vw;
+}
+
+.shelf {
+    display: flex;
+    padding: 2.5rem;
+    overflow-x: scroll;
+}
+
+.tea-boxes {
+    display: flex;
+    z-index: 100;
+}
+
+.forced-margin {
+    width: 2.5rem;
+}
+
+.icons-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100vw;
+    visibility: hidden;
+    z-index: 250;
+}
+
+.shelf-icons {
+    position: relative;
+    font-size: 8rem;
+    transform: translateY(-50%);
+}
+
+.shelf-icons ion-icon {
+    color: rgba(0, 0, 0, 0.3);
+    visibility: visible;
+}
+
+.shelf-icons ion-icon:hover {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.shelf-icons ion-icon.left-arrow {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.shelf-icons ion-icon.right-arrow {
+    position: absolute;
+    right: 0;
+}
+
+/* ============================== Tea boxes base elements ============================== */
+
+.tea-box {
+    position: relative;
+    display: inline-block;
+    background-color: white;
+    align-items: stretch;
+    margin: 1.5rem;
+}
+
+.tea-box .rating-stars {
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-width: 2rem;
+    margin: 1rem;
+}
+
+.tea-box .rating-stars ion-icon {
+    font-size: 2rem;
+    cursor: default;
+}
+
+.tea-box .rating-stars .no-rating {
+    position: absolute;
+    top: 0.2rem;
+    right: 0;
+    font-family: 'Kufam', cursive;
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-align: center;
+    text-shadow:
+        -1px -1px 0 white,  
+        1px -1px 0 white,
+        -1px 1px 0 white,
+        1px 1px 0 white;
+}
+
+.tea-box .photo-area {
+    width: 25rem;
+    height: 15rem;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.tea-box img {
+    display: inline-block;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.tea-box .title {
+    position: relative;
+    text-align: center;
+    font-family: 'Kufam', cursive;
+    font-size: 2.5rem;
+    margin: 1rem 0;
+    padding: 0 1em;
+}
+
+.tea-box .title hr {
+    position: absolute;
+    top: calc(50% - 0.2rem);
+    width: 24rem;
+    border: 1px solid black;
+    z-index: 0;
+}
+
+.tea-box .title .title-text {
+    position: relative;
+    padding: 0 0.5rem;
+    background-color: white;
+    white-space: nowrap;
+    z-index: 100;
+}
+
+.tea-box .title .long {
+    letter-spacing: -2px;
+    font-size: 90%;
+    bottom: 0.05rem;
+}
+
+.tea-box .title .very.long {
+    font-size: 80%;
+    bottom: 0.1rem;
+}
+
+.tea-box .title .extra.long {
+    font-size: 70%;
+    bottom: 0.15rem;
+}
+
+.tea-box .title .ultra.long {
+    font-size: 60%;
+    bottom: 0.2rem;
+}
+
+.tea-box .desc {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1rem;
+    text-align: justify;
+    line-height: 2rem;
+    color: #888;
+    width: 25rem;
+    padding: 1rem 2rem 3rem;
+}
+
+.tea-box-shelf-base {
+    position: absolute;
+    bottom: -40px;
+    left: -30px;
+    right: -30px;
+    height: 80px;
+    background-color: yellow;
+    transform: perspective(600px) rotateX(45deg);
+    z-index: -100;
+}
+
+.tea-box-shadow {
+    position: absolute;
+    bottom: 0;
+    left: 0rem;
+    right: 0rem;
+    height: 36px;
+    background-color: #0006;
+    transform: perspective(400px) rotateX(-45deg) translateX(0px);
+    transform-origin: 50% 100%;
+    z-index: -100;
+}
+
+#used-up .tea-box:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 200px;
+    background: url("../img/cobweb.png");
+    background-size: 200px;
+    z-index: 200;
+}
+
+#used-up .tea-photo {
+    filter: saturate(0) sepia(0.2) contrast(1.25) saturate(4) hue-rotate(180deg);
+}
+
+/* ============================== Tea boxes ribbons elements ============================== */
+
+.ribbon {
+    position: absolute;
+    top: 15px;
+    left: -10px;
+    padding: 0.4rem 1rem 0.3rem;
+    color: white;
+    font-family: 'Kufam', cursive;
+    font-weight: 500;
+    z-index: 100;
+}
+
+.ribbon::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 0;
+    border-width: 5px;
+    border-style: solid;
+    border-top-color: transparent !important;
+    border-left-color: transparent !important;
+}
+
+.ribbon.amount {
+    top: 55px;
+}
+
+.ribbon.cup {
+    top: 95px;
+    font-size: 300%;
+    padding: 0 0.5rem 0;
+    text-align: right;
+    width: 3rem;
+    transition: width 200ms ease;
+    z-index: 250;
+}
+
+.ribbon.cup::after {
+    content: '';
+    position: absolute;
+    top: 1px;
+    right: 0;
+    border-width: 0px;
+    border-style: solid;
+    border-top-color: transparent !important;
+    border-right-color: transparent !important;
+    transition: all 200ms linear;
+}
+
+.ribbon.cup ion-icon {
+    transform: translateY(0.65rem);
+}
+
+.tea-box:hover .ribbon.cup {
+    width: 6rem;
+    transition: width 400ms cubic-bezier(0.25, 0.1, 0, 2.2);
+}
+
+.tea-box.active .ribbon.cup {
+    width: calc(100% + 7px);
+}
+
+.tea-box.active .brewing-icons {
+    padding-left: 0rem !important;
+}
+
+.tea-box.activated .ribbon.cup::after {
+    top: -10px;
+    border-width: 5px;
+}
+
+.brewing-icons {
+    padding-left: 0rem;
+    transition: padding-left 200ms ease;
+}
+
+.tea-box:hover .brewing-icons {
+    padding-left: 3rem;
+    cursor: pointer;
+}
+
+.brewing-icons .cup-close {
+    display: none;
+}
+
+.tea-box.active ion-icon.cup-open {
+    display: none;
+}
+
+.tea-box.active ion-icon.cup-close {
+    display: inline-block;
+}
+
+/* ============================== Tea boxes brewing instructions elements ============================== */
+
+.brewing-instructions {
+    visibility: hidden;
+    position: absolute;
+    top: 85px;
+    left: 0;
+    width: calc(100% - 5px);
+    padding-top: 1.5rem;
+    margin-top: 55px;
+    color: white;
+    font-family: 'Kufam', cursive;
+    font-size: 3.5rem;
+    background-color: rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    backdrop-filter: blur(5px);
+    border-left: 5px solid yellow;
+    transform: perspective(800px) rotateX(-90deg);
+    transform-origin: 50% 0%;
+    z-index: 200;
+    transition: all 400ms ease;
+}
+
+.tea-box.activated .brewing-instructions {
+    visibility: visible;
+    opacity: 1;
+    transform: perspective(800px) rotateX(0);
+}
+
+.brewing-instructions ion-icon {
+    font-size: 5rem;
+    filter: drop-shadow(0px 0px 1px #444);
+}
+
+.brewing-instructions ion-icon.goto-tool {
+    font-size: 3rem;
+}
+
+.brewing-instructions .small {
+    font-size: 50%;
+    font-weight: bold;
+}
+
+.brewing-instructions td {
+    padding-left: 1.5rem;
+    text-shadow: 0px 0px 1px #444;
+}
+
+/* ============================== Tools elements ============================== */
+
+#tools {
+    background-color: white;
+    box-shadow: 0px -3px 3px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+}
+
+.tool-area {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.tool-container {
+    font-family: 'Kufam', cursive;
+    font-size: min(2rem, 3vw);
+}
+
+.tool-container .subtitle-container {
+    padding: 6rem 2rem 2rem;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.tool-container .subtitle-container .tool-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    visibility: hidden;
+    font-size: 200%;
+}
+
+.tool-container .subtitle-container .initial {
+    position: absolute;
+    left: 50%;
+    top: -10%;
+    transform: translate(-50%) scale(1.5);
+    color: rgba(0, 0, 0, 0.1);
+}
+
+.tool-container .subtitle-container hr {
+    width: 5rem;
+    margin: 2rem auto 0;
+    border-style: solid;
+}
+
+.tool-container .subtitle {
+    display: inline-block;
+    position: relative;
+}
+
+.tool-container input {
+    font-family: 'Kufam', cursive;
+    text-align: right;
+    font-size: 90%;
+    border: none;
+    padding: 4px 4px 0 0;
+}
+
+.tool-container .right {
+    text-align: right;
+}
+
+.tool-container .button {
+    background-color: rgba(0, 0, 0, 0.5);
+    background-clip: padding-box;
+    font-weight: bold;
+    color: white;
+    padding: 0.3ch 0.6ch 0;
+    margin-right: auto;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.tool-container .button:hover {
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.8) inset;
+}
+
+.tool-container .output {
+    grid-column: 1/4;
+    line-height: 2ch;
+    padding-top: 1ch;
+}
+
+.tool {
+    display: grid;
+    grid-template-columns: 28ch 5ch 10ch;
+    column-gap: 3px;
+    row-gap: 2rem;
+    margin: 0 auto;
+    padding: 20px;
+    width: fit-content;
+    background-color: #e6e6e6;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+}
+
+.tool-wrapper {
+    z-index: 300;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.tool-wrapper.fixed {
+    position: fixed;
+    top: 5rem;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    backdrop-filter: blur(5px) brightness(0.5);
+    animation: appear 300ms ease;
+}
+
+.tool-wrapper.fixed .tool-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+}
+
+.tool-wrapper.fixed .tool-container .subtitle-container .tool-close {
+    visibility: visible;
+}
+
+.tool-wrapper.fixed .tool {
+    box-shadow: none;
+}
+
+#timer {
+    grid-template-columns: 6ch 5ch 5ch 8ch 8ch calc(10ch + 2px);
+}
+
+#output_timer {
+    text-align: center;
+    font-size: 200%;
+    grid-column: 1/7;
+}
+
+#timer_alarm {
+    height: 20px !important;
+    width: 20px !important;
+    cursor: pointer;
+}
+
+#toggle_alarm_label {
+    cursor: pointer;
+    font-size: 90%;
+}
+
+#temperature_calc .small {
+    font-size: 55%;
+    line-height: 1.9ch;
+    opacity: 0.7;
+    position: relative;
+    bottom: 0.2em;
+}

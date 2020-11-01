@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<!-- TODO
+    Measure:
+-- Mate Żurawina Pomarańcza
+-- Pajarito Elaborada
+-->
+<html>
+
+<head>
+    <script>
+        const devMode = false;
+    </script>
+    <script src="js/dev_mode_handler.js" type="text/javascript"></script>
+    <title>Księga Herbat</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link href="css/checkboxes.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Kufam:wght@400;500;700&family=Lato:wght@400;700&display=swap"
+        rel="stylesheet" type="text/css" />
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" type="text/javascript"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.js"></script>
+    <script src="js/parallax_bg_handler.min.js" type="text/javascript"></script>
+    <script src="js/rubynaxela_toolbox_1.12.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div id="loading-cover">
+        <div class="loader">
+            <div class="loading-circle"></div>
+            <div class="loading-circle"></div>
+            <div class="loading-circle"></div>
+            <div class="loading-circle"></div>
+            <div class="loading-circle"></div>
+        </div>
+        <noscript>
+            <div>
+                <span>
+                    Twoja przeglądarka nie obsługuje skryptów JavaScript,
+                    <br>lub są one wyłączone dla tej witryny.
+                </span>
+            </div>
+        </noscript>
+        <div id="no-internet" style="visibility: hidden;">
+            <div>
+                <span>
+                    Brak połączenia z internetem.
+                </span>
+            </div>
+        </div>
+    </div>
+    <div id="title-panel">
+        <header>
+            <div id="navbar-container">
+                <nav>
+                    <div class="menu-icons">
+                        <i class="icon ion-md-menu"></i>
+                        <i class="icon ion-md-close"></i>
+                    </div>
+                    <a class="logo">
+                        茶<i class="icon ion-md-cafe"></i>
+                    </a>
+                    <ul class="nav-list">
+                        <li>
+                            <a>Wszystko o... <i class="icon ion-md-arrow-dropdown"></i></a>
+                            <ul class="sub-menu">
+                                <li><a class="menu-closing" href="javascript:void(0)"
+                                        onclick="animScrollToElement('#desc-green-tea')">
+                                        Zielona herbata</a></li>
+                                <li><a class="menu-closing" href="javascript:void(0)"
+                                        onclick="animScrollToElement('#desc-black-tea')">
+                                        Czarna herbata</a></li>
+                                <li><a class="menu-closing" href="javascript:void(0)"
+                                        onclick="animScrollToElement('#desc-red-tea')">
+                                        Czerwona herbata</a></li>
+                                <li><a class="menu-closing" href="javascript:void(0)"
+                                        onclick="animScrollToElement('#desc-white-tea')">
+                                        Biała herbata</a></li>
+                                <li><a class="menu-closing" href="javascript:void(0)"
+                                        onclick="animScrollToElement('#desc-fruit-mix')">
+                                        Mieszanki owocowe</a></li>
+                                <li><a class="menu-closing" href="javascript:void(0)"
+                                        onclick="animScrollToElement('#desc-yerba-mate')">
+                                        Yerba Mate</a></li>
+                                <li><a class="menu-closing" href="javascript:void(0)"
+                                        onclick="animScrollToElement('#desc-matcha')">
+                                        Matcha</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a>Moja kolekcja <i class="icon ion-md-arrow-dropdown"></i></a>
+                            <ul class="sub-menu" id="tea-list">
+                                <li>
+                                    <a>[kategoria] <i class="icon ion-md-arrow-dropdown"></i></a>
+                                    <ul class="sub-menu">
+                                        <li><a class="menu-closing" href="javascript:void(0)"
+                                                onclick="selectTea('#', this)">[herbata]</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a class="menu-closing" href="javascript:void(0)"
+                                onclick="animScrollToElement('#tools')">Narzędzia</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div id="title-center">
+            Moja wielka<br><span id="title-big">księga herbat</span>
+        </div>
+        <a href="javascript:void(0)" onclick="animScrollToElement('#intro-container')">
+            <ion-icon name="arrow-down-circle-outline" id="button"></ion-icon>
+        </a>
+    </div>
+    <div id="intro-container">
+        <div class="bookmark"><a name="wstep"></a></div>
+        <div class="desc-container" id="intro">
+            <div class="subtitle-container">
+                <span class="subtitle">
+                    <span class="initial">W</span>
+                    Wstęp
+                    <hr>
+                </span>
+            </div>
+            <p class="desc">
+                Herbata czarna, czerwona, zielona, biała czy żółta... słyszał na pewno każdy. Jednak niewielu wie, że
+                wszystkie te herbaty pochodzą z jednego gatunku rośliny - camellia sinensis (pl. herbata chińska). Napar
+                z
+                tej rośliny, jak również z wielu innych, stanowi najpopularniejszy napój świata. Pierwsze zapiski o
+                herbacie
+                pochodzą z X wieku p.n.e., jednak jeśli wierzyć legendom, tradycja tego napoju ma prawie 5000 lat.
+                Herbata
+                po chińsku to tê lub chá, w zależności od dialektu. Pierwsza wersja ma swoje odzwierciedlenie w językach
+                zachodnej Europy, natomiast druga wersja widoczna jest na wschodzie. Polskie słowo "herbata" pochodzi od
+                łac. herba (zioło, ziele) oraz chińskiego tê. Uzasadnieniem jest fakt, iż gdy w 1664 roku herbata
+                dotarła po
+                raz pierwszy do Polski z Francji, traktowana była jak napój leczniczy. Przez długi czas, ze względu na
+                wysoką cenę napój ten pity był jedynie przez wyższe warstwy społeczne. Obecnie każdy może cieszyć się
+                jego
+                licznymi wspaniałymi walorami smakowymi i zdrowotnymi.
+            </p>
+        </div>
+    </div>
+    <div id="tea-descriptions">
+        <div class="parallax-background" data-parallax="scroll" data-image-src="img/backgrounds/green_tea.jpg">
+            <div class="parallax-container" data-rellax-speed="-2.5">
+                <p class="flavor-text">Delikatnie...</p>
+            </div>
+        </div>
+        <div class="bookmark"><a name="opis-zielona-herbata"></a></div>
+        <div class="desc-container" id="desc-green-tea">
+            <img class="desc-photo" src="img/desc/zielona_herbata.jpg">
+            <div class="subtitle-container">
+                <span class="subtitle">
+                    <span class="initial">Z</span>
+                    Zielona herbata
+                </span>
+                <hr>
+            </div>
+            <p class="desc">
+                <span class="shorthand-only">
+                    Zielona herbata produkowana jest głównie w Chinach i Japonii Herbatę tę określa się mianem
+                    niefermentowanej, gdyż nie przechodzi ona procesu utleniania, jej liście zachowują swój naturalny
+                    zielony kolor. Najbardziej popularną herbatą japońską jest Sencha. Wytwarzana jest z listków
+                    zrywanych podczas pierwszego zbioru. Napar cechuje klarowny jasnoseledynowy kolor i delikatny smak z
+                    lekką nutą goryczki. Zalecana jest jako napój po posiłku ułatwiający trawienie.
+                </span>
+                <br><br>
+                <a href="javascript:void(0)" class="readmore" onclick="$('#desc-green-tea').toggleClass('active');
+                    animScrollToElement('#desc-green-tea');">pełny opis</a>
+                <span class="hidden-desc">
+                    Zielona herbata produkowana jest głównie w Chinach (m.in. prowincje Anhui, Zhejiang, Hunan i Yunnan)
+                    i Japonii (wyspa Kiusiu, Sikoku, środkowa część wyspy Honsiu), sporadycznie herbaty zielone
+                    produkowane są przez Indie (zielony Assam czy Darjeeling) a także Ceylon. Herbatę tę określa się
+                    mianem niefermentowanej, gdyż nie przechodzi ona procesu utleniania, jej liście zachowują swój
+                    naturalny zielony kolor.
+                    <br><br>
+                    Świeżo zebrane liście poddawane są obróbce cieplnej, aby pozbyć się naturalnej wilgoci. Odbywa się
+                    to w specjalnych żeliwnych naczyniach. Przy obróbce herbat japońskich często w procesie więdnięcia
+                    wykorzystuje się parę wodną. Parowanie trwające kilka minut, nadaje połysku, intensywnej zielonkawej
+                    barwy i specyficznego „morskiego” posmaku.
+                    <br><br>
+                    Tak przygotowane liście są następnie rolowane, dzięki czemu nadaje się im odpowiedni dla gatunku
+                    kształt. Wszystko to ma na celu obniżenie wilgoci w liściach i nadanie oczekiwanego kształtu.
+                    Różnorodność form to cecha charakterystyczna herbat zielonych. Znajdziemy tu spiralnie skręcone
+                    listki, chmurki, krążki, kuleczki itp. Kolejny etap to suszenie w wysokiej temperaturze. Kończy to
+                    obróbkę listków i są one gotowe do sporządzenia naparu.
+                    <br><br>
+                    Japonia to prawdziwy raj dla smakoszy herbat zielonych bowiem, skupia się ona tylko i wyłącznie na
+                    produkcji tego rodzaju herbat. Koneserzy mogą wybierać z czterech głównych grup herbat: Sencha,
+                    Bancha, Tamaryokucha oraz Gyokuro. Najbardziej popularną herbatą japońską jest Sencha. Wytwarzana
+                    jest z listków zrywanych podczas pierwszego zbioru. Napar cechuje klarowny jasnoseledynowy kolor i
+                    delikatny smak z lekką nutą goryczki. Zalecana jest jako napój po posiłku ułatwiający trawienie.
+                    <br><br>
+                    Herbaty pochodzące z późnego zbioru o dużych twardych liściach wraz z szypułkami, to Bancha. Po
+                    zaparzeniu otrzymujemy łagodny napar o delikatnym bukiecie aromatycznym. Często polecana jest na
+                    zimno jako orzeźwiający napój. Jej atutem jest niska zawartość teiny, dlatego doskonale się nadaje
+                    do picia przed snem. Zawiera ona również dużo żelaza i wapnia, przeciwdziała tym samym osteoporozie.
+                    Z uwagi na łagodny smak oraz brak typowej goryczki jest dobrze odbierana przez osoby rozpoczynające
+                    przygodę z herbatami zielonymi, jak również przez dzieci i osoby starsze.
+                    <br><br>
+                    Bancha wzbogacona preparowanym ryżem i prażoną kukurydzą w postaci herbaty Genmaicha stanowi ciekawą
+                    propozycję dla zwolenników niekonwencjonalnych smaków.
+                    <br><br>
+                    Tamaryokucha jest przykładem wysokiej jakości herbaty, której listki poddawane są kunsztownej
+                    obróbce rolowania. Wyróżnia się bardzo delikatnym posmakiem. Wśród koneserów uchodzi na swoisty
+                    unikat herbaciany.
+                    <br><br>
+                    Gyokuro Asahi ("drogocenna rosa") to najznakomitsza japońska herbata. Piękne delikatne listki w
+                    postaci ostro zakończonych szmaragdowych igieł dają napar o wyrafinowanym smaku. Jest to wyjątkowej
+                    klasy rarytas określany przez znawców za najlepszą herbatę świata. Jej unikatowość wynika już samej
+                    obróbki, bowiem jest ona umieszczona na specjalnych matach bambusowych, które mają chronić przed
+                    nadmierną eksploatacją ze strony promieni słonecznych. Wyróżnia ją piękny seledynowy kolor naparu
+                    oraz duża zawartość chlorofilu. Dzięki większej zawartości teiny, działa ona witalizującą i
+                    energetyzująco.
+                    <br><br>
+                    <a href="https://www.fiveoclock.eu/herbata/pages/guide/zielona-30.html" class="source-link">
+                        www.fiveoclock.eu</a>
+                    <br>
+                    <a href="javascript:void(0)" class="readless" onclick="$('#desc-green-tea').toggleClass('active');
+                        animScrollToElement('#desc-green-tea');">zwiń opis</a>
+                </span>
+            </p>
+        </div>
+        <div class="parallax-background" data-parallax="scroll" data-image-src="img/backgrounds/black_tea.jpg">
+            <div class="parallax-container" data-rellax-speed="-2.5">
+                <p class="flavor-text">Klasycznie...</p>
+            </div>
+        </div>
+        <div class="bookmark"><a name="opis-czarna-herbata"></a></div>
+        <div class="desc-container" id="desc-black-tea">
+            <img class="desc-photo" src="img/desc/czarna_herbata.jpg">
+            <div class="subtitle-container">
+                <span class="subtitle">
+                    <span class="initial">C</span>
+                    Czarna herbata
+                </span>
+                <hr>
+            </div>
+            <p class="desc">
+                <span class="shorthand-only">
+                    Czarne herbaty poddawane są długiemu procesowi produkcji, który obejmuje etap więdnięcia liści,
+                    zwijania, fermentacji i suszenia. Kilkunastogodzina fermentacja powoduje, że herbata czarna różni
+                    się od pozostałych grup. Ta duża różnorodna grupa obejmuje m. in. wytrawne herbaty z regionu
+                    Darjeeling, wyraziste cejlońskie czy chińskie, wyróżniające się dymnym posmakiem.
+                    <br><br>
+                </span>
+                <a href="javascript:void(0)" class="readmore" onclick="$('#desc-black-tea').toggleClass('active');
+                    animScrollToElement('#desc-black-tea');">pełny opis</a>
+                <span class="hidden-desc">
+                    Czarne herbaty poddawane są długiemu procesowi produkcji, który obejmuje etap więdnięcia liści,
+                    zwijania, fermentacji i suszenia. Proces ten szczegółowo opisany jest w podrozdziale dotyczącym
+                    produkcji herbaty. Pełna fermentacja (kilkanaście godzin) powoduje, że herbata czarna zasadniczo
+                    różni się od pozostałych grup. O walorach smakowych tych herbat decydują takie czynniki jak: kraj
+                    pochodzenia herbaty, plantacja, czas zbiorów czy stopień zwinięcia liści. Ta duża różnorodna grupa
+                    obejmuje wytrawne herbaty z regionu Darjeeling, wyraziste cejlońskie, mocne i zdecydowane w smaku
+                    assamy oraz chińskie wyróżniające się dymnym posmakiem. Każda grupa odznacza się swoją specyfiką, a
+                    i w jej obrębie występują różnice w smaku, bukiecie aromatycznym, stopniu esencjonalności.
+                    <br><br>
+                    Według legendy powstała ona przez przypadek, w czasie transportu herbaty zielonej z Chin do Anglii,
+                    uległa ona zamoknięciu, co spowodowało jej fermentację i zabarwienie listków na brązowo.
+                    <br><br>
+                    <a href="https://www.fiveoclock.eu/herbata/pages/guide/czarna-31.html" class="source-link">
+                        www.fiveoclock.eu</a>
+                    <br>
+                    <a href="javascript:void(0)" class="readless" onclick="$('#desc-black-tea').toggleClass('active');
+                        animScrollToElement('#desc-black-tea');">zwiń opis</a>
+                </span>
+            </p>
+        </div>
+        <div class="parallax-background" data-parallax="scroll" data-image-src="img/backgrounds/puerh.jpg">
+            <div class="parallax-container" data-rellax-speed="-2.5">
+                <p class="flavor-text">Egzotycznie...</p>
+            </div>
+        </div>
+        <div class="bookmark"><a name="opis-czerwona-herbata"></a></div>
+        <div class="desc-container" id="desc-red-tea">
+            <img class="desc-photo" src="img/desc/czerwona_herbata.jpg">
+            <div class="subtitle-container">
+                <span class="subtitle">
+                    <span class="initial">C</span>
+                    Czerwona herbata
+                </span>
+                <hr>
+            </div>
+            <p class="desc">
+                <span class="shorthand-only">
+                    Czerwona herbata to napar przyrządzany z liści herbaty Camellia Sinensis. Liście zostały poddane
+                    częściowej fermentacji. Proces fermentacji jest przerywany, a następnie namoczone liście herbaty są
+                    przykrywane materiałem i leżakują od 3 do nawet 60 lat. Naparu z czerwonej herbaty Pu-erh nie można
+                    pomylić z żadnym innym. Jest ciemny, a zapach bardzo ziemisty. Polskie oznaczenie koloru herbaty
+                    Pu-erh różni się od oryginalnego Chińskiego, gdzie kolor herbaty jest opisywany za pomocą
+                    otrzymywanego koloru naparu, a nie suchych liści. W Chinach Pu-erh jest czarną herbatą.
+                    <br><br>
+                    <a href="https://www.czajnikowy.com.pl/herbata-czerwona-pu-erh/" class="source-link">
+                        www.czajnikowy.com.pl</a>
+                </span>
+            </p>
+        </div>
+        <div class="parallax-background" data-parallax="scroll" data-image-src="img/backgrounds/white_tea.jpeg">
+            <div class="parallax-container" data-rellax-speed="-2.5">
+                <p class="flavor-text">Orientalnie...</p>
+            </div>
+        </div>
+        <div class="bookmark"><a name="opis-biala-herbata"></a></div>
+        <div class="desc-container" id="desc-white-tea">
+            <img class="desc-photo" src="img/desc/biała_herbata.jpg">
+            <div class="subtitle-container">
+                <span class="subtitle">
+                    <span class="initial">B</span>
+                    Biała herbata
+                </span>
+                <hr>
+            </div>
+            <p class="desc">
+                <span class="shorthand-only">
+                    Herbaty te produkowane są głównie w południowo-wschodnich Chinach. Nazwa pochodzi od
+                    biało-srebrzystego odcienia młodych listków. Przechodzą one krótki proces produkcji ograniczony
+                    jedynie do naturalnego suszenia i podgrzania, dzięki czemu herbaty zachowują cenne walory smakowe i
+                    zdrowotne. Liczne mikro- i makroelementy sprawiają, że określane są jako "eliksir młodości i dobrego
+                    samopoczucia". Napar cechuje słomkowy kolor z delikatnym brzoskwiniowym odcieniem. Harmonia
+                    delikatnego smaku i mocnego aromatu to ich dodatkowy atut.
+                    <br><br>
+                </span>
+                <a href="javascript:void(0)" class="readmore" onclick="$('#desc-white-tea').toggleClass('active');
+                    animScrollToElement('#desc-white-tea');">pełny opis</a>
+                <span class="hidden-desc">
+                    Herbaty te produkowane są głównie w Chinach w południowo-wschodniej prowincji Fujian. Nazwa tej
+                    grupy herbat pochodzi od biało-srebrzystego odcienia młodych listków Camellia sinensis w większości
+                    pączków i pierwszych listków z licznymi delikatnymi włoskami. Początkowo zarezerwowane dla cesarzy
+                    osób najwyższych rangą, z czasem stają się dostępne dla ogółu.
+                    <br><br>
+                    W Polsce wciąż zdobywają popularność za sprawą delikatnego smaku i licznych właściwości zdrowotnych.
+                    Liście przechodzą krótki proces produkcji ograniczony tylko do naturalnego suszenia, a potem
+                    podgrzania. Nie ingeruje się w strukturę listków poprzez zwijanie czy rolowanie. Brak fermentacji i
+                    krótka obróbka powoduje, że białe herbaty zachowują szereg cennych walorów smakowych i zdrowotnych.
+                    Liczne składniki mineralne, spora ilość związków polifenolowych i witamin sprawiają, że określane są
+                    potocznie jako:„ eliksir młodości i dobrego samopoczucia”.
+                    <br><br>
+                    Napar białej herbaty cechuje piękny słomkowy kolor z delikatnym odcieniem brzoskwiniowym. Smak to
+                    wyjątkowa harmonia delikatności i subtelności. Wysoka aromatyczność to jej dodatkowy atut.
+                    Delektowanie się tym rarytasem to swoista uczta dla ciała i ducha. Biała herbata w postaci
+                    klasycznej to chińska White Pai Mu Tan. Liście nie są w żaden sposób formowane. Można tu się
+                    doszukać całych fleszy herbacianych.
+                    <br><br>
+                    Białe herbaty używane są też do mieszanek, najczęściej wespół z zieloną. Różnego
+                    rodzaju dodatki - płatki kwiatów, cząstki owoców i inne nadają takim kompozycjom ciekawego smaku i
+                    kuszą bogactwem aromatu.
+                    <br><br>
+                    <a href="https://www.fiveoclock.eu/herbata/pages/guide/biala-32.html" class="source-link">
+                        www.fiveoclock.eu</a>
+                    <br>
+                    <a href="javascript:void(0)" class="readless" onclick="$('#desc-white-tea').toggleClass('active');
+                        animScrollToElement('#desc-white-tea');">zwiń opis</a>
+                </span>
+            </p>
+        </div>
+        <div class="parallax-background" data-parallax="scroll" data-image-src="img/backgrounds/fruit_flower_tea.jpg">
+            <div class="parallax-container" data-rellax-speed="-2.5">
+                <p class="flavor-text">Słodko...</p>
+            </div>
+        </div>
+        <div class="bookmark"><a name="opis-mieszanki-owocowe"></a></div>
+        <div class="desc-container" id="desc-fruit-mix">
+            <img class="desc-photo" src="img/desc/mieszanki_owocowe.jpg">
+            <div class="subtitle-container">
+                <span class="subtitle">
+                    <span class="initial">M</span>
+                    Mieszanki owocowe
+                </span>
+                <hr>
+            </div>
+            <p class="desc">
+                <span class="shorthand-only">
+                    Stanowią niezwykłą pod każdym względem kompozycję kwiatów, liści, owoców i oryginalnych dodatków.
+                    Posiadają przyjemny, tropikalny zapach i smak, który wraz z pierwszym łykiem wnosi w nasze życie
+                    słodką porcję wonnej egzotyki. Aby wydobyć wszystko to, co najlepsze z herbaty owocowej, trzeba
+                    wiedzieć, jak ją parzyć. Suszu nie należy zalewać wrzątkiem, lecz przegotowaną wodą ostudzoną do
+                    około 95 stopni Celsjusza.
+                    <br><br>
+                    <a href="https://www.krainaherbaty.pl/herbata-owocowa" class="source-link">
+                        www.krainaherbaty.pl</a>
+                </span>
+            </p>
+        </div>
+        <div class="parallax-background" data-parallax="scroll" data-image-src="img/backgrounds/yerba_mate.jpg">
+            <div class="parallax-container" data-rellax-speed="-2.5">
+                <p class="flavor-text">Pobudzająco...</p>
+            </div>
+        </div>
+        <div class="bookmark"><a name="opis-yerba-mate"></a></div>
+        <div class="desc-container" id="desc-yerba-mate">
+            <img class="desc-photo" src="img/desc/yerba_mate.jpg">
+            <div class="subtitle-container">
+                <span class="subtitle">
+                    <span class="initial">Y</span>
+                    Yerba Mate
+                </span>
+                <hr>
+            </div>
+            <p class="desc">
+                <span class="shorthand-only">
+                    Napar yerba mate, zwany też po prostu mate, jest szczególnie popularny w krajach Ameryki Południowej
+                    (Argentynie, Paragwaju, Urugwaju, Brazylii), a także w niektórych krajach Bliskiego Wschodu, głównie
+                    w Syrii i Libanie. Herbata yerba mate jest parzona i pijana najczęściej z naczyń zrobionych z owoców
+                    tykwy. Niemałe zasługi w uprawie Yerba Mate przypadają naszym rodakom. Potomkowie polskich
+                    emigrantów do dziś prowadzą duże przedsiębiorstwa zajmujące się uprawą i produkcją mate, m.in.:
+                    jedno z większych w Argentynie firmowane marką Amanda.
+                    <br><br>
+                    <a href="https://www.fiveoclock.eu/herbata/products/mate-zielona-234.html" class="source-link">
+                        www.fiveoclock.eu</a>
+                </span>
+            </p>
+        </div>
+        <div class="parallax-background" data-parallax="scroll" data-image-src="img/backgrounds/matcha.jpg">
+            <div class="parallax-container" data-rellax-speed="-2.5">
+                <p class="flavor-text">Witalizująco...</p>
+            </div>
+        </div>
+        <div class="bookmark"><a name="opis-matcha"></a></div>
+        <div class="desc-container" id="desc-matcha">
+            <img class="desc-photo" src="img/desc/matcha.jpg">
+            <div class="subtitle-container">
+                <span class="subtitle">
+                    <span class="initial">M</span>
+                    Matcha
+                </span>
+                <hr>
+            </div>
+            <p class="desc">
+                <span class="shorthand-only">
+                    Matcha to zielona herbata w proszku o intensywnie zielonym kolorze. Od stuleci ściśle związana z
+                    japońską tradycją i kulturą jest uznawana obecnie za najcenniejszy rodzaj herbaty pochodzący z tego
+                    kraju. Matcha jest najbogatszym naturalnym źródłem antyoksydantów, które spowalniają procesy
+                    starzenia się organizmu i przyczyniają do zapobiegania wielu chorobom. Ponieważ matcha to
+                    sproszkowane liście herbaty, pijąc ją przyjmujemy wszystkie zawarte w nich wartości odżywcze. Na tym
+                    polega zasadnicza różnica pomiędzy matchą a pozostałymi zielonymi herbatami.
+                </span>
+                <br><br>
+                <a href="javascript:void(0)" class="readmore" onclick="$('#desc-matcha').toggleClass('active');
+                    animScrollToElement('#desc-matcha');">pełny opis</a>
+                <span class="hidden-desc">
+                    Matcha to zielona herbata w proszku o charakterystycznym, intensywnie zielonym kolorze. Od stuleci
+                    ściśle związana z japońską tradycją i kulturą jest uznawana obecnie za najcenniejszy rodzaj herbaty
+                    pochodzący z Kraju Kwitnącej Wiśni. Jej coroczna produkcja jest niezwykle ograniczona i wymaga
+                    specjalnie zacienianych plantacji.
+                    <br><br>
+                    Historia matchy w Japonii sięga XIII wieku, kiedy buddyjscy mnisi odkryli, że pomaga im utrzymywać
+                    koncentrację w trakcie wielogodzinnych medytacji. Buddyjski mistrz Zen Eisai, który wprowadził
+                    matchę w Japonii nazwał ją „eliksirem nieśmiertelnych.” Dziś jest częścią japońskiej kultury
+                    kulinarnej, nie tylko jako składnik ciepłych i zimnych napojów, ale także wypieków. Matcha, pita
+                    jako zimny, dodający energii napój z puszki, czy butelki jest przykładem na to, jak tradycja,
+                    płynnie przechodzi w nowoczesność.
+                    <br><br>
+                    Zachód na dobre odkrył „efekt matchy” dopiero w XXI wieku i szybko przyswoił ją sobie jako odkrycie
+                    porównywalne do odkrycia kawy. Jej rosnąca popularność na całym świecie to między innymi zasługa
+                    badań wskazujących na to, że matcha jest jednym z najzdrowszych sposobów na uzupełnienie codziennej
+                    diety. Matcha jest zdecydowanie najbogatszym naturalnym źródłem antyoksydantów, które
+                    spowalniających procesy starzenia się organizmu i przyczyniają do zapobiegania wielu poważnym
+                    chorobom. Ponieważ matcha to sproszkowane liście herbaty, pijąc ją przyjmujemy wszystkie zawarte w
+                    nich wartości odżywcze zarówno te rozpuszczalne w wodzie jak i te nierozpuszczalne. Na tym polega
+                    zasadnicza różnica pomiędzy matchą a pozostałymi zielonymi herbatami.
+                    <br><br>
+                    Wiele osób traktuje matchę jako zdrowy energetyk lub zamiennik kawy. Zawarta w matchy kofeina
+                    pobudza ale obecność L-teaniny, aminokwasu o właściwościach relaksujących, łagodzi i wydłuża jej
+                    działanie. Po wypiciu matchy uzyskujemy więc efekt „czujności,” który, w przeciwieństwie do kawy,
+                    utrzymuje się przez kilka godzin i nie kończy się gwałtownym załamaniem.
+                    <br><br>
+                    Przygotowanie matchy jest niezwykle proste. Na ciepło matchę najlepiej przygotować w czarce przy
+                    pomocy chasenu czyli bambusowej miotełki. Pozwala ona uzyskać charakterystyczną piankę na
+                    powierzchni gotowej matchy. Na zimno wystarczy wsypać ją do butelki z zimną wodą i energicznie
+                    wstrząsnąć.
+                    <br><br>
+                    <a href="https://www.moyamatcha.com/japonska-zielona-herbata-moya-matcha/czym-jest-matcha"
+                        class="source-link">
+                        www.moyamatcha.com</a>
+                    <br>
+                    <a href="javascript:void(0)" class="readless" onclick="$('#desc-matcha').toggleClass('active');
+                        animScrollToElement('#desc-matcha');">zwiń opis</a>
+                </span>
+            </p>
+        </div>
+    </div>
+    <div id="tea-collection">
+        <div class="shelf-container">
+            <div class="icons-wrapper">
+                <div class="shelf-icons">
+                    <ion-icon class="left-arrow" name="chevron-back-circle"></ion-icon>
+                    <ion-icon class="right-arrow" name="chevron-forward-circle"></ion-icon>
+                </div>
+            </div>
+            <div class="shelf" id="placeholder">
+                <div class="tea-boxes">
+                    <div class="tea-box">
+                        <div class="ribbon fiveoclock"></div>
+                        <div class="amount ribbon fiveoclock" data-amount=""></div>
+                        <div class="cup ribbon fiveoclock"></div>
+                        <div class="rating-stars">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star-half-outline"></ion-icon>
+                            <ion-icon name="star-outline"></ion-icon>
+                            <ion-icon name="star-outline"></ion-icon>
+                        </div>
+                        <div class="photo-area">
+                            <img class="tea-photo" src="" onerror="loadFallbackPhoto(this)">
+                        </div>
+                        <div class="title">
+                            <hr><span class="title-text">[nazwa]</span>
+                        </div>
+                        <div class="desc">
+                            [opis]
+                        </div>
+                        <div class="brewing-instructions">
+                            <brewing-table data-temp="?" />
+                        </div>
+                        <div class="tea-box-shelf-base"></div>
+                        <div class="tea-box-shadow"></div>
+                    </div>
+                </div>
+                <div>
+                    <div class="forced-margin"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="tools">
+        <div class="bookmark"><a name="narzedzia"></a></div>
+        <div class="tool-wrapper" id="ratio-calc-wrapper">
+            <div class="tool-area">
+                <div class="tool-container">
+                    <div class="subtitle-container" id="ratio-calc-title">
+                        <ion-icon class="tool-close" name="close-outline" onclick="toggleFixed('#ratio-calc-wrapper')">
+                        </ion-icon>
+                        <span class="subtitle">
+                            <span class="initial">K</span>
+                            Kalkulator proporcji
+                            <hr>
+                        </span>
+                    </div>
+                    <script src="js/ratio_calc.js" type="text/javascript"></script>
+                    <div class="tool" id="ratio_calc">
+                        <span class="right">Proporcja na 100ml wody:</span>
+                        <input type="text" id="M_ratio" onchange="calcRatio();" onkeypress="this.onchange();"
+                            onpaste="this.onchange();" oninput="this.onchange();" />
+                        <span class="unit">g</span>
+                        <span class="right">Objętość naczynia:</span>
+                        <input type="text" id="V_ratio" onchange="calcRatio();" onkeypress="this.onchange();"
+                            onpaste="this.onchange();" oninput="this.onchange();" />
+                        <span class="unit">ml</span>
+                        <span class="output" id="output_ratio"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tool-wrapper" id="temperature-calc-wrapper">
+            <div class="tool-area">
+                <div class="tool-container">
+                    <div class="subtitle-container" id="temperature-calc-title">
+                        <ion-icon class="tool-close" name="close-outline"
+                            onclick="toggleFixed('#temperature-calc-wrapper')"></ion-icon>
+                        <span class="subtitle">
+                            <span class="initial">K</span>
+                            Kalkulator temperatury
+                            <hr>
+                        </span>
+                    </div>
+                    <script src="js/temperature_calc.js" type="text/javascript"></script>
+                    <div class="tool" id="temperature_calc">
+                        <span class="right">Docelowa temperatura:</span>
+                        <input type="text" id="T_temperature" onchange="calcTemperature();"
+                            onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+                        <span class="unit">°C</span>
+                        <span class="right">Objętość naczynia:</span>
+                        <input type="text" id="V_temperature" onchange="calcTemperature();"
+                            onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+                        <span class="unit">ml</span>
+                        <span id="water_or_ice" class="right">Zimna woda ma temperaturę:</span>
+                        <input type="text" id="T1_temperature" value="20" onchange="calcTemperature();"
+                            onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+                        <span class="unit">°C</span>
+                        <span class="right">Gorąca woda ma temperaturę:</span>
+                        <input type="text" id="T2_temperature" value="100" onchange="calcTemperature();"
+                            onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" />
+                        <span class="unit">°C</span>
+                        <span class="output" id="output_temperature"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tool-wrapper" id="timer-wrapper">
+            <div class="tool-area">
+                <div class="tool-container">
+                    <div class="subtitle-container" id="timer-title">
+                        <ion-icon class="tool-close" name="close-outline" onclick="toggleFixed('#timer-wrapper')">
+                        </ion-icon>
+                        <span class="subtitle">
+                            <span class="initial">M</span>
+                            Minutnik
+                            <hr>
+                        </span>
+                    </div>
+                    <script src="js/timer.js" type="text/javascript"></script>
+                    <div class="tool" id="timer">
+                        <span class="right">Czas:</span>
+                        <input type="text" id="timer_input" />
+                        <span class="unit">min</span>
+                        <span class="button" onclick="timerFromInput()">Start!</span>
+                        <span class="button" onclick="timerStop()">Stop!</span>
+                        <div>
+                            <input type="checkbox" id="timer_alarm" class="checkbox css-checkbox lrg" />
+                            <label for="timer_alarm" name="checkbox69_lbl" class="css-label lrg vlad"
+                                id="toggle_alarm_label">
+                                Alarm
+                            </label>
+                        </div>
+                        <span id="output_timer">00:00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <style id="ribbon-styles"></style>
+    <script src="js/parallax_fg_handler.min.js" type="text/javascript"></script>
+    <script src="js/layout_handler.js" type="text/javascript"></script>
+    <script src="js/tea_boxes_handler.js" type="text/javascript"></script>
+    <script src="js/collection_arrows_handler.js" type="text/javascript"></script>
+    <script src="js/sync_tasks_manager.js" type="text/javascript"></script>
+    <script src="js/data_importer.js" type="text/javascript"></script>
+</body>
+
+</html>
