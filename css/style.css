@@ -846,7 +846,7 @@ nav .menu-closing {
     z-index: -100;
 }
 
-#used-up .tea-box:before {
+#used_up .tea-box:before {
     content: "";
     position: absolute;
     top: 0;
@@ -858,7 +858,7 @@ nav .menu-closing {
     z-index: 200;
 }
 
-#used-up .tea-photo {
+#used_up .tea-photo {
     filter: saturate(0) sepia(0.2) contrast(1.25) saturate(4) hue-rotate(180deg);
 }
 

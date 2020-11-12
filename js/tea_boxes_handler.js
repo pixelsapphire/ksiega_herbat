@@ -22,13 +22,13 @@ const teaBoxesHandlerTask = () => {
                     .ribbon.${className} {
                         background-color: ${primaryColor.rgbaNotation};
                     }
-                    #used-up .ribbon.${className} {
+                    #used_up .ribbon.${className} {
                         background-color: ${primaryColor.lightness(30).rgbaNotation};
                     }
                     .ribbon.${className}::before, .ribbon.${className}::after {
                         border-color: ${primaryColor.lightness(-50).rgbaNotation};
                     }
-                    #used-up .ribbon.${className}::before,#used-up .ribbon.${className}::after{
+                    #used_up .ribbon.${className}::before,#used_up .ribbon.${className}::after{
                         border-color: ${primaryColor.rgbaNotation};
                     }`
                     ));
