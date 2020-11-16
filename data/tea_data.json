@@ -46,7 +46,7 @@
       "name" : "China Gyokuro",
       "brand_id" : "tea_time",
       "description" : "Chińska wersja słynnej specjalności z Japonii. To przyjemnie miękka, aromatyczna herbata o bardzo podobnym wyglądzie i smaku do japońskiego odpowiednika.",
-      "amount" : 34.0,
+      "amount" : 34.5,
       "stars" : 0.0,
       "brewing" : {
         "temperature" : 75,
@@ -71,8 +71,8 @@
       "id" : "cool_mint_chai",
       "name" : "Cool Mint Chai",
       "brand_id" : "five_o_clock",
-      "description" : "Kompozycja zielonej chińskiej herbaty urozmaicona imbirem, kardamonem i goździkami. Listki mięty zielonej połączone z wyciągiem z mięty pieprzowej wzbogacają smak herbaty i nadają jej orzeźwiający ton. Wyśmienita w wersji schłodzonej z kostkami lodu.\n\nEdycja limitowana Iced Tea & Coffee - 2019",
-      "amount" : 78.0,
+      "description" : "Kompozycja zielonej chińskiej herbaty urozmaicona imbirem, kardamonem i goździkami. Listki mięty zielonej połączone z wyciągiem z mięty pieprzowej wzbogacają smak herbaty i nadają jej orzeźwiający ton. Wyśmienita w wersji schłodzonej z kostkami lodu.<br><br>Edycja limitowana Iced Tea & Coffee - 2019",
+      "amount" : 76.5,
       "stars" : 0.0,
       "brewing" : {
         "temperature" : 90,
@@ -97,7 +97,7 @@
       "id" : "gwiazdkowy_wieczor",
       "name" : "Gwiazdkowy Wieczor",
       "brand_id" : "czas_na_herbate",
-      "description" : "Zielona herbata Yunnan z dodatkiem owoców dzikiej róży, truskawki, jabłka, wiśni i żurawiny oraz róży, hibiskusa i uroczych, cukrowych płatków śniegu.<br><br>Składniki: herbata zielona Yunnan, skórka owocu dzikiej róży, cukrowe płatki śniegu (cukier, maka ryżowa, tłuszcz kakaowy, substancja zagęszczająca (tragakanta), truskawka liofilizowana, żurawina liofilizowana, wiśnia liofilizowana, jabłko liofilizowane, hibiskus, róża pąki, aromat",
+      "description" : "Zielona herbata Yunnan z dodatkiem owoców dzikiej róży, truskawki, jabłka, wiśni i żurawiny oraz róży, hibiskusa i uroczych, cukrowych płatków śniegu.<br><br>Składniki: herbata zielona Yunnan, skórka owocu dzikiej róży, cukrowe płatki śniegu (cukier, maka ryżowa, tłuszcz kakaowy, substancja zagęszczająca (tragakanta)), truskawka liofilizowana, żurawina liofilizowana, wiśnia liofilizowana, jabłko liofilizowane, hibiskus, róża pąki, aromat",
       "amount" : 5.0,
       "stars" : 0.0,
       "brewing" : {
@@ -136,8 +136,8 @@
       "id" : "lato_w_prowansji",
       "name" : "Lato w Prowansji",
       "brand_id" : "five_o_clock",
-      "description" : "Delikatna zielona chińska herbata typu sencha w połączeniu z cząstkami truskawek i kwiatami lawendy. Przywodzi na myśl malownicze regiony Prowansji. Wyczuwalny przyjemny słodki akcent na tle kwiatowej woni. Idealna propozycja dla zwolenników nietuzinkowych posmaków, a także miłośników subtelnych zielonych herbat. Wybornie smakuje przyrządzona jako Ice Tea.\nEdycja limitowana Iced Tea & Coffee - 2019\n\nSkładniki: zielona herbata liściasta, kwiat lawendy, cząstki truskawek, aromaty.",
-      "amount" : 65.0,
+      "description" : "Delikatna zielona chińska herbata typu sencha w połączeniu z cząstkami truskawek i kwiatami lawendy. Przywodzi na myśl malownicze regiony Prowansji. Wyczuwalny przyjemny słodki akcent na tle kwiatowej woni. Idealna propozycja dla zwolenników nietuzinkowych posmaków, a także miłośników subtelnych zielonych herbat. Wybornie smakuje przyrządzona jako Ice Tea.<br>Edycja limitowana Iced Tea & Coffee - 2019<br><br>Składniki: zielona herbata liściasta, kwiat lawendy, cząstki truskawek, aromaty.",
+      "amount" : 62.5,
       "stars" : 0.0,
       "brewing" : {
         "temperature" : 70,
@@ -202,7 +202,7 @@
       "name" : "Sencha imbir & cytryna",
       "brand_id" : "tea_time",
       "description" : "Japońska sencha z imbirem i cytryną.",
-      "amount" : 90.0,
+      "amount" : 87.5,
       "stars" : 0.0,
       "brewing" : {
         "temperature" : 75,
@@ -228,7 +228,7 @@
       "name" : "Sencha kaktusowa",
       "brand_id" : "tea_time",
       "description" : "Japońska sencha z kaktusem, ananasem i mango.",
-      "amount" : 34.0,
+      "amount" : 31.0,
       "stars" : 0.0,
       "brewing" : {
         "temperature" : 75,
@@ -242,6 +242,19 @@
     "name" : "Czarne herbaty",
     "color" : "#100000",
     "tea_boxes" : [ {
+      "id" : "assam_miod_cytryna",
+      "name" : "Assam miód & cytryna",
+      "brand_id" : "five_o_clock",
+      "description" : "Kompozycja czarnej, herbaty Assam z trawą cytrynową, skórką cytryny oraz owocami jeżyny. Dodatek miodowego aromatu nadaje kompozycji słodkiego posmaku, a połączenie pyłków krokosza, nagietka i róży wzbogaca napar o kwiatowy aromat. Idealna propozycja na jesienne dni.<br><br>Składniki: herbata czarna liściasta, trawa cytrynowa, skórka cytryny, jeżyny, mieszanka pyłków kwiatowych (krokosz, nagietek, róża), aromaty.",
+      "amount" : 100.0,
+      "stars" : 0.0,
+      "brewing" : {
+        "temperature" : 95,
+        "time" : 4,
+        "reuses" : null,
+        "grams" : "2.5:250/8:600"
+      }
+    }, {
       "id" : "ceylon_porzeczka_ze_sliwka",
       "name" : "Ceylon porzeczka ze śliwką",
       "brand_id" : "five_o_clock",
@@ -293,19 +306,6 @@
         "reuses" : null,
         "grams" : "3:250/9:600"
       }
-    }, {
-      "id" : "assam_miod_cytryna",
-      "name" : "Assam miód & cytryna",
-      "brand_id" : "five_o_clock",
-      "description" : "Kompozycja czarnej, herbaty Assam z trawą cytrynową, skórką cytryny oraz owocami jeżyny. Dodatek miodowego aromatu nadaje kompozycji słodkiego posmaku, a połączenie pyłków krokosza, nagietka i róży wzbogaca napar o kwiatowy aromat. Idealna propozycja na jesienne dni.<br><br>Składniki: herbata czarna liściasta, trawa cytrynowa, skórka cytryny, jeżyny, mieszanka pyłków kwiatowych (krokosz, nagietek, róża), aromaty.",
-      "amount" : 100.0,
-      "stars" : 0.0,
-      "brewing" : {
-        "temperature" : 95,
-        "time" : 4,
-        "reuses" : null,
-        "grams" : "2.5:250/8:600"
-      }
     } ]
   }, {
     "id" : "red_tea",
@@ -356,11 +356,24 @@
     "name" : "Białe herbaty",
     "color" : "#c8fdb2",
     "tea_boxes" : [ {
+      "id" : "laponia",
+      "name" : "Laponia",
+      "brand_id" : "five_o_clock",
+      "description" : "Aksamitny smak białej herbaty połączony z cząstkami jabłek oraz aromatem cytrusowo - biszkoptowych ciasteczek. Całość udekorowana ziarenkami różowego pieprzu.<br><br>Składniki: biała herbata liściasta (74%), cząstki jabłek, ziarenka różowego pieprzu, aroamty.",
+      "amount" : 50.0,
+      "stars" : 0.0,
+      "brewing" : {
+        "temperature" : 85,
+        "time" : 3,
+        "reuses" : "2/1",
+        "grams" : "4.5:200/12:600"
+      }
+    }, {
       "id" : "lesna_harmonia",
       "name" : "Leśna Harmonia",
       "brand_id" : "five_o_clock",
       "description" : "Biała chińska herbata Pai Mu Tan z dodatkiem jagód i czarnej porzeczki. Werbena cytrynowa i listki jeżyn wzbogacają smak i dostarczają dawki witamin i mikroelementów. Uwodzi zapachem leśnych owoców. Piękna barwa naparu jest prawdziwą ucztą dla oka.<br><br>Składniki: biała herbata liściasta (87,8%), aromaty, werbena, czarna porzeczka, borówka, liście jeżyny, płatki bławatka.",
-      "amount" : 47.5,
+      "amount" : 38.5,
       "stars" : 5.0,
       "brewing" : {
         "temperature" : 85,
@@ -380,19 +393,6 @@
         "time" : 3,
         "reuses" : "2/1",
         "grams" : "4.5:250/12:600"
-      }
-    }, {
-      "id" : "laponia",
-      "name" : "Laponia",
-      "brand_id" : "five_o_clock",
-      "description" : "Aksamitny smak białej herbaty połączony z cząstkami jabłek oraz aromatem cytrusowo - biszkoptowych ciasteczek. Całość udekorowana ziarenkami różowego pieprzu.<br><br>Składniki: biała herbata liściasta (74%), cząstki jabłek, ziarenka różowego pieprzu, aroamty.",
-      "amount" : 50.0,
-      "stars" : 0.0,
-      "brewing" : {
-        "temperature" : 85,
-        "time" : 3,
-        "reuses" : "2/1",
-        "grams" : "4.5:200/12:600"
       }
     } ]
   }, {
@@ -417,7 +417,7 @@
       "name" : "Różowa lemoniada",
       "brand_id" : "five_o_clock",
       "description" : "Orzeźwiająca letnia kompozycja. Cząstki jabłek wyśmienicie harmonizują z kwiatami białego hibiskusa. Listki jeżyny wzbogacają mieszankę w liczne mikroelementy, a odrobina cytrynowego aromatu podkreśla smak i nadaje charakteru. Napar za sprawą obecności buraczka zaskakuje piękną różowo-bordową barwą. Płatki róży i kwiaty kocanki dodają całości delikatnego kwiatowego akcentu. Lekka i aromatyczna propozycja na cały dzień. Idealna także w wersji schłodzonej.<br><br>Składniki: cząstki jabłek, biały hibiskus, listki jeżyny, buraki, kocanka piaskowa, płatki róży, aromat cytrynowy.",
-      "amount" : 46.0,
+      "amount" : 42.5,
       "stars" : 0.0,
       "brewing" : {
         "temperature" : 95,
@@ -474,7 +474,7 @@
       "name" : "Mate Mint",
       "brand_id" : "czas_na_herbate",
       "description" : "Składniki: yerba mate 75%, mięta 15%, eukaliptus",
-      "amount" : 100.0,
+      "amount" : 80.0,
       "stars" : 0.0,
       "brewing" : {
         "temperature" : 80,
