@@ -33,7 +33,7 @@
       "name" : "Bengalska Aleja",
       "brand_id" : "kwietna",
       "description" : "Składniki: zielona herbata sencha, melon, imbir, granat, kiwi, jabłko, goździki, nagietek, pomarańcza, papaja.",
-      "amount" : 41.0,
+      "amount" : 31.0,
       "stars" : 3.5,
       "brewing" : {
         "temperature" : 80,
@@ -85,7 +85,7 @@
       "name" : "Dragon Pineapple Chai",
       "brand_id" : "przyprawy_gdynia",
       "description" : "Edycja limitowana - 2019",
-      "amount" : 41.0,
+      "amount" : 35.0,
       "stars" : 0.0,
       "brewing" : {
         "temperature" : 75,
@@ -120,6 +120,19 @@
         "grams" : "4:250/11:600"
       }
     }, {
+      "id" : "japan_gabalong",
+      "name" : "Japan Gabalong",
+      "brand_id" : "five_o_clock",
+      "description" : "Wyśmienita japońska zielona herbata o wysokiej zawartości kwasu gamma-aminomasłowego odpowiedzialnego za szereg właściwości zdrowotnych. Wycisza i relaksuje. Napar klarowny, w kolorze jasno - bursztynowym, pełen ciepłych niuansów smakowych. Listki pełnie kwiatowej woni. W odbiorze subtelna, świeża z lekko cierpkim akcentem. Zarysowany delikatny maślany charakter. Uprawiana jest przede wszystkim w prefekturze Shizuoka. Do jej produkcji używana jest tylko herbata z pierwszego zbioru (ichibancha).<br><br>Składniki: 100% zielona herbata liściasta",
+      "amount" : 100.0,
+      "stars" : 0.0,
+      "brewing" : {
+        "temperature" : 80,
+        "time" : 2,
+        "reuses" : "2/1",
+        "grams" : "2.5:200/8:600"
+      }
+    }, {
       "id" : "japan_gyokuro_hiki",
       "name" : "Japan Gyokuro Hiki",
       "brand_id" : "five_o_clock",
@@ -131,6 +144,32 @@
         "time" : 2,
         "reuses" : "4/1",
         "grams" : "2.5:250"
+      }
+    }, {
+      "id" : "japan_sencha_fuji",
+      "name" : "Japan Sencha Fuji",
+      "brand_id" : "five_o_clock",
+      "description" : "Wysokiej klasy japońska zielona herbata typu sencha. Herbata pochodzi z plantacji położonych nieopodal miasta Fuji z prefektury Shizuoka. Po zaparzeniu unosi się woń słodkiego szpinaku, a napar zyskuje intensywnie seledynowy kolor. Odznacza się wyjątkową świeżością i subtelnym smakiem. Podczas degustacji wyczuwa się delikatne morskie akcenty i słód. Używając miękkiej wody wyraziście odczuwa się umami. Herbata polecana do codziennej degustacji.<br><br>Składniki: 100% zielona herbata liściasta",
+      "amount" : 24.0,
+      "stars" : 4.5,
+      "brewing" : {
+        "temperature" : 75,
+        "time" : 3,
+        "reuses" : "3/1",
+        "grams" : "2.5:250/8:600"
+      }
+    }, {
+      "id" : "japan_sencha_uchiyama",
+      "name" : "Japan Sencha Uchiyama",
+      "brand_id" : "five_o_clock",
+      "description" : "Od wielu wieków rodzina Uchiyama prowadzi tradycyjne plantacje zielonej herbaty w prefekturze Shizuoka. To unikalne miejsce na południu Japonii, które oferuje wspaniałe warunki klimatyczne do produkcji najwyższej jakości herbaty. Herbatę tę cechuje wyjątkowo świeży smak z delikatnym aromatem migdałów o lekko słodowej nucie. Na jej niezwykłość wpływa bogactwo właściwości zdrowotnych. Posiada najwyższe wśród zielonych herbat stężenie polifenoli, które odpowiadają za szereg dobroczynnych właściwości zdrowotnych.<br><br>Składniki: 100% zielona herbata liściasta ",
+      "amount" : 40.0,
+      "stars" : 0.0,
+      "brewing" : {
+        "temperature" : 85,
+        "time" : 3,
+        "reuses" : "3/1",
+        "grams" : "2.5:250/8:600"
       }
     }, {
       "id" : "lato_w_prowansji",
@@ -176,7 +215,7 @@
       "name" : "Merry Christmas",
       "brand_id" : "czas_na_herbate",
       "description" : "Herbata zielona Gunpowder z dodatkiem płatków śniegu, jabłka, pomarańczy, cynamonu, maliny i nutą aromatu maliny i pomarańczy.<br><br>Składniki: herbata zielona Gunpowder, płatki śniegu cukrowe (cukier, mąka ryżowa, tłuszcz kakaowy, substancja zagęszczająca (tragakanta)), jabłko suszone, pomarańcza suszona, cynamon, malina liofilizowana, aromat",
-      "amount" : 100.0,
+      "amount" : 80.0,
       "stars" : 0.0,
       "brewing" : {
         "temperature" : 80,
@@ -246,7 +285,7 @@
       "name" : "Assam miód & cytryna",
       "brand_id" : "five_o_clock",
       "description" : "Kompozycja czarnej, herbaty Assam z trawą cytrynową, skórką cytryny oraz owocami jeżyny. Dodatek miodowego aromatu nadaje kompozycji słodkiego posmaku, a połączenie pyłków krokosza, nagietka i róży wzbogaca napar o kwiatowy aromat. Idealna propozycja na jesienne dni.<br><br>Składniki: herbata czarna liściasta, trawa cytrynowa, skórka cytryny, jeżyny, mieszanka pyłków kwiatowych (krokosz, nagietek, róża), aromaty.",
-      "amount" : 100.0,
+      "amount" : 97.0,
       "stars" : 0.0,
       "brewing" : {
         "temperature" : 95,
@@ -272,7 +311,7 @@
       "name" : "Czekolada z malinami",
       "brand_id" : "five_o_clock",
       "description" : "Listki czarnej chińskiej herbaty z dodatkiem kawałeczków czekolady, łupinek kakao oraz cząstek malin.<br><br>Składniki: herbata czarna liściasta (77,5%), łuska kakaowa, kawałki czekolady (5%) (cukier, kakao, emulgator lecytyna sojowa), maliny (4%), aromaty.",
-      "amount" : 64.0,
+      "amount" : 64.5,
       "stars" : 3.0,
       "brewing" : {
         "temperature" : 95,
@@ -292,6 +331,19 @@
         "time" : 4,
         "reuses" : null,
         "grams" : "2.5:250/8:600"
+      }
+    }, {
+      "id" : "grudniowa_noc",
+      "name" : "Grudniowa Noc",
+      "brand_id" : "five_o_clock",
+      "description" : "Bogata i rozgrzewająca kompozycja czarnej herbaty z kawałkami jabłek i skórką pomarańczy. Cynamon, anyż oraz kawałki migdałów nadadzą naparowi słodkiej korzenności.<br><br>Składniki: czarna herbata liściasta (73%), cząstki jabłek, skórka pomarańczy, cynamon, anyż, migdały (2%), aromaty, olejek z goździków.",
+      "amount" : 50.0,
+      "stars" : 0.0,
+      "brewing" : {
+        "temperature" : 95,
+        "time" : 4,
+        "reuses" : null,
+        "grams" : "3:250/9:600"
       }
     }, {
       "id" : "havana",
@@ -316,7 +368,7 @@
       "name" : "Pu Erh chińska wiśnia",
       "brand_id" : "five_o_clock",
       "description" : "Kompozycja chińskiej czerwonej herbaty typu pu erh z cząstkami wiśni oraz płatkami róży. Całość dopełnia wiśniowo - rumowy aromat.<br><br>Składniki: herbata pu erh (93%), aromaty, cząstki wiśni (2%), płatki róży.",
-      "amount" : 35.0,
+      "amount" : 32.5,
       "stars" : 0.0,
       "brewing" : {
         "temperature" : 95,
@@ -373,7 +425,7 @@
       "name" : "Leśna Harmonia",
       "brand_id" : "five_o_clock",
       "description" : "Biała chińska herbata Pai Mu Tan z dodatkiem jagód i czarnej porzeczki. Werbena cytrynowa i listki jeżyn wzbogacają smak i dostarczają dawki witamin i mikroelementów. Uwodzi zapachem leśnych owoców. Piękna barwa naparu jest prawdziwą ucztą dla oka.<br><br>Składniki: biała herbata liściasta (87,8%), aromaty, werbena, czarna porzeczka, borówka, liście jeżyny, płatki bławatka.",
-      "amount" : 38.5,
+      "amount" : 26.5,
       "stars" : 5.0,
       "brewing" : {
         "temperature" : 85,
@@ -386,7 +438,7 @@
       "name" : "Pai Mu Tan Malinowy",
       "brand_id" : "five_o_clock",
       "description" : "Tajemnicza i zmysłowa. Wyjątkowe połączenie aromatów róży i malin. Biała herbata Pai Mu Tan charakteryzuje się subtelnością i jedwabistością w posmaku. Pięknie udekorowana czerwonymi płatkami róży i liśćmi jeżyn. Degustacja tej herbaty sprawi wiele przyjemności.<br><br>Składniki: herbata biała liściasta, liście jeżyn, maliny, płatki czerwonej róży, aromaty.",
-      "amount" : 64.0,
+      "amount" : 47.5,
       "stars" : 4.0,
       "brewing" : {
         "temperature" : 85,
@@ -404,8 +456,8 @@
       "name" : "Pomarańczowy Zawrót Głowy",
       "brand_id" : "five_o_clock",
       "description" : "Wyśmienita kompozycja jabłek, suszonej dzikiej róży oraz płatków krokosza. Dodatek skórki pomarańczy wzbogaca smak i nadaje mieszance ciekawego bukietu aromatycznego. Całość uzupełniają duże kawałki pomarańczy, które podkreślają jej owocowy akcent. Napar za sprawą obecności hibiskusa zaskakuje piękną, intensywną barwą. Jest to idealna propozycja dla wielbicieli cytrusów. Niezwykle ożywcza. Wspaniale smakuje zarówno w wersji na ciepło jak i na zimno.<br><br>Składniki: jabłka (30%), dzika róża (25%), hibiskus (14%), skórka pomarańczy (7,7%), kawałki pomarańczy (5%), płatki krokosza (2%), olejek pomarańczowy, aromaty.",
-      "amount" : 50.0,
-      "stars" : 0.0,
+      "amount" : 46.0,
+      "stars" : 3.5,
       "brewing" : {
         "temperature" : 95,
         "time" : 7,
@@ -430,7 +482,7 @@
       "name" : "Spokój",
       "brand_id" : "five_o_clock",
       "description" : "Harmonijne połączenie ziół i owoców. Kojące działanie rumianku oraz uspokajająca melisa nadają jej wyciszającego charakteru. Dodatek skórki dzikiej róży oraz brzoskwini wzbogaca o owocowe akcenty. Napar idealnie sprawdzi się wieczorową porą, po ciężkim dniu oraz dla osób unikających teiny w naparze. Pozwoli się wyciszyć oraz poczuć radość z degustacji owocowej i aromatycznej kompozycji. Fantastycznie smakuje również w wersji schłodzonej.<br><br>Składniki: rumianek, skórka dzikiej róży, jabłko, melisa, aromat brzoskwini, kawałki brzoskwini.",
-      "amount" : 36.0,
+      "amount" : 32.0,
       "stars" : 0.0,
       "brewing" : {
         "temperature" : 95,
@@ -457,6 +509,19 @@
     "name" : "Yerba mate",
     "color" : "#849d48",
     "tea_boxes" : [ {
+      "id" : "mate_cascara",
+      "name" : "Mate Cascara",
+      "brand_id" : "czas_na_herbate",
+      "description" : "Brazylijska Mate w towarzystwie wszystkim znanych żurawin, czarnych porzeczek i dzikiej róży. Wyjątkowa w tym towarzystwie jest cascara, czyli skórka otaczająca pestki owoców kawowca, suszona na słońcu, owocowa w smaku, z przyjemną kwasowością.<br><br>Składniki: yerba mate 89%, cascara 2%, żurawina liofilizowana, porzeczka czarna suszona, skórka róży, róża płatki, aromat",
+      "amount" : 50.0,
+      "stars" : 0.0,
+      "brewing" : {
+        "temperature" : 70,
+        "time" : 0,
+        "reuses" : "10",
+        "grams" : "40:200"
+      }
+    }, {
       "id" : "mate_lemon",
       "name" : "Mate Lemon",
       "brand_id" : "czas_na_herbate",
@@ -513,7 +578,7 @@
       "name" : "Pajarito Elaborada",
       "brand_id" : "mate_poznan",
       "description" : "Wyraziście goryczkowy aromat i smak w paragwajskim stylu. Pajarito Elaborada to jedna z najpopularniejszych yerba mate na rynku. Produkty paragwajskiego producenta uchodzą za absolutną klasykę gatunku. Ze względu na smak i silnie dymny aromat polecamy je w szczególności doświadczonym mateistom.<br><br>Składniki: 100% yerba mate (listki, patyczki, pył).",
-      "amount" : 153.0,
+      "amount" : 89.0,
       "stars" : 0.0,
       "brewing" : {
         "temperature" : 70,
@@ -531,7 +596,7 @@
       "name" : "Matcha Herbata Zielona",
       "brand_id" : "czas_na_herbate",
       "description" : "Niezwykła, sproszkowana herbata otrzymywana w procesie mielenia liści zielonej herbaty z pierwszych wiosennych zbiorów. Bogata w składniki odżywcze (aminokwasy, antyoksydanty, witaminy, minerały, błonnik). Jedna filiżanka naparu równa się dziesięciu filiżankom naparu z Senchy. Oprócz picia, matcha stosowana jest także w kulinariach jako dodatek do ciast, babeczek, deserów opartych na jogurtach i świeżych owocach.<br><br>Składniki: herbata Matcha 100%",
-      "amount" : 44.0,
+      "amount" : 37.0,
       "stars" : 4.0,
       "brewing" : {
         "temperature" : 75,
