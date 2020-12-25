@@ -627,8 +627,8 @@
       "name" : "Lazurowe Wybrzeże",
       "brand_id" : "czas_na_herbate",
       "description" : "Spędź urlop na Lazurowym Wybrzeżu. W wyjątkowy nastrój wprawi Cię herbata oolong z dodatkiem blue butterfly, cytryna pomoże odzyskać energię, a w imprezowy szał wciągną płatki różowego i niebieskiego bławatka.<br><br>Składniki: herbata Oolong, cytryna suszona, blue butterfly, bławatek, bławatek różowy, aromat",
-      "amount" : 100.0,
-      "stars" : 0.0,
+      "amount" : 68.0,
+      "stars" : 4.0,
       "brewing" : {
         "temperature" : 95,
         "time" : 3,
