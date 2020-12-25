@@ -59,11 +59,11 @@
       "name" : "Choinkowa Słodycz",
       "brand_id" : "five_o_clock",
       "description" : "Zielona herbata z różowym pieprzem i goździkami, urozmaicona kawałkami czekolady i cukrowo - marcepanowymi gwiazdkami.<br><br>Składniki: zielona herbata liściasta (71,3%), cukrowe gwiazdki, ziarenka różowego pieprzu, kawałki czekoaldy (cukier, kakao, emulgator lecytyna sojowa), aromaty, goździki. Produkt zawiera lecytynę sojową.",
-      "amount" : 50.0,
-      "stars" : 0.0,
+      "amount" : 35.0,
+      "stars" : 4.5,
       "brewing" : {
         "temperature" : 70,
-        "time" : 2,
+        "time" : 3,
         "reuses" : "3/1",
         "grams" : "3:250/9:600"
       }
@@ -110,9 +110,9 @@
       "id" : "jablkowy_poncz",
       "name" : "Jabłkowy poncz",
       "brand_id" : "five_o_clock",
-      "description" : "Zielona chińska herbata Chun Mee o niezwykłym, kuszącym aromacie jabłkowego ponczu, zawierająca cząstki jabłek, strączki kardamonu i pączki goździków.\n\nEdycja limitowana Hello Winter! - 2019",
+      "description" : "Zielona chińska herbata Chun Mee o niezwykłym, kuszącym aromacie jabłkowego ponczu, zawierająca cząstki jabłek, strączki kardamonu i pączki goździków.<br><br>Edycja limitowana Hello Winter! - 2019",
       "amount" : 15.0,
-      "stars" : 0.0,
+      "stars" : 3.5,
       "brewing" : {
         "temperature" : 75,
         "time" : 3,
@@ -124,7 +124,7 @@
       "name" : "Japan Gabalong",
       "brand_id" : "five_o_clock",
       "description" : "Wyśmienita japońska zielona herbata o wysokiej zawartości kwasu gamma-aminomasłowego odpowiedzialnego za szereg właściwości zdrowotnych. Wycisza i relaksuje. Napar klarowny, w kolorze jasno - bursztynowym, pełen ciepłych niuansów smakowych. Listki pełnie kwiatowej woni. W odbiorze subtelna, świeża z lekko cierpkim akcentem. Zarysowany delikatny maślany charakter. Uprawiana jest przede wszystkim w prefekturze Shizuoka. Do jej produkcji używana jest tylko herbata z pierwszego zbioru (ichibancha).<br><br>Składniki: 100% zielona herbata liściasta",
-      "amount" : 100.0,
+      "amount" : 94.0,
       "stars" : 0.0,
       "brewing" : {
         "temperature" : 80,
@@ -138,7 +138,7 @@
       "brand_id" : "five_o_clock",
       "description" : "Najwykwintniejszy specjał herbaciany z Japonii, określany jako najlepsza herbata na świecie. Listki Gyokuro Hiki zachwycają wyglądem i pięknym zapachem. Zielono - nefrytowy odcień jest zasługą pieczołowitej produkcji. Jedwabistość naparu przy wysokiej aromatyczności sprawia prawdziwą rozkosz degustatorom specjałów herbacianych. W posmaku słodka z wyraźnie wyczuwalnym smakiem umami. Swoisty kanon i obowiązkowy punkt degustacyjny miłośników  herbat japońskich.<br><br>Składniki: 100% zielona herbata liściasta",
       "amount" : 20.0,
-      "stars" : 0.0,
+      "stars" : 5.0,
       "brewing" : {
         "temperature" : 55,
         "time" : 2,
@@ -268,7 +268,7 @@
       "brand_id" : "tea_time",
       "description" : "Japońska sencha z kaktusem, ananasem i mango.",
       "amount" : 31.0,
-      "stars" : 0.0,
+      "stars" : 4.5,
       "brewing" : {
         "temperature" : 75,
         "time" : 2,
@@ -482,7 +482,7 @@
       "name" : "Spokój",
       "brand_id" : "five_o_clock",
       "description" : "Harmonijne połączenie ziół i owoców. Kojące działanie rumianku oraz uspokajająca melisa nadają jej wyciszającego charakteru. Dodatek skórki dzikiej róży oraz brzoskwini wzbogaca o owocowe akcenty. Napar idealnie sprawdzi się wieczorową porą, po ciężkim dniu oraz dla osób unikających teiny w naparze. Pozwoli się wyciszyć oraz poczuć radość z degustacji owocowej i aromatycznej kompozycji. Fantastycznie smakuje również w wersji schłodzonej.<br><br>Składniki: rumianek, skórka dzikiej róży, jabłko, melisa, aromat brzoskwini, kawałki brzoskwini.",
-      "amount" : 32.0,
+      "amount" : 26.5,
       "stars" : 0.0,
       "brewing" : {
         "temperature" : 95,
@@ -513,7 +513,7 @@
       "name" : "Mate Cascara",
       "brand_id" : "czas_na_herbate",
       "description" : "Brazylijska Mate w towarzystwie wszystkim znanych żurawin, czarnych porzeczek i dzikiej róży. Wyjątkowa w tym towarzystwie jest cascara, czyli skórka otaczająca pestki owoców kawowca, suszona na słońcu, owocowa w smaku, z przyjemną kwasowością.<br><br>Składniki: yerba mate 89%, cascara 2%, żurawina liofilizowana, porzeczka czarna suszona, skórka róży, róża płatki, aromat",
-      "amount" : 50.0,
+      "amount" : 26.5,
       "stars" : 0.0,
       "brewing" : {
         "temperature" : 70,
@@ -616,6 +616,24 @@
         "time" : 0,
         "reuses" : null,
         "grams" : "0.6:100"
+      }
+    } ]
+  }, {
+    "id" : "oolong",
+    "name" : "Oolong",
+    "color" : "#173b33",
+    "tea_boxes" : [ {
+      "id" : "lazurowe_wybrzeze",
+      "name" : "Lazurowe Wybrzeże",
+      "brand_id" : "czas_na_herbate",
+      "description" : "Spędź urlop na Lazurowym Wybrzeżu. W wyjątkowy nastrój wprawi Cię herbata oolong z dodatkiem blue butterfly, cytryna pomoże odzyskać energię, a w imprezowy szał wciągną płatki różowego i niebieskiego bławatka.<br><br>Składniki: herbata Oolong, cytryna suszona, blue butterfly, bławatek, bławatek różowy, aromat",
+      "amount" : 100.0,
+      "stars" : 0.0,
+      "brewing" : {
+        "temperature" : 95,
+        "time" : 3,
+        "reuses" : null,
+        "grams" : "5:250/14:600"
       }
     } ]
   }, {
