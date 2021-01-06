@@ -72,7 +72,7 @@
       "name" : "Cool Mint Chai",
       "brand_id" : "five_o_clock",
       "description" : "Kompozycja zielonej chińskiej herbaty urozmaicona imbirem, kardamonem i goździkami. Listki mięty zielonej połączone z wyciągiem z mięty pieprzowej wzbogacają smak herbaty i nadają jej orzeźwiający ton. Wyśmienita w wersji schłodzonej z kostkami lodu.<br><br>Edycja limitowana Iced Tea & Coffee - 2019",
-      "amount" : 76.5,
+      "amount" : 74.0,
       "stars" : 0.0,
       "brewing" : {
         "temperature" : 90,
@@ -172,6 +172,19 @@
         "grams" : "2.5:250/8:600"
       }
     }, {
+      "id" : "korea_sejak",
+      "name" : "Korea Sejak",
+      "brand_id" : "five_o_clock",
+      "description" : "Wspaniała zielona koreańska herbata Sejak, w wolnym tłumaczeniu oznacza „młody wróbel” i odnosi się do konstrukcji liści przypominających otwarty dziób ptaka. Zbierana na przełomie kwietnia i maja. Wyjątkowa pod względem produkcji: listki na kilka sekund zanurzane są w gotującej się wodzie, a następnie suszone i opiekane na wokach. Jest to idealna herbata do eksperymentowania, gdyż w zależności od czasu parzenia (od 30 sekund nawet do 3 minut), otrzymujemy całą gamę smaków.<br><br>Liście po zaparzeniu cechuje głęboki, ciemno zielony odcień przypominający świeżą trawę. Zapach intensywnie słodki, lekko roślinny, przypominający szpinak. Kolor naparu jest jasny, seledynowy. Smak jest bardzo przyjemny, gładki i aksamitny. W tle dobrze wyczuwalne świeże nuty kojarzące się z herbatami japońskimi, delikatna algowość i kremowo roślinne posmaki. Kryje się w niej jednak także chińskie dziedzictwo smaku - lekka orzechowość i odrobiona słodowości. Można się w niej doszukać także delikatnego, słodkiego kwiatowego posmaku. W drugim parzeniu pojawia się szlachetna, krótka goryczka i dużo bardziej wyrazisty, warzywny pomsak.<br><br>Składniki: 100% zielona herbata",
+      "amount" : 26.0,
+      "stars" : 0.0,
+      "brewing" : {
+        "temperature" : 70,
+        "time" : 1,
+        "reuses" : "4/1",
+        "grams" : "2.5:250/8:600"
+      }
+    }, {
       "id" : "lato_w_prowansji",
       "name" : "Lato w Prowansji",
       "brand_id" : "five_o_clock",
@@ -215,7 +228,7 @@
       "name" : "Merry Christmas",
       "brand_id" : "czas_na_herbate",
       "description" : "Herbata zielona Gunpowder z dodatkiem płatków śniegu, jabłka, pomarańczy, cynamonu, maliny i nutą aromatu maliny i pomarańczy.<br><br>Składniki: herbata zielona Gunpowder, płatki śniegu cukrowe (cukier, mąka ryżowa, tłuszcz kakaowy, substancja zagęszczająca (tragakanta)), jabłko suszone, pomarańcza suszona, cynamon, malina liofilizowana, aromat",
-      "amount" : 80.0,
+      "amount" : 36.0,
       "stars" : 0.0,
       "brewing" : {
         "temperature" : 80,
@@ -337,8 +350,8 @@
       "name" : "Grudniowa Noc",
       "brand_id" : "five_o_clock",
       "description" : "Bogata i rozgrzewająca kompozycja czarnej herbaty z kawałkami jabłek i skórką pomarańczy. Cynamon, anyż oraz kawałki migdałów nadadzą naparowi słodkiej korzenności.<br><br>Składniki: czarna herbata liściasta (73%), cząstki jabłek, skórka pomarańczy, cynamon, anyż, migdały (2%), aromaty, olejek z goździków.",
-      "amount" : 50.0,
-      "stars" : 0.0,
+      "amount" : 35.0,
+      "stars" : 4.0,
       "brewing" : {
         "temperature" : 95,
         "time" : 4,
@@ -357,6 +370,19 @@
         "time" : 4,
         "reuses" : null,
         "grams" : "3:250/9:600"
+      }
+    }, {
+      "id" : "korea_black_tea_plus",
+      "name" : "Korea Black Tea Plus",
+      "brand_id" : "five_o_clock",
+      "description" : "Jedyna w swoim rodzaju czarna herbata z Korei Południowej. Suchy liść charakteryzuje się piękną, głęboką barwą i subtelnie dymnym zapachem przypominającym świeżo wysuszoną herbatę z pieca, z lekko przyprawowym akcentem. Napar jest klarowny, w kolorze ciemnego bursztynu, a jego zapach jest słodko - drzewny. Od pierwszego momentu herbata zachwyca swoją złożonością. Delikatna i subtelna, przełamana delikatną taninowością w tle. Smak nawiązuje do węgla drzewnego z akcentem karmelu i wanilii. Zakończenie jest świeże, a mineralny, słodko - rześki posmak utrzymuje się na języku jeszcze długo po degustacji.",
+      "amount" : 50.0,
+      "stars" : 0.0,
+      "brewing" : {
+        "temperature" : 95,
+        "time" : 4,
+        "reuses" : null,
+        "grams" : "2.5:250/8:250"
       }
     } ]
   }, {
