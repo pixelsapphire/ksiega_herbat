@@ -430,6 +430,24 @@
       }
     } ]
   }, {
+    "id" : "yellow_tea",
+    "name" : "Żółte herbaty",
+    "color" : "#ccac10",
+    "tea_boxes" : [ {
+      "id" : "china_yellow_sun",
+      "name" : "China Yellow Sun",
+      "brand_id" : "five_o_clock",
+      "description" : "Jedna z najrzadziej produkowanych i spotykanych herbat. Piękne, puszyste i pełne liście mają nietuzinkowy kolor brązu, ciemnej zieleni i złota, pachną bardzo lekko i drzewnie. Po zaparzeniu zmieniają swoją woń na bardziej kwiatową. Napar ma ciepły, brązowy kolor i pachnie jak świeże orzechy laskowe. Smak zaskakuje aksamitnością. Jest lekki i zwiewny, ale jednocześnie pozostawia cięższe odczucie na języku. W odczuciach dominują nuty orzecha z szlachetnie dymnym akcentem. Można także doszukać się akcentów słodkich kwiatów i subtelnej, kremowej roślinności. Delikatna miodowość pozostawia po sobie przyjemne i długie posmaki.<br><br>Składniki: 100% żółta herbata liściasta",
+      "amount" : 100.0,
+      "stars" : 0.0,
+      "brewing" : {
+        "temperature" : 80,
+        "time" : 2,
+        "reuses" : "2/1",
+        "grams" : "3:250/9:600"
+      }
+    } ]
+  }, {
     "id" : "white_tea",
     "name" : "Białe herbaty",
     "color" : "#c8fdb2",
