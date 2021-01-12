@@ -25,102 +25,6 @@
     "color" : "#2d5f1d"
   } ],
   "shelves" : [ {
-    "id" : "green_tea",
-    "name" : "Zielone herbaty czyste",
-    "color" : "#185a24",
-    "tea_boxes" : [ {
-      "id" : "china_gyokuro",
-      "name" : "China Gyokuro",
-      "brand_id" : "tea_time",
-      "description" : "Chińska wersja słynnej specjalności z Japonii. To przyjemnie miękka, aromatyczna herbata o bardzo podobnym wyglądzie i smaku do japońskiego odpowiednika.",
-      "amount" : 34.5,
-      "stars" : 0.0,
-      "brewing" : {
-        "temperature" : 75,
-        "time" : 2,
-        "reuses" : "3/1",
-        "grams" : "2.5:250/8:600"
-      }
-    }, {
-      "id" : "japan_gabalong",
-      "name" : "Japan Gabalong",
-      "brand_id" : "five_o_clock",
-      "description" : "Wyśmienita japońska zielona herbata o wysokiej zawartości kwasu gamma-aminomasłowego odpowiedzialnego za szereg właściwości zdrowotnych. Wycisza i relaksuje. Napar klarowny, w kolorze jasno - bursztynowym, pełen ciepłych niuansów smakowych. Listki pełnie kwiatowej woni. W odbiorze subtelna, świeża z lekko cierpkim akcentem. Zarysowany delikatny maślany charakter. Uprawiana jest przede wszystkim w prefekturze Shizuoka. Do jej produkcji używana jest tylko herbata z pierwszego zbioru (ichibancha).",
-      "amount" : 94.0,
-      "stars" : 0.0,
-      "brewing" : {
-        "temperature" : 80,
-        "time" : 2,
-        "reuses" : "2/1",
-        "grams" : "2.5:200/8:600"
-      }
-    }, {
-      "id" : "japan_gyokuro_hiki",
-      "name" : "Japan Gyokuro Hiki",
-      "brand_id" : "five_o_clock",
-      "description" : "Najwykwintniejszy specjał herbaciany z Japonii, określany jako najlepsza herbata na świecie. Listki Gyokuro Hiki zachwycają wyglądem i pięknym zapachem. Zielono - nefrytowy odcień jest zasługą pieczołowitej produkcji. Jedwabistość naparu przy wysokiej aromatyczności sprawia prawdziwą rozkosz degustatorom specjałów herbacianych. W posmaku słodka z wyraźnie wyczuwalnym smakiem umami. Swoisty kanon i obowiązkowy punkt degustacyjny miłośników  herbat japońskich.",
-      "amount" : 20.0,
-      "stars" : 5.0,
-      "brewing" : {
-        "temperature" : 55,
-        "time" : 2,
-        "reuses" : "4/1",
-        "grams" : "2.5:250"
-      }
-    }, {
-      "id" : "japan_sencha_fuji",
-      "name" : "Japan Sencha Fuji",
-      "brand_id" : "five_o_clock",
-      "description" : "Wysokiej klasy japońska zielona herbata typu sencha. Herbata pochodzi z plantacji położonych nieopodal miasta Fuji z prefektury Shizuoka. Po zaparzeniu unosi się woń słodkiego szpinaku, a napar zyskuje intensywnie seledynowy kolor. Odznacza się wyjątkową świeżością i subtelnym smakiem. Podczas degustacji wyczuwa się delikatne morskie akcenty i słód. Używając miękkiej wody wyraziście odczuwa się umami. Herbata polecana do codziennej degustacji.",
-      "amount" : 24.0,
-      "stars" : 4.5,
-      "brewing" : {
-        "temperature" : 75,
-        "time" : 3,
-        "reuses" : "3/1",
-        "grams" : "2.5:250/8:600"
-      }
-    }, {
-      "id" : "japan_sencha_uchiyama",
-      "name" : "Japan Sencha Uchiyama",
-      "brand_id" : "five_o_clock",
-      "description" : "Od wielu wieków rodzina Uchiyama prowadzi tradycyjne plantacje zielonej herbaty w prefekturze Shizuoka. To unikalne miejsce na południu Japonii, które oferuje wspaniałe warunki klimatyczne do produkcji najwyższej jakości herbaty. Herbatę tę cechuje wyjątkowo świeży smak z delikatnym aromatem migdałów o lekko słodowej nucie. Na jej niezwykłość wpływa bogactwo właściwości zdrowotnych. Posiada najwyższe wśród zielonych herbat stężenie polifenoli, które odpowiadają za szereg dobroczynnych właściwości zdrowotnych.",
-      "amount" : 40.0,
-      "stars" : 0.0,
-      "brewing" : {
-        "temperature" : 85,
-        "time" : 3,
-        "reuses" : "3/1",
-        "grams" : "2.5:250/8:600"
-      }
-    }, {
-      "id" : "korea_sejak",
-      "name" : "Korea Sejak",
-      "brand_id" : "five_o_clock",
-      "description" : "Wspaniała zielona koreańska herbata zbierana na przełomie kwietnia i maja. Wyjątkowa pod względem produkcji: listki na kilka sekund zanurzane są w gotującej się wodzie, po czym suszone i opiekane na wokach. W zależności od czasu parzenia (30 sekund - 3 minuty), otrzymujemy całą gamę smaków. Kolor naparu jest jasny, seledynowy. Smak bardzo gładki i aksamitny. W tle dobrze wyczuwalna delikatna algowość i kremowo roślinne posmaki, a także lekka orzechowość i odrobiona słodowości. W drugim parzeniu pojawia się krótka goryczka i dużo bardziej wyrazisty, warzywny pomsak.",
-      "amount" : 26.0,
-      "stars" : 0.0,
-      "brewing" : {
-        "temperature" : 70,
-        "time" : 1,
-        "reuses" : "4/1",
-        "grams" : "2.5:250/8:600"
-      }
-    }, {
-      "id" : "sencha_kaktusowa",
-      "name" : "Sencha kaktusowa",
-      "brand_id" : "tea_time",
-      "description" : "Japońska sencha z kaktusem, ananasem i mango.",
-      "amount" : 31.0,
-      "stars" : 4.5,
-      "brewing" : {
-        "temperature" : 75,
-        "time" : 2,
-        "reuses" : "3/1",
-        "grams" : "3:250/9:600"
-      }
-    } ]
-  }, {
     "id" : "green_tea_flavored",
     "name" : "Zielone herbaty arom.",
     "color" : "#475a24",
@@ -295,6 +199,102 @@
       }
     } ]
   }, {
+    "id" : "green_tea",
+    "name" : "Zielone herbaty czyste",
+    "color" : "#185a24",
+    "tea_boxes" : [ {
+      "id" : "china_gyokuro",
+      "name" : "China Gyokuro",
+      "brand_id" : "tea_time",
+      "description" : "Chińska wersja słynnej specjalności z Japonii. To przyjemnie miękka, aromatyczna herbata o bardzo podobnym wyglądzie i smaku do japońskiego odpowiednika.",
+      "amount" : 34.5,
+      "stars" : 0.0,
+      "brewing" : {
+        "temperature" : 75,
+        "time" : 2,
+        "reuses" : "3/1",
+        "grams" : "2.5:250/8:600"
+      }
+    }, {
+      "id" : "japan_gabalong",
+      "name" : "Japan Gabalong",
+      "brand_id" : "five_o_clock",
+      "description" : "Wyśmienita japońska zielona herbata o wysokiej zawartości kwasu gamma-aminomasłowego odpowiedzialnego za szereg właściwości zdrowotnych. Wycisza i relaksuje. Napar klarowny, w kolorze jasno - bursztynowym, pełen ciepłych niuansów smakowych. Listki pełnie kwiatowej woni. W odbiorze subtelna, świeża z lekko cierpkim akcentem. Zarysowany delikatny maślany charakter. Uprawiana jest przede wszystkim w prefekturze Shizuoka. Do jej produkcji używana jest tylko herbata z pierwszego zbioru (ichibancha).",
+      "amount" : 96.5,
+      "stars" : 0.0,
+      "brewing" : {
+        "temperature" : 80,
+        "time" : 2,
+        "reuses" : "2/1",
+        "grams" : "2.5:200/8:600"
+      }
+    }, {
+      "id" : "japan_gyokuro_hiki",
+      "name" : "Japan Gyokuro Hiki",
+      "brand_id" : "five_o_clock",
+      "description" : "Najwykwintniejszy specjał herbaciany z Japonii, określany jako najlepsza herbata na świecie. Listki Gyokuro Hiki zachwycają wyglądem i pięknym zapachem. Zielono - nefrytowy odcień jest zasługą pieczołowitej produkcji. Jedwabistość naparu przy wysokiej aromatyczności sprawia prawdziwą rozkosz degustatorom specjałów herbacianych. W posmaku słodka z wyraźnie wyczuwalnym smakiem umami. Swoisty kanon i obowiązkowy punkt degustacyjny miłośników  herbat japońskich.",
+      "amount" : 20.0,
+      "stars" : 5.0,
+      "brewing" : {
+        "temperature" : 55,
+        "time" : 2,
+        "reuses" : "4/1",
+        "grams" : "2.5:250"
+      }
+    }, {
+      "id" : "japan_sencha_fuji",
+      "name" : "Japan Sencha Fuji",
+      "brand_id" : "five_o_clock",
+      "description" : "Wysokiej klasy japońska zielona herbata typu sencha. Herbata pochodzi z plantacji położonych nieopodal miasta Fuji z prefektury Shizuoka. Po zaparzeniu unosi się woń słodkiego szpinaku, a napar zyskuje intensywnie seledynowy kolor. Odznacza się wyjątkową świeżością i subtelnym smakiem. Podczas degustacji wyczuwa się delikatne morskie akcenty i słód. Używając miękkiej wody wyraziście odczuwa się umami. Herbata polecana do codziennej degustacji.",
+      "amount" : 24.0,
+      "stars" : 4.5,
+      "brewing" : {
+        "temperature" : 75,
+        "time" : 3,
+        "reuses" : "3/1",
+        "grams" : "2.5:250/8:600"
+      }
+    }, {
+      "id" : "japan_sencha_uchiyama",
+      "name" : "Japan Sencha Uchiyama",
+      "brand_id" : "five_o_clock",
+      "description" : "Od wielu wieków rodzina Uchiyama prowadzi tradycyjne plantacje zielonej herbaty w prefekturze Shizuoka. To unikalne miejsce na południu Japonii, które oferuje wspaniałe warunki klimatyczne do produkcji najwyższej jakości herbaty. Herbatę tę cechuje wyjątkowo świeży smak z delikatnym aromatem migdałów o lekko słodowej nucie. Na jej niezwykłość wpływa bogactwo właściwości zdrowotnych. Posiada najwyższe wśród zielonych herbat stężenie polifenoli, które odpowiadają za szereg dobroczynnych właściwości zdrowotnych.",
+      "amount" : 40.0,
+      "stars" : 0.0,
+      "brewing" : {
+        "temperature" : 85,
+        "time" : 3,
+        "reuses" : "3/1",
+        "grams" : "2.5:250/8:600"
+      }
+    }, {
+      "id" : "korea_sejak",
+      "name" : "Korea Sejak",
+      "brand_id" : "five_o_clock",
+      "description" : "Wspaniała zielona koreańska herbata zbierana na przełomie kwietnia i maja. Wyjątkowa pod względem produkcji: listki na kilka sekund zanurzane są w gotującej się wodzie, po czym suszone i opiekane na wokach. W zależności od czasu parzenia (30 sekund - 3 minuty), otrzymujemy całą gamę smaków. Kolor naparu jest jasny, seledynowy. Smak bardzo gładki i aksamitny. W tle dobrze wyczuwalna delikatna algowość i kremowo roślinne posmaki, a także lekka orzechowość i odrobiona słodowości. W drugim parzeniu pojawia się krótka goryczka i dużo bardziej wyrazisty, warzywny pomsak.",
+      "amount" : 26.0,
+      "stars" : 0.0,
+      "brewing" : {
+        "temperature" : 70,
+        "time" : 1,
+        "reuses" : "4/1",
+        "grams" : "2.5:250/8:600"
+      }
+    }, {
+      "id" : "sencha_kaktusowa",
+      "name" : "Sencha kaktusowa",
+      "brand_id" : "tea_time",
+      "description" : "Japońska sencha z kaktusem, ananasem i mango.",
+      "amount" : 31.0,
+      "stars" : 4.5,
+      "brewing" : {
+        "temperature" : 75,
+        "time" : 2,
+        "reuses" : "3/1",
+        "grams" : "3:250/9:600"
+      }
+    } ]
+  }, {
     "id" : "black_tea",
     "name" : "Czarne herbaty",
     "color" : "#100000",
@@ -442,8 +442,8 @@
       "id" : "china_yellow_sun",
       "name" : "China Yellow Sun",
       "brand_id" : "five_o_clock",
-      "description" : "Jedna z najrzadziej produkowanych i spotykanych herbat. Piękne, puszyste i pełne liście mają nietuzinkowy kolor brązu, ciemnej zieleni i złota, pachną bardzo lekko i drzewnie. Po zaparzeniu zmieniają swoją woń na bardziej kwiatową. Napar ma ciepły, brązowy kolor i pachnie jak świeże orzechy laskowe. Smak zaskakuje aksamitnością. Jest lekki i zwiewny, ale jednocześnie pozostawia cięższe odczucie na języku. W odczuciach dominują nuty orzecha z szlachetnie dymnym akcentem. Można także doszukać się akcentów słodkich kwiatów i subtelnej, kremowej roślinności. Delikatna miodowość pozostawia po sobie przyjemne i długie posmaki.<br><br>Składniki: 100% żółta herbata liściasta",
-      "amount" : 91.0,
+      "description" : "Jedna z najrzadziej produkowanych i spotykanych herbat. Piękne, puszyste i pełne liście mają nietuzinkowy kolor brązu, ciemnej zieleni i złota. Napar ma ciepły, brązowy kolor i pachnie jak świeże orzechy laskowe. Smak jest lekki i zwiewny, ale jednocześnie pozostawia cięższe odczucie na języku. W odczuciach dominują nuty orzecha ze szlachetnie dymnym akcentem. Można także doszukać się akcentów słodkich kwiatów i subtelnej, kremowej roślinności. Delikatna miodowość pozostawia po sobie przyjemne i długie posmaki.<br><br>Składniki: 100% żółta herbata liściasta",
+      "amount" : 88.0,
       "stars" : 4.5,
       "brewing" : {
         "temperature" : 80,
@@ -494,63 +494,6 @@
         "time" : 3,
         "reuses" : "2/1",
         "grams" : "4.5:250/12:600"
-      }
-    } ]
-  }, {
-    "id" : "fruit_mixes",
-    "name" : "Mieszanki owocowe",
-    "color" : "#ffad76",
-    "tea_boxes" : [ {
-      "id" : "pomaranczowy_zawrot_glowy",
-      "name" : "Pomarańczowy Zawrót Głowy",
-      "brand_id" : "five_o_clock",
-      "description" : "Wyśmienita kompozycja jabłek, suszonej dzikiej róży oraz płatków krokosza. Dodatek skórki pomarańczy wzbogaca smak i nadaje mieszance ciekawego bukietu aromatycznego. Całość uzupełniają duże kawałki pomarańczy, które podkreślają jej owocowy akcent. Napar za sprawą obecności hibiskusa zaskakuje piękną, intensywną barwą. Jest to idealna propozycja dla wielbicieli cytrusów. Niezwykle ożywcza. Wspaniale smakuje zarówno w wersji na ciepło jak i na zimno.<br><br>Składniki: jabłka (30%), dzika róża (25%), hibiskus (14%), skórka pomarańczy (7,7%), kawałki pomarańczy (5%), płatki krokosza (2%), olejek pomarańczowy, aromaty.",
-      "amount" : 46.0,
-      "stars" : 3.5,
-      "brewing" : {
-        "temperature" : 95,
-        "time" : 7,
-        "reuses" : null,
-        "grams" : "4:250/11:600"
-      }
-    }, {
-      "id" : "rozowa_lemoniada",
-      "name" : "Różowa lemoniada",
-      "brand_id" : "five_o_clock",
-      "description" : "Orzeźwiająca letnia kompozycja. Cząstki jabłek wyśmienicie harmonizują z kwiatami białego hibiskusa. Listki jeżyny wzbogacają mieszankę w liczne mikroelementy, a odrobina cytrynowego aromatu podkreśla smak i nadaje charakteru. Napar za sprawą obecności buraczka zaskakuje piękną różowo-bordową barwą. Płatki róży i kwiaty kocanki dodają całości delikatnego kwiatowego akcentu. Lekka i aromatyczna propozycja na cały dzień. Idealna także w wersji schłodzonej.<br><br>Składniki: cząstki jabłek, biały hibiskus, listki jeżyny, buraki, kocanka piaskowa, płatki róży, aromat cytrynowy.",
-      "amount" : 42.5,
-      "stars" : 0.0,
-      "brewing" : {
-        "temperature" : 95,
-        "time" : 6,
-        "reuses" : null,
-        "grams" : "4:250/11:600"
-      }
-    }, {
-      "id" : "spokoj",
-      "name" : "Spokój",
-      "brand_id" : "five_o_clock",
-      "description" : "Harmonijne połączenie ziół i owoców. Kojące działanie rumianku oraz uspokajająca melisa nadają jej wyciszającego charakteru. Dodatek skórki dzikiej róży oraz brzoskwini wzbogaca o owocowe akcenty. Napar idealnie sprawdzi się wieczorową porą, po ciężkim dniu oraz dla osób unikających teiny w naparze. Pozwoli się wyciszyć oraz poczuć radość z degustacji owocowej i aromatycznej kompozycji. Fantastycznie smakuje również w wersji schłodzonej.<br><br>Składniki: rumianek, skórka dzikiej róży, jabłko, melisa, aromat brzoskwini, kawałki brzoskwini.",
-      "amount" : 26.5,
-      "stars" : 0.0,
-      "brewing" : {
-        "temperature" : 95,
-        "time" : 6,
-        "reuses" : null,
-        "grams" : "4:250/11:600"
-      }
-    }, {
-      "id" : "sycyliana",
-      "name" : "Sycyliana",
-      "brand_id" : "five_o_clock",
-      "description" : "Niezwykle aromatyczna kompozycja złożona z cząstek kandyzowanego ananasa i papai. Skórka pomarańczy wraz wyciągiem z cytryny, pomarańczy i marakui nadaje mieszance cytrusowe akcenty. Całość wzbogacona została o rodzynki, płatki krokosza i róży. Przyjemnie słodka. Świetnie orzeźwia.<br><br>Składniki: kawałki kandyzowanego ananasa i papai, cząstki jabłek, rodzynki, aromaty, skórka pomarańczy, płatki krokosza, róży i słonecznika, kwas cytrynowy.",
-      "amount" : 100.0,
-      "stars" : 0.0,
-      "brewing" : {
-        "temperature" : 95,
-        "time" : 7,
-        "reuses" : null,
-        "grams" : "6.5:250/18:600"
       }
     } ]
   }, {
@@ -637,6 +580,63 @@
       }
     } ]
   }, {
+    "id" : "fruit_mixes",
+    "name" : "Mieszanki owocowe",
+    "color" : "#ffad76",
+    "tea_boxes" : [ {
+      "id" : "pomaranczowy_zawrot_glowy",
+      "name" : "Pomarańczowy Zawrót Głowy",
+      "brand_id" : "five_o_clock",
+      "description" : "Wyśmienita kompozycja jabłek, suszonej dzikiej róży oraz płatków krokosza. Dodatek skórki pomarańczy wzbogaca smak i nadaje mieszance ciekawego bukietu aromatycznego. Całość uzupełniają duże kawałki pomarańczy, które podkreślają jej owocowy akcent. Napar za sprawą obecności hibiskusa zaskakuje piękną, intensywną barwą. Jest to idealna propozycja dla wielbicieli cytrusów. Niezwykle ożywcza. Wspaniale smakuje zarówno w wersji na ciepło jak i na zimno.<br><br>Składniki: jabłka (30%), dzika róża (25%), hibiskus (14%), skórka pomarańczy (7,7%), kawałki pomarańczy (5%), płatki krokosza (2%), olejek pomarańczowy, aromaty.",
+      "amount" : 46.0,
+      "stars" : 3.5,
+      "brewing" : {
+        "temperature" : 95,
+        "time" : 7,
+        "reuses" : null,
+        "grams" : "4:250/11:600"
+      }
+    }, {
+      "id" : "rozowa_lemoniada",
+      "name" : "Różowa lemoniada",
+      "brand_id" : "five_o_clock",
+      "description" : "Orzeźwiająca letnia kompozycja. Cząstki jabłek wyśmienicie harmonizują z kwiatami białego hibiskusa. Listki jeżyny wzbogacają mieszankę w liczne mikroelementy, a odrobina cytrynowego aromatu podkreśla smak i nadaje charakteru. Napar za sprawą obecności buraczka zaskakuje piękną różowo-bordową barwą. Płatki róży i kwiaty kocanki dodają całości delikatnego kwiatowego akcentu. Lekka i aromatyczna propozycja na cały dzień. Idealna także w wersji schłodzonej.<br><br>Składniki: cząstki jabłek, biały hibiskus, listki jeżyny, buraki, kocanka piaskowa, płatki róży, aromat cytrynowy.",
+      "amount" : 42.5,
+      "stars" : 0.0,
+      "brewing" : {
+        "temperature" : 95,
+        "time" : 6,
+        "reuses" : null,
+        "grams" : "4:250/11:600"
+      }
+    }, {
+      "id" : "spokoj",
+      "name" : "Spokój",
+      "brand_id" : "five_o_clock",
+      "description" : "Harmonijne połączenie ziół i owoców. Kojące działanie rumianku oraz uspokajająca melisa nadają jej wyciszającego charakteru. Dodatek skórki dzikiej róży oraz brzoskwini wzbogaca o owocowe akcenty. Napar idealnie sprawdzi się wieczorową porą, po ciężkim dniu oraz dla osób unikających teiny w naparze. Pozwoli się wyciszyć oraz poczuć radość z degustacji owocowej i aromatycznej kompozycji. Fantastycznie smakuje również w wersji schłodzonej.<br><br>Składniki: rumianek, skórka dzikiej róży, jabłko, melisa, aromat brzoskwini, kawałki brzoskwini.",
+      "amount" : 26.5,
+      "stars" : 0.0,
+      "brewing" : {
+        "temperature" : 95,
+        "time" : 6,
+        "reuses" : null,
+        "grams" : "4:250/11:600"
+      }
+    }, {
+      "id" : "sycyliana",
+      "name" : "Sycyliana",
+      "brand_id" : "five_o_clock",
+      "description" : "Niezwykle aromatyczna kompozycja złożona z cząstek kandyzowanego ananasa i papai. Skórka pomarańczy wraz wyciągiem z cytryny, pomarańczy i marakui nadaje mieszance cytrusowe akcenty. Całość wzbogacona została o rodzynki, płatki krokosza i róży. Przyjemnie słodka. Świetnie orzeźwia.<br><br>Składniki: kawałki kandyzowanego ananasa i papai, cząstki jabłek, rodzynki, aromaty, skórka pomarańczy, płatki krokosza, róży i słonecznika, kwas cytrynowy.",
+      "amount" : 100.0,
+      "stars" : 0.0,
+      "brewing" : {
+        "temperature" : 95,
+        "time" : 7,
+        "reuses" : null,
+        "grams" : "6.5:250/18:600"
+      }
+    } ]
+  }, {
     "id" : "matcha",
     "name" : "Matcha",
     "color" : "#b5ff4d",
@@ -676,7 +676,7 @@
       "name" : "Lazurowe Wybrzeże",
       "brand_id" : "czas_na_herbate",
       "description" : "Spędź urlop na Lazurowym Wybrzeżu. W wyjątkowy nastrój wprawi Cię herbata oolong z dodatkiem blue butterfly, cytryna pomoże odzyskać energię, a w imprezowy szał wciągną płatki różowego i niebieskiego bławatka.<br><br>Składniki: herbata Oolong, cytryna suszona, blue butterfly, bławatek, bławatek różowy, aromat",
-      "amount" : 68.0,
+      "amount" : 54.0,
       "stars" : 4.0,
       "brewing" : {
         "temperature" : 95,
