@@ -1,0 +1,529 @@
+{
+  "brands": [
+    {
+      "id": "five_o_clock",
+      "name": "Five o'clock",
+      "color": "#00382b"
+    },
+    {
+      "id": "przyprawy_gdynia",
+      "name": "Przyprawy Świata Gdynia",
+      "color": "#f28e0a"
+    },
+    {
+      "id": "mate_poznan",
+      "name": "Yerba Mate Poznań",
+      "color": "#7d895f"
+    },
+    {
+      "id": "czas_na_herbate",
+    "
+    },
+    {
+      "id": "ceylon_porzeczka_ze_sliwka",
+      "name": "Ceylon porzeczka ze śliwką",
+      "brand_id": "five_o_clock",
+      "description": "Wyśmienity duet owoców na bazie czarnej cejlońskiej herbaty. Pyszne dojrzałe śliwki węgierki występują tu w towarzystwie aromatycznej czarnej porzeczki i tworzą razem wyjątkową całość. Przyjemnie zbalansowana. Herbata rankiem doda energii i pozwoli dobrze rozpocząć dzień. Wieczorową porą idealnie podkreśli smak słodkiego podwieczorku. Polecana miłośnikom owocowych kompozycji. Wybornie smakuje w tradycyjnym wydaniu jak i z dodatkami np. konfiturą.\n\nSkładniki: herbata czarna liścista (84,5%), czarna porzeczka (7%), cząstki śliwek (5%), aromaty.",
+      "amount": 62.0,
+      "stars": 4.5,
+      "brewing": {
+        "temperature": 95,
+        "time": 4,
+        "reuses": null,
+        "grams": "2.5:250/8:600"
+      }
+    },
+    {
+      "id": "czekolada_z_malinami",
+      "name": "Czekolada z malinami",
+      "brand_id": "five_o_clock",
+      "description": "Listki czarnej chińskiej herbaty z dodatkiem kawałeczków czekolady, łupinek kakao oraz cząstek malin.<br><br>Składniki: herbata czarna liściasta (77,5%), łuska kakaowa, kawałki czekolady (5%) (cukier, kakao, emulgator lecytyna sojowa), maliny (4%), aromaty.",
+      "amount": 64.5,
+      "stars": 3.0,
+      "brewing": {
+        "temperature": 95,
+        "time": 4,
+        "reuses": null,
+        "grams": "2.5:250/8:600"
+      }
+    },
+    {
+      "id": "golden_yunnan_five_o_clock",
+      "name": "Golden Yunnan Five o'clock",
+      "brand_id": "five_o_clock",
+      "description": "Ciekawa mieszanka czarnej chińskiej herbaty Golden Yunnan z trzema orzeźwiąjącymi cytrusowymi aromatami.<br><br>Składniki: czarna herbata liściasta (95%), aromaty.",
+      "amount": 70.5,
+      "stars": 1.5,
+      "brewing": {
+        "temperature": 95,
+        "time": 4,
+        "reuses": null,
+        "grams": "2.5:250/8:600"
+      }
+    },
+    {
+      "id": "grudniowa_noc",
+      "name": "Grudniowa Noc",
+      "brand_id": "five_o_clock",
+      "description": "Bogata i rozgrzewająca kompozycja czarnej herbaty z kawałkami jabłek i skórką pomarańczy. Cynamon, anyż oraz kawałki migdałów nadadzą naparowi słodkiej korzenności.<br><br>Składniki: czarna herbata liściasta (73%), cząstki jabłek, skórka pomarańczy, cynamon, anyż, migdały (2%), aromaty, olejek z goździków.",
+      "amount": 35.0,
+      "stars": 4.0,
+      "brewing": {
+        "temperature": 95,
+        "time": 4,
+        "reuses": null,
+        "grams": "3:250/9:600"
+      }
+    },
+    {
+      "id": "havana",
+      "name": "Havana",
+      "brand_id": "five_o_clock",
+      "description": "Letni koktajl smaku. Wakacyjne połączenie czarnej cejlońskiej herbaty z kawałkami słodkiego ananasa i skórką orzeźwiającej cytryny. Niezwykle egzotyczny smak, który świetnie orzeźwi jako iced tea. Polecamy serwować z kostkami lodu i plasterkiem cytryny.<br><br>Składniki: czarna herbata, kostki ananasa (ananas, cukier), skórka cytryny, naturalny aromat ananasowy, naturalny aromat cytrynowy.",
+      "amount": 46.0,
+      "stars": 0.0,
+      "brewing": {
+        "temperature": 95,
+        "time": 4,
+        "reuses": null,
+        "grams": "3:250/9:600"
+      }
+    },
+    {
+      "id": "korea_black_tea_plus",
+      "name": "Korea Black Tea Plus",
+      "brand_id": "five_o_clock",
+      "description": "Jedyna w swoim rodzaju czarna herbata z Korei Południowej. Suchy liść charakteryzuje się piękną, głęboką barwą i subtelnie dymnym zapachem przypominającym świeżo wysuszoną herbatę z pieca, z lekko przyprawowym akcentem. Napar jest klarowny, w kolorze ciemnego bursztynu, a jego zapach jest słodko - drzewny. Od pierwszego momentu herbata zachwyca swoją złożonością. Delikatna i subtelna, przełamana delikatną taninowością w tle. Smak nawiązuje do węgla drzewnego z akcentem karmelu i wanilii. Zakończenie jest świeże, a mineralny, słodko - rześki posmak utrzymuje się na języku jeszcze długo po degustacji.",
+      "amount": 50.0,
+      "stars": 0.0,
+      "brewing": {
+        "temperature": 95,
+        "time": 4,
+        "reuses": null,
+        "grams": "2.5:250/8:250"
+      }
+    }
+  ]
+},
+{
+  "id": "red_tea",
+  "name": "Czerwone herbaty",
+  "color": "#421b00",
+  "tea_boxes": [
+    {
+      "id": "pu_erh_chinska_wisnia",
+      "name": "Pu Erh chińska wiśnia",
+      "brand_id": "five_o_clock",
+      "description": "Kompozycja chińskiej czerwonej herbaty typu pu erh z cząstkami wiśni oraz płatkami róży. Całość dopełnia wiśniowo - rumowy aromat.<br><br>Składniki: herbata pu erh (93%), aromaty, cząstki wiśni (2%), płatki róży.",
+      "amount": 32.5,
+      "stars": 0.0,
+      "brewing": {
+        "temperature": 95,
+        "time": 6,
+        "reuses": "2/1",
+        "grams": "2.5:250/8:600"
+      }
+    },
+    {
+      "id": "pu_erh_rum_cytryna",
+      "name": "Pu Erh rum & cytryna",
+      "brand_id": "five_o_clock",
+      "description": "Kompozycja czerwonej, chińskiej herbaty pu erh z aromatyczną skórką cytryny i trawą cytrynową. Smak dopełnia nuta aromatycznego rumu. Dostarcza niezapomnianych wrażeń smakowych. Całość dopełniają cząstki wanilii.",
+      "amount": 82.0,
+      "stars": 0.0,
+      "brewing": {
+        "temperature": 95,
+        "time": 5,
+        "reuses": "2/1",
+        "grams": "2.5:250/8:600"
+      }
+    },
+    {
+      "id": "pu_erh_zurawina_pomarancza",
+      "name": "Pu Erh żurawina & pomarańcza",
+      "brand_id": "five_o_clock",
+      "description": "Wyśmienita kompozycja chińskiej czerwonej herbaty typu pu erh z owocami żurawiny oraz skórką pomarańczową.<br><br>Składniki: herbata pu erh (86%), skórka pomarańczy (6%), owoc żurawiny (3%), aromaty, kandyzowany owoc żurawiny (2%).",
+      "amount": 100.0,
+      "stars": 0.0,
+      "brewing": {
+        "temperature": 95,
+        "time": 6,
+        "reuses": "2/1",
+        "grams": "3:250/9:600"
+      }
+    }
+  ]
+},
+{
+  "id": "yellow_tea",
+  "name": "Żółte herbaty",
+  "color": "#ccac10",
+  "tea_boxes": [
+    {
+      "id": "china_yellow_sun",
+      "name": "China Yellow Sun",
+      "brand_id": "five_o_clock",
+      "description": "Jedna z najrzadziej produkowanych i spotykanych herbat. Piękne, puszyste i pełne liście mają nietuzinkowy kolor brązu, ciemnej zieleni i złota. Napar ma ciepły, brązowy kolor i pachnie jak świeże orzechy laskowe. Smak jest lekki i zwiewny, ale jednocześnie pozostawia cięższe odczucie na języku. W odczuciach dominują nuty orzecha ze szlachetnie dymnym akcentem. Można także doszukać się akcentów słodkich kwiatów i subtelnej, kremowej roślinności. Delikatna miodowość pozostawia po sobie przyjemne i długie posmaki.<br><br>Składniki: 100% żółta herbata liściasta",
+      "amount": 88.0,
+      "stars": 4.5,
+      "brewing": {
+        "temperature": 80,
+        "time": 2,
+        "reuses": "2/1",
+        "grams": "3:250/9:600"
+      }
+    }
+  ]
+},
+{
+  "id": "white_tea",
+  "name": "Białe herbaty",
+  "color": "#c8fdb2",
+  "tea_boxes": [
+    {
+      "id": "chinese_white_tea",
+      "name": "Chinese White Tea",
+      "brand_id": "basilur",
+      "description": "Herbata biała to jedna z najdroższych i najmniej przetworzonych odmian herbat. Do produkcji herbaty białej używa się najmłodszych i najdelikatniejszych listków, zwłaszcza pąków zbieranych wiosną. Nazwa białej herbaty pochodzi od pokrytych białymi włoskami pączków listków herbacianych. Susz herbaciany wygląda jakby był biały. Napar, choć jasny i delikatny biały nie jest, ma kolor lekko słomkowo-żółty.<br><br>Skład: 100% chińska biała herbata",
+      "amount": 89.0,
+      "stars": 3.0,
+      "brewing": {
+        "temperature": 85,
+        "time": 3,
+        "reuses": "2/1",
+        "grams": "4:250/11:600"
+      }
+    },
+    {
+      "id": "laponia",
+      "name": "Laponia",
+      "brand_id": "five_o_clock",
+      "description": "Aksamitny smak białej herbaty połączony z cząstkami jabłek oraz aromatem cytrusowo - biszkoptowych ciasteczek. Całość udekorowana ziarenkami różowego pieprzu.<br><br>Składniki: biała herbata liściasta (74%), cząstki jabłek, ziarenka różowego pieprzu, aroamty.",
+      "amount": 50.0,
+      "stars": 0.0,
+      "brewing": {
+        "temperature": 85,
+        "time": 3,
+        "reuses": "2/1",
+        "grams": "4.5:200/12:600"
+      }
+    },
+    {
+      "id": "lesna_harmonia",
+      "name": "Leśna Harmonia",
+      "brand_id": "five_o_clock",
+      "description": "Biała chińska herbata Pai Mu Tan z dodatkiem jagód i czarnej porzeczki. Werbena cytrynowa i listki jeżyn wzbogacają smak i dostarczają dawki witamin i mikroelementów. Uwodzi zapachem leśnych owoców. Piękna barwa naparu jest prawdziwą ucztą dla oka.<br><br>Składniki: biała herbata liściasta (87,8%), aromaty, werbena, czarna porzeczka, borówka, liście jeżyny, płatki bławatka.",
+      "amount": 26.5,
+      "stars": 5.0,
+      "brewing": {
+        "temperature": 85,
+        "time": 3,
+        "reuses": "2/1",
+        "grams": "4.5:250/12:600"
+      }
+    },
+    {
+      "id": "pai_mu_tan_malinowy",
+      "name": "Pai Mu Tan Malinowy",
+      "brand_id": "five_o_clock",
+      "description": "Tajemnicza i zmysłowa. Wyjątkowe połączenie aromatów róży i malin. Biała herbata Pai Mu Tan charakteryzuje się subtelnością i jedwabistością w posmaku. Pięknie udekorowana czerwonymi płatkami róży i liśćmi jeżyn. Degustacja tej herbaty sprawi wiele przyjemności.<br><br>Składniki: herbata biała liściasta, liście jeżyn, maliny, płatki czerwonej róży, aromaty.",
+      "amount": 47.5,
+      "stars": 4.0,
+      "brewing": {
+        "temperature": 85,
+        "time": 3,
+        "reuses": "2/1",
+        "grams": "4.5:250/12:600"
+      }
+    }
+  ]
+},
+{
+  "id": "yerba_mate",
+  "name": "Yerba mate",
+  "color": "#849d48",
+  "tea_boxes": [
+    {
+      "id": "mate_cascara",
+      "name": "Mate Cascara",
+      "brand_id": "czas_na_herbate",
+      "description": "Brazylijska Mate w towarzystwie wszystkim znanych żurawin, czarnych porzeczek i dzikiej róży. Wyjątkowa w tym towarzystwie jest cascara, czyli skórka otaczająca pestki owoców kawowca, suszona na słońcu, owocowa w smaku, z przyjemną kwasowością.<br><br>Składniki: yerba mate 89%, cascara 2%, żurawina liofilizowana, porzeczka czarna suszona, skórka róży, róża płatki, aromat",
+      "amount": 26.5,
+      "stars": 0.0,
+      "brewing": {
+        "temperature": 70,
+        "time": 0,
+        "reuses": "10",
+        "grams": "40:200"
+      }
+    },
+    {
+      "id": "mate_lemon",
+      "name": "Mate Lemon",
+      "brand_id": "czas_na_herbate",
+      "description": "Kiedy potrzebujesz łagodnego orzeźwienia sięgnij po Mate Lemon. Skórka cytryny, trawa cytrynowa i liście limonki tworzą rześkie połączenie, któremu nie możesz się oprzeć.<br><br>Składniki: yerba mate 91%, skórka cytrynowa suszona 3%, trawa cytrynowa 2%, liść limonki, aromat",
+      "amount": 50.0,
+      "stars": 0.0,
+      "brewing": {
+        "temperature": 80,
+        "time": 0,
+        "reuses": "10",
+        "grams": "40:200"
+      }
+    },
+    {
+      "id": "mate_mint",
+      "name": "Mate Mint",
+      "brand_id": "czas_na_herbate",
+      "description": "Składniki: yerba mate 75%, mięta 15%, eukaliptus",
+      "amount": 80.0,
+      "stars": 0.0,
+      "brewing": {
+        "temperature": 80,
+        "time": 0,
+        "reuses": "10",
+        "grams": "40:200"
+      }
+    },
+    {
+      "id": "mate_yoga",
+      "name": "Mate Yoga",
+      "brand_id": "czas_na_herbate",
+      "description": "Zacznij sączyć napar z brazylijskiej Yerba Mate, połączonej z egzotycznymi owocami mango, marakui, ananasa i żółto - czerwoną ferią barw kwiatów nagietka i granatu, a poczujesz błogi spokój, odprężenie i przypływ pozytywnej energii.<br><br>Składniki: Mate 77%, ananas kandyzowany (ananas, cukier, kwas cytrynowy), mango crunch (koncentrat mango), marakuja crunch (maltodekstryna, koncentrat soku z marakui, aromat naturalny, kwas cytrynowy), kwiat granatu, nagietek, aromat.",
+      "amount": 35.0,
+      "stars": 0.0,
+      "brewing": {
+        "temperature": 80,
+        "time": 0,
+        "reuses": "10",
+        "grams": "40:200"
+      }
+    },
+    {
+      "id": "mate_zurawina_pomarancza",
+      "name": "Mate Żurawina Pomarańcza",
+      "brand_id": "five_o_clock",
+      "description": "Wyśmienite połączenie listków yerba mate z dodatkiem skórki pomarańczowej oraz cząstkami żurawiny. Udział aromatycznych płatków róży nadaje uroku tej kompozycji. Całość dopełniają kwiaty pomarańczy. W odbiorze przyjemnie owocowa. Za sprawą żurawiny mieszanka zyskuje na atrakcyjności oraz pozwala na skuteczne zwalczanie infekcji bakteryjnych i podnosi odporność organizmu. Pokrzepia i dodaje energii na cały aktywny dzień.<br><br>Składniki: mate zielona: (86%), żurawina (5%), aromaty, skórka pomarańczy (2%), kwiaty pomarańczy (2%), płatki róży.",
+      "amount": 73.0,
+      "stars": 0.0,
+      "brewing": {
+        "temperature": 75,
+        "time": 0,
+        "reuses": "10",
+        "grams": "40:200"
+      }
+    },
+    {
+      "id": "pajarito_elaborada",
+      "name": "Pajarito Elaborada",
+      "brand_id": "mate_poznan",
+      "description": "Wyraziście goryczkowy aromat i smak w paragwajskim stylu. Pajarito Elaborada to jedna z najpopularniejszych yerba mate na rynku. Produkty paragwajskiego producenta uchodzą za absolutną klasykę gatunku. Ze względu na smak i silnie dymny aromat polecamy je w szczególności doświadczonym mateistom.<br><br>Składniki: 100% yerba mate (listki, patyczki, pył).",
+      "amount": 89.0,
+      "stars": 0.0,
+      "brewing": {
+        "temperature": 70,
+        "time": 0,
+        "reuses": "10",
+        "grams": "40:200"
+      }
+    }
+  ]
+},
+{
+  "id": "fruit_mixes",
+  "name": "Mieszanki owocowe",
+  "color": "#ffad76",
+  "tea_boxes": [
+    {
+      "id": "pomaranczowy_zawrot_glowy",
+      "name": "Pomarańczowy Zawrót Głowy",
+      "brand_id": "five_o_clock",
+      "description": "Wyśmienita kompozycja jabłek, suszonej dzikiej róży oraz płatków krokosza. Dodatek skórki pomarańczy wzbogaca smak i nadaje mieszance ciekawego bukietu aromatycznego. Całość uzupełniają duże kawałki pomarańczy, które podkreślają jej owocowy akcent. Napar za sprawą obecności hibiskusa zaskakuje piękną, intensywną barwą. Jest to idealna propozycja dla wielbicieli cytrusów. Niezwykle ożywcza. Wspaniale smakuje zarówno w wersji na ciepło jak i na zimno.<br><br>Składniki: jabłka (30%), dzika róża (25%), hibiskus (14%), skórka pomarańczy (7,7%), kawałki pomarańczy (5%), płatki krokosza (2%), olejek pomarańczowy, aromaty.",
+      "amount": 46.0,
+      "stars": 3.5,
+      "brewing": {
+        "temperature": 95,
+        "time": 7,
+        "reuses": null,
+        "grams": "4:250/11:600"
+      }
+    },
+    {
+      "id": "rozowa_lemoniada",
+      "name": "Różowa lemoniada",
+      "brand_id": "five_o_clock",
+      "description": "Orzeźwiająca letnia kompozycja. Cząstki jabłek wyśmienicie harmonizują z kwiatami białego hibiskusa. Listki jeżyny wzbogacają mieszankę w liczne mikroelementy, a odrobina cytrynowego aromatu podkreśla smak i nadaje charakteru. Napar za sprawą obecności buraczka zaskakuje piękną różowo-bordową barwą. Płatki róży i kwiaty kocanki dodają całości delikatnego kwiatowego akcentu. Lekka i aromatyczna propozycja na cały dzień. Idealna także w wersji schłodzonej.<br><br>Składniki: cząstki jabłek, biały hibiskus, listki jeżyny, buraki, kocanka piaskowa, płatki róży, aromat cytrynowy.",
+      "amount": 42.5,
+      "stars": 0.0,
+      "brewing": {
+        "temperature": 95,
+        "time": 6,
+        "reuses": null,
+        "grams": "4:250/11:600"
+      }
+    },
+    {
+      "id": "spokoj",
+      "name": "Spokój",
+      "brand_id": "five_o_clock",
+      "description": "Harmonijne połączenie ziół i owoców. Kojące działanie rumianku oraz uspokajająca melisa nadają jej wyciszającego charakteru. Dodatek skórki dzikiej róży oraz brzoskwini wzbogaca o owocowe akcenty. Napar idealnie sprawdzi się wieczorową porą, po ciężkim dniu oraz dla osób unikających teiny w naparze. Pozwoli się wyciszyć oraz poczuć radość z degustacji owocowej i aromatycznej kompozycji. Fantastycznie smakuje również w wersji schłodzonej.<br><br>Składniki: rumianek, skórka dzikiej róży, jabłko, melisa, aromat brzoskwini, kawałki brzoskwini.",
+      "amount": 26.5,
+      "stars": 0.0,
+      "brewing": {
+        "temperature": 95,
+        "time": 6,
+        "reuses": null,
+        "grams": "4:250/11:600"
+      }
+    },
+    {
+      "id": "sycyliana",
+      "name": "Sycyliana",
+      "brand_id": "five_o_clock",
+      "description": "Niezwykle aromatyczna kompozycja złożona z cząstek kandyzowanego ananasa i papai. Skórka pomarańczy wraz wyciągiem z cytryny, pomarańczy i marakui nadaje mieszance cytrusowe akcenty. Całość wzbogacona została o rodzynki, płatki krokosza i róży. Przyjemnie słodka. Świetnie orzeźwia.<br><br>Składniki: kawałki kandyzowanego ananasa i papai, cząstki jabłek, rodzynki, aromaty, skórka pomarańczy, płatki krokosza, róży i słonecznika, kwas cytrynowy.",
+      "amount": 100.0,
+      "stars": 0.0,
+      "brewing": {
+        "temperature": 95,
+        "time": 7,
+        "reuses": null,
+        "grams": "6.5:250/18:600"
+      }
+    }
+  ]
+},
+{
+  "id": "matcha",
+  "name": "Matcha",
+  "color": "#b5ff4d",
+  "tea_boxes": [
+    {
+      "id": "matcha_herbata_zielona",
+      "name": "Matcha Herbata Zielona",
+      "brand_id": "czas_na_herbate",
+      "description": "Niezwykła, sproszkowana herbata otrzymywana w procesie mielenia liści zielonej herbaty z pierwszych wiosennych zbiorów. Bogata w składniki odżywcze (aminokwasy, antyoksydanty, witaminy, minerały, błonnik). Jedna filiżanka naparu równa się dziesięciu filiżankom naparu z Senchy. Oprócz picia, matcha stosowana jest także w kulinariach jako dodatek do ciast, babeczek, deserów opartych na jogurtach i świeżych owocach.<br><br>Składniki: herbata Matcha 100%",
+      "amount": 37.0,
+      "stars": 4.0,
+      "brewing": {
+        "temperature": 75,
+        "time": 0,
+        "reuses": null,
+        "grams": "0.6:100"
+      }
+    },
+    {
+      "id": "japan_matcha_kakegawa",
+      "name": "Japan Matcha Kakegawa",
+      "brand_id": "five_o_clock",
+      "description": "Specjalny rodzaj herbaty w postaci drobnego proszku. Powstaje on w wyniku utarcia listków o nazwie Tencha (listki Gyokuro poddane tylko wysuszeniu). Zielono-oliwkowy napar to harmonia doskonałego smaku. Połączenie delikatnego słodu i roślinnej nuty oraz złożona aromatyczność to kwintesencja najwyższych uniesień smakowych.<br><br>Składniki: herbata Matcha 100%",
+      "amount": 20.0,
+      "stars": 0.0,
+      "brewing": {
+        "temperature": 75,
+        "time": 0,
+        "reuses": null,
+        "grams": "0.6:100"
+      }
+    }
+  ]
+},
+{
+  "id": "oolong",
+  "name": "Oolong",
+  "color": "#173b33",
+  "tea_boxes": [
+    {
+      "id": "lazurowe_wybrzeze",
+      "name": "Lazurowe Wybrzeże",
+      "brand_id": "czas_na_herbate",
+      "description": "Spędź urlop na Lazurowym Wybrzeżu. W wyjątkowy nastrój wprawi Cię herbata oolong z dodatkiem blue butterfly, cytryna pomoże odzyskać energię, a w imprezowy szał wciągną płatki różowego i niebieskiego bławatka.<br><br>Składniki: herbata oolong, cytryna suszona, blue butterfly, bławatek, bławatek różowy, aromat",
+      "amount": 54.0,
+      "stars": 4.0,
+      "brewing": {
+        "temperature": 95,
+        "time": 3,
+        "reuses": null,
+        "grams": "5:250/14:600"
+      }
+    },
+    {
+      "id": "thailand_jing_shuan",
+      "name": "Thailand Jing Shuan",
+      "brand_id": "five_o_clock",
+      "description": "Wysokiej klasy tajlandzka herbata poddawana krótkiemu procesowi utleniania, które nie przekracza 20%. Niezwyklej urody listki zostały uformowane na kształt regularnych perełek, które po zaparzeniu prezentują dwa listki i pączek.<br>Napar klarowny o słomkowej barwie z jasnym odcieniem bursztynu. W odczuciach smakowych dominuje kwiatowa nuta na wzór kwiatu storczyka. Dopełnieniem jest subtelny akcent słodkiej śmietanki i nawiązanie do zapachu cukru trzcinowego. Całkowity brak goryczki zachwyci amatorów subtelnych doznań.<br><br>Składniki: 100% herbata oolong",
+      "amount": 47.0,
+      "stars": 4.5,
+      "brewing": {
+        "temperature": 85,
+        "time": 2,
+        "reuses": "2/1",
+        "grams": "4:250/11:600"
+      }
+    }
+  ]
+},
+{
+  "id": "used_up",
+  "name": "Archiwum (zużyte)",
+  "color": "#b2d1eb",
+  "tea_boxes": [
+    {
+      "id": "gwiazdkowy_wieczor",
+      "name": "Gwiazdkowy Wieczor",
+      "brand_id": "czas_na_herbate",
+      "description": "Zielona herbata Yunnan z dodatkiem owoców dzikiej róży, truskawki, jabłka, wiśni i żurawiny oraz róży, hibiskusa i uroczych, cukrowych płatków śniegu.<br><br>Składniki: herbata zielona Yunnan, skórka owocu dzikiej róży, cukrowe płatki śniegu (cukier, maka ryżowa, tłuszcz kakaowy, substancja zagęszczająca (tragakanta)), truskawka liofilizowana, żurawina liofilizowana, wiśnia liofilizowana, jabłko liofilizowane, hibiskus, róża pąki, aromat",
+      "amount": 0.0,
+      "stars": 4.0,
+      "brewing": {
+        "temperature": 80,
+        "time": 2,
+        "reuses": "2/1",
+        "grams": "4:250/11:600"
+      }
+    },
+    {
+      "id": "japonska_wisnia",
+      "name": "Japońska wiśnia",
+      "brand_id": "five_o_clock",
+      "description": "Zielona herbata wzbogacona cząstkami wiśni, hibiskusem i skórką pomarańczy. Owocową nutę urozmaicają cząstki kandyzowanego ananasa i akcent słodkiego marcepana. Pączki róży dopełniają całość, nadając delikatnej kwiatowej nuty. Uwodzi oryginalnym zapachem, którzy towarzyszy wiośnie w Kraju Kwitnącej Wiśni i nie tylko.<br><br>Składniki: zielona herbata liściasta (39%), hibiskus, cząstki wiśni (8%), płatki i pąki róży, kandyzowane kawałki ananasa, skórka pomarańczy, aromaty.",
+      "amount": 0.0,
+      "stars": 0.0,
+      "brewing": {
+        "temperature": 75,
+        "time": 3,
+        "reuses": "3/1",
+        "grams": "3.5:250/10:600"
+      }
+    },
+    {
+      "id": "mate_iq",
+      "name": "Mate IQ",
+      "brand_id": "czas_na_herbate",
+      "description": "Cudownie owocowy związek suszu Yerba Mate z kawałkami kiwi, truskawkami, strąkami fasoli, tymiankiem, żeń-szeniem oraz dodatkową porcją pobudzenia, jaką gwarantuje guarana. Kompozycja idealna dla osób, które poszukują dodatkowej energii, a także koncentracji.<br><br>Składniki: yerba mate 77%, kiwi kandyzowane (kiwi, substancja konserwująca (dwutlenek siarki)), fasola, guarana, żeń-szeń, truskawka liofilizowana, tymianek, aromat.",
+      "amount": 0.0,
+      "stars": 4.0,
+      "brewing": {
+        "temperature": 80,
+        "time": 0,
+        "reuses": "10",
+        "grams": "40:200"
+      }
+    },
+    {
+      "id": "mate_limona",
+      "name": "Mate Limona",
+      "brand_id": "five_o_clock",
+      "description": "Energetyczna i orzeźwiająca propozycja na bazie yerba mate. Udział trawy cytrynowej pozostawia przyjemny, świeży posmak w ustach. W odbiorze wyczuwalny aromat limonki. Obok cudownego smaku pozytywnie wpływa na nasze zdrowie. Świetnie gasi pragnienie. Dodatkowo wspaniale oczyszcza i pobudza organizm. Polecana w wersji Iced Tea.<br><br>Składniki: mate zielona (94%), trawa cytrynowa (5%), aromaty.",
+      "amount": 0.0,
+      "stars": 5.0,
+      "brewing": {
+        "temperature": 75,
+        "time": 0,
+        "reuses": "10",
+        "grams": "40:200"
+      }
+    }
+  ]
+}
+]
+}

@@ -23,6 +23,18 @@
     "id" : "kwietna",
     "name" : "Kwietna",
     "color" : "#2d5f1d"
+  }, {
+    "id" : "basilur",
+    "name" : "Basilur",
+    "color" : "#861e1e"
+  }, {
+    "id" : "caykur",
+    "name" : "Çaykur",
+    "color" : "#ec0928"
+  }, {
+    "id" : "lipton",
+    "name" : "Lipton",
+    "color" : "#c02418"
   } ],
   "shelves" : [ {
     "id" : "green_tea_flavored",
@@ -60,7 +72,7 @@
       "brand_id" : "five_o_clock",
       "description" : "Kompozycja zielonej chińskiej herbaty urozmaicona imbirem, kardamonem i goździkami. Listki mięty zielonej połączone z wyciągiem z mięty pieprzowej wzbogacają smak herbaty i nadają jej orzeźwiający ton. Wyśmienita w wersji schłodzonej z kostkami lodu.<br><br>Edycja limitowana Iced Tea & Coffee - 2019",
       "amount" : 74.0,
-      "stars" : 0.0,
+      "stars" : 4.0,
       "brewing" : {
         "temperature" : 90,
         "time" : 2,
@@ -73,38 +85,12 @@
       "brand_id" : "przyprawy_gdynia",
       "description" : "Edycja limitowana - 2019",
       "amount" : 35.0,
-      "stars" : 0.0,
+      "stars" : 4.0,
       "brewing" : {
         "temperature" : 75,
         "time" : 3,
         "reuses" : "2/1",
         "grams" : "3:250/9:600"
-      }
-    }, {
-      "id" : "gwiazdkowy_wieczor",
-      "name" : "Gwiazdkowy Wieczor",
-      "brand_id" : "czas_na_herbate",
-      "description" : "Zielona herbata Yunnan z dodatkiem owoców dzikiej róży, truskawki, jabłka, wiśni i żurawiny oraz róży, hibiskusa i uroczych, cukrowych płatków śniegu.<br><br>Składniki: herbata zielona Yunnan, skórka owocu dzikiej róży, cukrowe płatki śniegu (cukier, maka ryżowa, tłuszcz kakaowy, substancja zagęszczająca (tragakanta)), truskawka liofilizowana, żurawina liofilizowana, wiśnia liofilizowana, jabłko liofilizowane, hibiskus, róża pąki, aromat",
-      "amount" : 5.0,
-      "stars" : 0.0,
-      "brewing" : {
-        "temperature" : 80,
-        "time" : 2,
-        "reuses" : "2/1",
-        "grams" : "4:250/11:600"
-      }
-    }, {
-      "id" : "jablkowy_poncz",
-      "name" : "Jabłkowy poncz",
-      "brand_id" : "five_o_clock",
-      "description" : "Zielona chińska herbata Chun Mee o niezwykłym, kuszącym aromacie jabłkowego ponczu, zawierająca cząstki jabłek, strączki kardamonu i pączki goździków.<br><br>Edycja limitowana Hello Winter! - 2019",
-      "amount" : 15.0,
-      "stars" : 3.5,
-      "brewing" : {
-        "temperature" : 75,
-        "time" : 3,
-        "reuses" : "2/1",
-        "grams" : "4:250/11:600"
       }
     }, {
       "id" : "lato_w_prowansji",
@@ -163,7 +149,7 @@
       "name" : "Sarasvati",
       "brand_id" : "kwietna",
       "description" : "Herbata na wzór hinduski. Bazą jest sencha - zielona herbata. W niej kardamon, który rozgrzeje nas, jest też naturalnym antydepresantem; mango i kokos - sprawiają, że ta herbata ma nieco orientalną nutę; pączki róży, ananas i rumianek, który ukoi i wyciszy nas troszeczkę. Bardzo słoneczna, idealna na wiosnę.<br><br>Składniki: zielona herbata sencha, kardamon, mango, kokos, ananas, pączki róży, rumianek.",
-      "amount" : 47.0,
+      "amount" : 35.5,
       "stars" : 0.0,
       "brewing" : {
         "temperature" : 80,
@@ -197,6 +183,19 @@
         "reuses" : "3/1",
         "grams" : "3:250/9:600"
       }
+    }, {
+      "id" : "sencha_kaktusowa",
+      "name" : "Sencha kaktusowa",
+      "brand_id" : "tea_time",
+      "description" : "Japońska sencha z kaktusem, ananasem i mango.",
+      "amount" : 31.0,
+      "stars" : 4.5,
+      "brewing" : {
+        "temperature" : 75,
+        "time" : 2,
+        "reuses" : "3/1",
+        "grams" : "3:250/9:600"
+      }
     } ]
   }, {
     "id" : "green_tea",
@@ -208,7 +207,7 @@
       "brand_id" : "tea_time",
       "description" : "Chińska wersja słynnej specjalności z Japonii. To przyjemnie miękka, aromatyczna herbata o bardzo podobnym wyglądzie i smaku do japońskiego odpowiednika.",
       "amount" : 34.5,
-      "stars" : 0.0,
+      "stars" : 3.5,
       "brewing" : {
         "temperature" : 75,
         "time" : 2,
@@ -279,19 +278,6 @@
         "time" : 1,
         "reuses" : "4/1",
         "grams" : "2.5:250/8:600"
-      }
-    }, {
-      "id" : "sencha_kaktusowa",
-      "name" : "Sencha kaktusowa",
-      "brand_id" : "tea_time",
-      "description" : "Japońska sencha z kaktusem, ananasem i mango.",
-      "amount" : 31.0,
-      "stars" : 4.5,
-      "brewing" : {
-        "temperature" : 75,
-        "time" : 2,
-        "reuses" : "3/1",
-        "grams" : "3:250/9:600"
       }
     } ]
   }, {
@@ -389,6 +375,19 @@
         "reuses" : null,
         "grams" : "2.5:250/8:250"
       }
+    }, {
+      "id" : "rize_turist_cayi",
+      "name" : "Rize Turist Çayı",
+      "brand_id" : "caykur",
+      "description" : "Turecka herbata Rize Turist Çayı pochodzi z północno-wschodniej Turcji z tradycyjnych upraw przy porcie Rize. Te niezwykle aromatyczne liście herbaty pochodzące z samego czubka krzewu herbacianego, bez pączka, poddano rozdrobnieniu aby zwiększyć walory herbaty w czasie parzenia. Rize to faworyt wśród tureckich herbat, jest delikatna, słodkawa, można się nią delektować przez cały dzień. Napar jasny i miedziany daje świeży aromat. <br><br>Składniki: 100% czarna herbata liściasta",
+      "amount" : 149.0,
+      "stars" : 0.0,
+      "brewing" : {
+        "temperature" : 95,
+        "time" : 2,
+        "reuses" : null,
+        "grams" : "1:150"
+      }
     } ]
   }, {
     "id" : "red_tea",
@@ -443,7 +442,7 @@
       "name" : "China Yellow Sun",
       "brand_id" : "five_o_clock",
       "description" : "Jedna z najrzadziej produkowanych i spotykanych herbat. Piękne, puszyste i pełne liście mają nietuzinkowy kolor brązu, ciemnej zieleni i złota. Napar ma ciepły, brązowy kolor i pachnie jak świeże orzechy laskowe. Smak jest lekki i zwiewny, ale jednocześnie pozostawia cięższe odczucie na języku. W odczuciach dominują nuty orzecha ze szlachetnie dymnym akcentem. Można także doszukać się akcentów słodkich kwiatów i subtelnej, kremowej roślinności. Delikatna miodowość pozostawia po sobie przyjemne i długie posmaki.<br><br>Składniki: 100% żółta herbata liściasta",
-      "amount" : 88.0,
+      "amount" : 82.0,
       "stars" : 4.5,
       "brewing" : {
         "temperature" : 80,
@@ -457,6 +456,19 @@
     "name" : "Białe herbaty",
     "color" : "#c8fdb2",
     "tea_boxes" : [ {
+      "id" : "chinese_white_tea",
+      "name" : "Chinese White Tea",
+      "brand_id" : "basilur",
+      "description" : "Herbata biała to jedna z najdroższych i najmniej przetworzonych odmian herbat. Do produkcji herbaty białej używa się najmłodszych i najdelikatniejszych listków, zwłaszcza pąków zbieranych wiosną. Nazwa białej herbaty pochodzi od pokrytych białymi włoskami pączków listków herbacianych. Susz herbaciany wygląda jakby był biały. Napar, choć jasny i delikatny biały nie jest, ma kolor lekko słomkowo-żółty.<br><br>Skład: 100% chińska biała herbata",
+      "amount" : 89.0,
+      "stars" : 3.0,
+      "brewing" : {
+        "temperature" : 85,
+        "time" : 3,
+        "reuses" : "2/1",
+        "grams" : "4:250/11:600"
+      }
+    }, {
       "id" : "laponia",
       "name" : "Laponia",
       "brand_id" : "five_o_clock",
@@ -675,7 +687,7 @@
       "id" : "lazurowe_wybrzeze",
       "name" : "Lazurowe Wybrzeże",
       "brand_id" : "czas_na_herbate",
-      "description" : "Spędź urlop na Lazurowym Wybrzeżu. W wyjątkowy nastrój wprawi Cię herbata oolong z dodatkiem blue butterfly, cytryna pomoże odzyskać energię, a w imprezowy szał wciągną płatki różowego i niebieskiego bławatka.<br><br>Składniki: herbata Oolong, cytryna suszona, blue butterfly, bławatek, bławatek różowy, aromat",
+      "description" : "Spędź urlop na Lazurowym Wybrzeżu. W wyjątkowy nastrój wprawi Cię herbata oolong z dodatkiem blue butterfly, cytryna pomoże odzyskać energię, a w imprezowy szał wciągną płatki różowego i niebieskiego bławatka.<br><br>Składniki: herbata oolong, cytryna suszona, blue butterfly, bławatek, bławatek różowy, aromat",
       "amount" : 54.0,
       "stars" : 4.0,
       "brewing" : {
@@ -684,12 +696,51 @@
         "reuses" : null,
         "grams" : "5:250/14:600"
       }
+    }, {
+      "id" : "thailand_jing_shuan",
+      "name" : "Thailand Jing Shuan",
+      "brand_id" : "five_o_clock",
+      "description" : "Wysokiej klasy tajlandzka herbata poddawana krótkiemu procesowi utleniania, które nie przekracza 20%. Niezwyklej urody listki zostały uformowane na kształt regularnych perełek, które po zaparzeniu prezentują dwa listki i pączek.<br>Napar klarowny o słomkowej barwie z jasnym odcieniem bursztynu. W odczuciach smakowych dominuje kwiatowa nuta na wzór kwiatu storczyka. Dopełnieniem jest subtelny akcent słodkiej śmietanki i nawiązanie do zapachu cukru trzcinowego. Całkowity brak goryczki zachwyci amatorów subtelnych doznań.<br><br>Składniki: 100% herbata oolong",
+      "amount" : 47.0,
+      "stars" : 4.5,
+      "brewing" : {
+        "temperature" : 85,
+        "time" : 2,
+        "reuses" : "2/1",
+        "grams" : "4:250/11:600"
+      }
     } ]
   }, {
     "id" : "used_up",
     "name" : "Archiwum (zużyte)",
     "color" : "#b2d1eb",
     "tea_boxes" : [ {
+      "id" : "gwiazdkowy_wieczor",
+      "name" : "Gwiazdkowy Wieczor",
+      "brand_id" : "czas_na_herbate",
+      "description" : "Zielona herbata Yunnan z dodatkiem owoców dzikiej róży, truskawki, jabłka, wiśni i żurawiny oraz róży, hibiskusa i uroczych, cukrowych płatków śniegu.<br><br>Składniki: herbata zielona Yunnan, skórka owocu dzikiej róży, cukrowe płatki śniegu (cukier, maka ryżowa, tłuszcz kakaowy, substancja zagęszczająca (tragakanta)), truskawka liofilizowana, żurawina liofilizowana, wiśnia liofilizowana, jabłko liofilizowane, hibiskus, róża pąki, aromat",
+      "amount" : 0.0,
+      "stars" : 4.0,
+      "brewing" : {
+        "temperature" : 80,
+        "time" : 2,
+        "reuses" : "2/1",
+        "grams" : "4:250/11:600"
+      }
+    }, {
+      "id" : "jablkowy_poncz",
+      "name" : "Jabłkowy poncz",
+      "brand_id" : "five_o_clock",
+      "description" : "Zielona chińska herbata Chun Mee o niezwykłym, kuszącym aromacie jabłkowego ponczu, zawierająca cząstki jabłek, strączki kardamonu i pączki goździków.<br><br>Edycja limitowana Hello Winter! - 2019",
+      "amount" : 0.0,
+      "stars" : 3.5,
+      "brewing" : {
+        "temperature" : 75,
+        "time" : 3,
+        "reuses" : "2/1",
+        "grams" : "4:250/11:600"
+      }
+    }, {
       "id" : "japonska_wisnia",
       "name" : "Japońska wiśnia",
       "brand_id" : "five_o_clock",
@@ -727,6 +778,24 @@
         "time" : 0,
         "reuses" : "10",
         "grams" : "40:200"
+      }
+    } ]
+  }, {
+    "id" : "herbal_tea",
+    "name" : "Herbaty ziołowe",
+    "color" : "#386823",
+    "tea_boxes" : [ {
+      "id" : "lipton_detox",
+      "name" : "Detox",
+      "brand_id" : "lipton",
+      "description" : "Odzyskaj dobrą formę, dzięki smakowitej mieszance orzeźwiającej w smaku wiązówki błotnej, rześkiej mięty i aromatycznego rozmarynu. Wiązówka błotna i rozmaryn tradycyjnie uważane są za zioła wspomagające prawidłową gospodarkę wodną organizmu oraz proces oczyszczania. Rozkoszuj się smakiem naszej herbatki, która doskonale uzupełnienia urozmaiconą i zbilansowaną dietę oraz wspiera zdrowy tryb życia.<br><br>Składniki: wiązówka błotna (44%), aromat, mięta pieprzowa (10%), pokrzywa, rozmaryn (8%), trawa cytrynowa, anyż, czarna porzeczka.",
+      "amount" : 17.6,
+      "stars" : 4.5,
+      "brewing" : {
+        "temperature" : 100,
+        "time" : 5,
+        "reuses" : null,
+        "grams" : "1.6:200"
       }
     } ]
   } ]

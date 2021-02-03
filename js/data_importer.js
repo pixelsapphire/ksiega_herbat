@@ -14,21 +14,35 @@ var temporary_data = {};
         tea_list.innerHTML = "";
         (() => {
             for (const shelf_data of database.shelves) {
-
-                const category = constructElement("li", {},
-                    `<a>${shelf_data.name} <i class="icon ion-md-arrow-dropdown"></i></a>`);
-                (() => {
-                    const category_content = constructElement("ul", { class: "sub-menu" });
+                // Tea collection
+                if (shelf_data.id != "used_up") {
+                    const category = constructElement("li", {},
+                        `<a>${shelf_data.name} <i class="icon ion-md-arrow-dropdown"></i></a>`);
+                    (() => {
+                        const category_content = constructElement("ul", { class: "sub-menu" });
+                        (() => {
+                            for (const box_data of shelf_data.tea_boxes) {
+                                category_content.appendChild(constructElement("li", {},
+                                    `<a class="menu-closing" href="javascript:void(0)"
+                                onclick="selectTea('#${shelf_data.id}', this)">${box_data.name}</a>`));
+                            }
+                        })();
+                        category.appendChild(category_content);
+                    })();
+                    tea_list.appendChild(category);
+                }
+                // Archive
+                else {
+                    const used_up_list = selectElement("#used-up-list");
+                    used_up_list.innerHTML = "";
                     (() => {
                         for (const box_data of shelf_data.tea_boxes) {
-                            category_content.appendChild(constructElement("li", {},
+                            used_up_list.appendChild(constructElement("li", {},
                                 `<a class="menu-closing" href="javascript:void(0)"
-                                onclick="selectTea('#${shelf_data.id}', this)">${box_data.name}</a>`));
+                                onclick="selectTea('#used_up', this)">${box_data.name}</a>`));
                         }
                     })();
-                    category.appendChild(category_content);
-                })();
-                tea_list.appendChild(category);
+                }
             }
         })();
 
