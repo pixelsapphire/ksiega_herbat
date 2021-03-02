@@ -43,6 +43,14 @@
     "id" : "greeting_pine",
     "name" : "Greeting Pine",
     "color" : "#4a986c"
+  }, {
+    "id" : "zas_pol",
+    "name" : "ZAS",
+    "color" : "#0b7c0f"
+  }, {
+    "id" : "cbse",
+    "name" : "CBSé",
+    "color" : "#ed3833"
   } ],
   "shelves" : [ {
     "id" : "green_tea_flavored",
@@ -59,7 +67,7 @@
         "temperature" : 80,
         "time" : 3,
         "reuses" : "3/1",
-        "grams" : "3.5:250/10:600/15.5:1000"
+        "grams" : "3.5:250"
       }
     }, {
       "id" : "choinkowa_slodycz",
@@ -72,7 +80,7 @@
         "temperature" : 70,
         "time" : 3,
         "reuses" : "3/1",
-        "grams" : "3:250/9:600"
+        "grams" : "3:250"
       }
     }, {
       "id" : "cool_mint_chai",
@@ -85,7 +93,7 @@
         "temperature" : 90,
         "time" : 2,
         "reuses" : "3/1",
-        "grams" : "2.5:250/8:600"
+        "grams" : "2.5:250"
       }
     }, {
       "id" : "dragon_pineapple_chai",
@@ -98,20 +106,20 @@
         "temperature" : 75,
         "time" : 3,
         "reuses" : "2/1",
-        "grams" : "3:250/9:600"
+        "grams" : "3:250"
       }
     }, {
       "id" : "jasmine_tea",
       "name" : "Jasmine Tea",
       "brand_id" : "greeting_pine",
       "description" : "Zielona herbata jaśminowa znana jest na całym świecie od setek lat. Tuż przed wschodem słońca zbierane są nierozwinięte jeszcze kwiaty jaśminu, następnie mieszane z listkami herbaty. Herbata z dodatkiem ekstraktu z kwiatów jaśminu charakteryzuje się niesamowitym aromatem oraz wspaniałym smakiem.<br><br>Składniki: zielona herbata, kwity jaśminu (<2%)",
-      "amount" : 187.0,
+      "amount" : 173.5,
       "stars" : 5.0,
       "brewing" : {
         "temperature" : 90,
         "time" : 3,
         "reuses" : "2/1",
-        "grams" : "2.5:250/8:600"
+        "grams" : "2.5:250"
       }
     }, {
       "id" : "lato_w_prowansji",
@@ -124,7 +132,7 @@
         "temperature" : 70,
         "time" : 2,
         "reuses" : "3/1",
-        "grams" : "3.5:250/10:600"
+        "grams" : "3.5:250"
       }
     }, {
       "id" : "lemoniada_iced_tea",
@@ -137,7 +145,7 @@
         "temperature" : 70,
         "time" : 2,
         "reuses" : "2/1",
-        "grams" : "3.5:250/10:600"
+        "grams" : "3.5:250"
       }
     }, {
       "id" : "makalaja",
@@ -150,7 +158,7 @@
         "temperature" : 80,
         "time" : 3,
         "reuses" : "3/1",
-        "grams" : "3:250/9:600"
+        "grams" : "3:250"
       }
     }, {
       "id" : "merry_christmas",
@@ -163,7 +171,7 @@
         "temperature" : 80,
         "time" : 2,
         "reuses" : "2/1",
-        "grams" : "4:250/11:600"
+        "grams" : "4:250"
       }
     }, {
       "id" : "sarasvati",
@@ -176,7 +184,7 @@
         "temperature" : 80,
         "time" : 3,
         "reuses" : "3/1",
-        "grams" : "3:250/9:600"
+        "grams" : "3:250"
       }
     }, {
       "id" : "sencha_imbir_cytryna_ttz",
@@ -189,7 +197,7 @@
         "temperature" : 75,
         "time" : 2,
         "reuses" : "3/1",
-        "grams" : "3:250/9:600"
+        "grams" : "3:250"
       }
     }, {
       "id" : "sencha_imbir_cytryna_foc",
@@ -202,7 +210,7 @@
         "temperature" : 75,
         "time" : 2,
         "reuses" : "3/1",
-        "grams" : "3:250/9:600"
+        "grams" : "3:250"
       }
     }, {
       "id" : "sencha_kaktusowa",
@@ -215,7 +223,7 @@
         "temperature" : 75,
         "time" : 2,
         "reuses" : "3/1",
-        "grams" : "3:250/9:600"
+        "grams" : "3:250"
       }
     } ]
   }, {
@@ -233,7 +241,7 @@
         "temperature" : 75,
         "time" : 2,
         "reuses" : "3/1",
-        "grams" : "2.5:250/8:600"
+        "grams" : "2.5:250"
       }
     }, {
       "id" : "japan_gabalong",
@@ -246,14 +254,14 @@
         "temperature" : 80,
         "time" : 2,
         "reuses" : "2/1",
-        "grams" : "2.5:200/8:600"
+        "grams" : "2.5:200"
       }
     }, {
       "id" : "japan_gyokuro_hiki",
       "name" : "Japan Gyokuro Hiki",
       "brand_id" : "five_o_clock",
       "description" : "Najwykwintniejszy specjał herbaciany z Japonii, określany jako najlepsza herbata na świecie. Listki Gyokuro Hiki zachwycają wyglądem i pięknym zapachem. Zielono - nefrytowy odcień jest zasługą pieczołowitej produkcji. Jedwabistość naparu przy wysokiej aromatyczności sprawia prawdziwą rozkosz degustatorom specjałów herbacianych. W posmaku słodka z wyraźnie wyczuwalnym smakiem umami. Swoisty kanon i obowiązkowy punkt degustacyjny miłośników  herbat japońskich.",
-      "amount" : 20.0,
+      "amount" : 14.5,
       "stars" : 5.0,
       "brewing" : {
         "temperature" : 55,
@@ -266,13 +274,13 @@
       "name" : "Japan Sencha Fuji",
       "brand_id" : "five_o_clock",
       "description" : "Wysokiej klasy japońska zielona herbata typu sencha. Herbata pochodzi z plantacji położonych nieopodal miasta Fuji z prefektury Shizuoka. Po zaparzeniu unosi się woń słodkiego szpinaku, a napar zyskuje intensywnie seledynowy kolor. Odznacza się wyjątkową świeżością i subtelnym smakiem. Podczas degustacji wyczuwa się delikatne morskie akcenty i słód. Używając miękkiej wody wyraziście odczuwa się umami. Herbata polecana do codziennej degustacji.",
-      "amount" : 26.0,
+      "amount" : 59.5,
       "stars" : 4.5,
       "brewing" : {
         "temperature" : 75,
         "time" : 3,
         "reuses" : "3/1",
-        "grams" : "2.5:250/8:600"
+        "grams" : "2.5:250"
       }
     }, {
       "id" : "japan_sencha_uchiyama",
@@ -285,7 +293,7 @@
         "temperature" : 85,
         "time" : 3,
         "reuses" : "3/1",
-        "grams" : "2.5:250/8:600"
+        "grams" : "2.5:250"
       }
     }, {
       "id" : "korea_sejak",
@@ -298,7 +306,7 @@
         "temperature" : 70,
         "time" : 1,
         "reuses" : "4/1",
-        "grams" : "2.5:250/8:600"
+        "grams" : "2.5:250"
       }
     } ]
   }, {
@@ -316,7 +324,7 @@
         "temperature" : 95,
         "time" : 4,
         "reuses" : null,
-        "grams" : "2.5:250/8:600"
+        "grams" : "2.5:250"
       }
     }, {
       "id" : "ceylon_porzeczka_ze_sliwka",
@@ -329,7 +337,7 @@
         "temperature" : 95,
         "time" : 4,
         "reuses" : null,
-        "grams" : "2.5:250/8:600"
+        "grams" : "2.5:250"
       }
     }, {
       "id" : "czekolada_z_malinami",
@@ -342,7 +350,7 @@
         "temperature" : 95,
         "time" : 4,
         "reuses" : null,
-        "grams" : "2.5:250/8:600"
+        "grams" : "2.5:250"
       }
     }, {
       "id" : "golden_yunnan_five_o_clock",
@@ -355,7 +363,7 @@
         "temperature" : 95,
         "time" : 4,
         "reuses" : null,
-        "grams" : "2.5:250/8:600"
+        "grams" : "2.5:250"
       }
     }, {
       "id" : "grudniowa_noc",
@@ -368,7 +376,7 @@
         "temperature" : 95,
         "time" : 4,
         "reuses" : null,
-        "grams" : "3:250/9:600"
+        "grams" : "3:250"
       }
     }, {
       "id" : "havana",
@@ -381,7 +389,7 @@
         "temperature" : 95,
         "time" : 4,
         "reuses" : null,
-        "grams" : "3:250/9:600"
+        "grams" : "3:250"
       }
     }, {
       "id" : "korea_black_tea_plus",
@@ -394,20 +402,46 @@
         "temperature" : 95,
         "time" : 4,
         "reuses" : null,
-        "grams" : "2.5:250/8:250"
+        "grams" : "2.5:250"
       }
     }, {
       "id" : "rize_turist_cayi",
       "name" : "Rize Turist Çayı",
       "brand_id" : "caykur",
       "description" : "Turecka herbata Rize Turist Çayı pochodzi z północno-wschodniej Turcji z tradycyjnych upraw przy porcie Rize. Te niezwykle aromatyczne liście herbaty pochodzące z samego czubka krzewu herbacianego, bez pączka, poddano rozdrobnieniu aby zwiększyć walory herbaty w czasie parzenia. Rize to faworyt wśród tureckich herbat, jest delikatna, słodkawa, można się nią delektować przez cały dzień. Napar jasny i miedziany daje świeży aromat. <br><br>Składniki: 100% czarna herbata liściasta",
-      "amount" : 149.0,
+      "amount" : 687.0,
       "stars" : 0.0,
       "brewing" : {
         "temperature" : 95,
         "time" : 2,
         "reuses" : null,
         "grams" : "1:150"
+      }
+    }, {
+      "id" : "spice_and_roses",
+      "name" : "Spice and Roses",
+      "brand_id" : "czas_na_herbate",
+      "description" : "Składniki: Herbata czarna Yunnan FOP, skórka owocu dzikiej róży, płatki i pąki róży, pieprz czerwony, naturalny aromat",
+      "amount" : 5.0,
+      "stars" : 0.0,
+      "brewing" : {
+        "temperature" : 95,
+        "time" : 3,
+        "reuses" : null,
+        "grams" : "2.5:250"
+      }
+    }, {
+      "id" : "yunnan_herbata_czarna",
+      "name" : "Yunnan Herbata Czarna",
+      "brand_id" : "zas_pol",
+      "description" : "Yunnan - tradycyjna chińska herbata liściasta pochodząca z najlepszych plantacji w regionie Yunnan. Odpowiedni klimat i warunki geograficzne górzystych regionów południowej części Chin zapewniają otrzymanie herbaty o mocnym, intensywnym naparze, garbnikowym smaku i charakterystycznym dla herbat Yunnan aromacie.<br><br>Składniki: 100% czarna herbata liściasta",
+      "amount" : 110.0,
+      "stars" : 0.0,
+      "brewing" : {
+        "temperature" : 95,
+        "time" : 4,
+        "reuses" : null,
+        "grams" : "2.5:250"
       }
     } ]
   }, {
@@ -425,7 +459,7 @@
         "temperature" : 95,
         "time" : 6,
         "reuses" : "2/1",
-        "grams" : "2.5:250/8:600"
+        "grams" : "2.5:250"
       }
     }, {
       "id" : "pu_erh_rum_cytryna",
@@ -438,7 +472,7 @@
         "temperature" : 95,
         "time" : 5,
         "reuses" : "2/1",
-        "grams" : "2.5:250/8:600"
+        "grams" : "2.5:250"
       }
     }, {
       "id" : "pu_erh_zurawina_pomarancza",
@@ -451,7 +485,7 @@
         "temperature" : 95,
         "time" : 6,
         "reuses" : "2/1",
-        "grams" : "3:250/9:600"
+        "grams" : "3:250"
       }
     } ]
   }, {
@@ -463,13 +497,13 @@
       "name" : "China Yellow Sun",
       "brand_id" : "five_o_clock",
       "description" : "Jedna z najrzadziej produkowanych i spotykanych herbat. Piękne, puszyste i pełne liście mają nietuzinkowy kolor brązu, ciemnej zieleni i złota. Napar ma ciepły, brązowy kolor i pachnie jak świeże orzechy laskowe. Smak jest lekki i zwiewny, ale jednocześnie pozostawia cięższe odczucie na języku. W odczuciach dominują nuty orzecha ze szlachetnie dymnym akcentem. Można także doszukać się akcentów słodkich kwiatów i subtelnej, kremowej roślinności. Delikatna miodowość pozostawia po sobie przyjemne i długie posmaki.<br><br>Składniki: 100% żółta herbata liściasta",
-      "amount" : 82.0,
+      "amount" : 79.0,
       "stars" : 4.5,
       "brewing" : {
         "temperature" : 80,
         "time" : 2,
         "reuses" : "2/1",
-        "grams" : "3:250/9:600"
+        "grams" : "3:250"
       }
     } ]
   }, {
@@ -487,7 +521,7 @@
         "temperature" : 85,
         "time" : 3,
         "reuses" : "2/1",
-        "grams" : "4:250/11:600"
+        "grams" : "3:250"
       }
     }, {
       "id" : "laponia",
@@ -500,7 +534,7 @@
         "temperature" : 85,
         "time" : 3,
         "reuses" : "2/1",
-        "grams" : "4.5:200/12:600"
+        "grams" : "4.5:200"
       }
     }, {
       "id" : "lesna_harmonia",
@@ -513,20 +547,20 @@
         "temperature" : 85,
         "time" : 3,
         "reuses" : "2/1",
-        "grams" : "4.5:250/12:600"
+        "grams" : "4:250"
       }
     }, {
       "id" : "pai_mu_tan_malinowy",
       "name" : "Pai Mu Tan Malinowy",
       "brand_id" : "five_o_clock",
       "description" : "Tajemnicza i zmysłowa. Wyjątkowe połączenie aromatów róży i malin. Biała herbata Pai Mu Tan charakteryzuje się subtelnością i jedwabistością w posmaku. Pięknie udekorowana czerwonymi płatkami róży i liśćmi jeżyn. Degustacja tej herbaty sprawi wiele przyjemności.<br><br>Składniki: herbata biała liściasta, liście jeżyn, maliny, płatki czerwonej róży, aromaty.",
-      "amount" : 47.5,
+      "amount" : 27.5,
       "stars" : 4.0,
       "brewing" : {
         "temperature" : 85,
         "time" : 3,
         "reuses" : "2/1",
-        "grams" : "4.5:250/12:600"
+        "grams" : "4:250"
       }
     } ]
   }, {
@@ -534,6 +568,19 @@
     "name" : "Yerba mate",
     "color" : "#849d48",
     "tea_boxes" : [ {
+      "id" : "frutos_del_valle",
+      "name" : "Frutos del Valle",
+      "brand_id" : "cbse",
+      "description" : "",
+      "amount" : 500.0,
+      "stars" : 0.0,
+      "brewing" : {
+        "temperature" : 70,
+        "time" : 0,
+        "reuses" : "10",
+        "grams" : "40:200"
+      }
+    }, {
       "id" : "mate_cascara",
       "name" : "Mate Cascara",
       "brand_id" : "czas_na_herbate",
@@ -565,7 +612,7 @@
       "brand_id" : "czas_na_herbate",
       "description" : "Składniki: yerba mate 75%, mięta 15%, eukaliptus",
       "amount" : 130.0,
-      "stars" : 0.0,
+      "stars" : 5.0,
       "brewing" : {
         "temperature" : 80,
         "time" : 0,
@@ -611,6 +658,76 @@
         "reuses" : "10",
         "grams" : "40:200"
       }
+    }, {
+      "id" : "taragui_maracuya",
+      "name" : "Taragüi Maracuya",
+      "brand_id" : "mate_poznan",
+      "description" : "Delikatna argentyńska yerba o złagodzonej goryczce. Łagodny smak i aromat zdecydowanie występują w naturalnych odmianach klasyki. Polecana szczególnie wszystkim początkującym mateistom. Sprawdzona jako doskonały poczęstunek dla zainteresowanych niezwykłymi właściwościami yerba mate. Ciekawym dodatkiem jest świetnie wkomponowana nuta marakui. Delikatny smak yerba mate pozostaje na długo, przyjemnie pobudzająca.<br><br>Składniki: 100% yerba mate (listki, patyczki, pył).",
+      "amount" : 410.0,
+      "stars" : 4.5,
+      "brewing" : {
+        "temperature" : 75,
+        "time" : 0,
+        "reuses" : "10",
+        "grams" : "40:200"
+      }
+    } ]
+  }, {
+    "id" : "oolong",
+    "name" : "Oolong",
+    "color" : "#173b33",
+    "tea_boxes" : [ {
+      "id" : "kangra_valley_dharmsala",
+      "name" : "Kangra Valley Dharmsala",
+      "brand_id" : "five_o_clock",
+      "description" : "Znakomity, czarny oolong z Indii o wyjątkowo dużych liściach i nieregularnym zasuszeniu. Ogród, z którego pochodzi, położony jest w regionie Kangra Valley, w zachodniej części Himalajów, tuż przy Palampur, zwanym „herbacianą stolicą regionu”. Ze względu na doskonałe warunki klimatyczne, herbaty z tego miejsca cenione są na całym świecie. Herbatę wyróżnia piękna barwa i subtelny smak. Jego duże liście mienią się dwoma kolorami, zielonym i czarnym, a po zaparzeniu stają się ciemnooliwkowe. Miodowy kolor naparu jest subtelny i jedwabisty w odczuciach. W smaku dominuje nuta słodkiej moreli.",
+      "amount" : 59.0,
+      "stars" : 4.0,
+      "brewing" : {
+        "temperature" : 85,
+        "time" : 2,
+        "reuses" : "2/1",
+        "grams" : "4:250"
+      }
+    }, {
+      "id" : "ksiezycowa_rapsodia",
+      "name" : "Księżycowa Rapsodia",
+      "brand_id" : "five_o_clock",
+      "description" : "Energetyzująca i tajemnicza, Księżycowa Rapsodia to połączenie herbaty typu oolong z rześkim melonem. Pełne uroku cukrowe półksiężyce rozpuszczają się podczas parzenia i nadają kompozycji lekkiej słodyczy, dzięki zawartemu w nim maśle kakaowym. Liście ukształtowane w zgrabne kuleczki, rozwijają się podczas parzenia i dają napar o lekko słodkim i kwiatowym akcencie. Pomimo swojej nazwy, herbata świetnie sprawdzi się w pierwszej połowie dnia - zawarte w niej związki pobudzą i dodadzą sił witalnych.",
+      "amount" : 50.0,
+      "stars" : 0.0,
+      "brewing" : {
+        "temperature" : 85,
+        "time" : 3,
+        "reuses" : "2/1",
+        "grams" : "4:250"
+      }
+    }, {
+      "id" : "lazurowe_wybrzeze",
+      "name" : "Lazurowe Wybrzeże",
+      "brand_id" : "czas_na_herbate",
+      "description" : "Spędź urlop na Lazurowym Wybrzeżu. W wyjątkowy nastrój wprawi Cię herbata oolong z dodatkiem blue butterfly, cytryna pomoże odzyskać energię, a w imprezowy szał wciągną płatki różowego i niebieskiego bławatka.<br><br>Składniki: herbata oolong, cytryna suszona, blue butterfly, bławatek, bławatek różowy, aromat",
+      "amount" : 54.0,
+      "stars" : 4.0,
+      "brewing" : {
+        "temperature" : 95,
+        "time" : 3,
+        "reuses" : null,
+        "grams" : "5:250"
+      }
+    }, {
+      "id" : "thailand_jing_shuan",
+      "name" : "Thailand Jing Shuan",
+      "brand_id" : "five_o_clock",
+      "description" : "Wysokiej klasy tajlandzka herbata poddawana krótkiemu procesowi utleniania, które nie przekracza 20%. Niezwyklej urody listki zostały uformowane na kształt regularnych perełek, które po zaparzeniu prezentują dwa listki i pączek.<br>Napar klarowny o słomkowej barwie z jasnym odcieniem bursztynu. W odczuciach smakowych dominuje kwiatowa nuta na wzór kwiatu storczyka. Dopełnieniem jest subtelny akcent słodkiej śmietanki i nawiązanie do zapachu cukru trzcinowego. Całkowity brak goryczki zachwyci amatorów subtelnych doznań.<br><br>Składniki: 100% herbata oolong",
+      "amount" : 43.0,
+      "stars" : 4.5,
+      "brewing" : {
+        "temperature" : 85,
+        "time" : 2,
+        "reuses" : "2/1",
+        "grams" : "4:250"
+      }
     } ]
   }, {
     "id" : "fruit_mixes",
@@ -627,7 +744,7 @@
         "temperature" : 95,
         "time" : 7,
         "reuses" : null,
-        "grams" : "4:250/11:600"
+        "grams" : "4:250"
       }
     }, {
       "id" : "rozowa_lemoniada",
@@ -640,7 +757,7 @@
         "temperature" : 95,
         "time" : 6,
         "reuses" : null,
-        "grams" : "4:250/11:600"
+        "grams" : "4:250"
       }
     }, {
       "id" : "spokoj",
@@ -653,7 +770,7 @@
         "temperature" : 95,
         "time" : 6,
         "reuses" : null,
-        "grams" : "4:250/11:600"
+        "grams" : "4:250"
       }
     }, {
       "id" : "sycyliana",
@@ -666,25 +783,7 @@
         "temperature" : 95,
         "time" : 7,
         "reuses" : null,
-        "grams" : "6.5:250/18:600"
-      }
-    } ]
-  }, {
-    "id" : "herbal_tea",
-    "name" : "Herbaty ziołowe",
-    "color" : "#386823",
-    "tea_boxes" : [ {
-      "id" : "lipton_detox",
-      "name" : "Detox",
-      "brand_id" : "lipton",
-      "description" : "Odzyskaj dobrą formę, dzięki smakowitej mieszance orzeźwiającej w smaku wiązówki błotnej, rześkiej mięty i aromatycznego rozmarynu. Wiązówka błotna i rozmaryn tradycyjnie uważane są za zioła wspomagające prawidłową gospodarkę wodną organizmu oraz proces oczyszczania. Rozkoszuj się smakiem naszej herbatki, która doskonale uzupełnienia urozmaiconą i zbilansowaną dietę oraz wspiera zdrowy tryb życia.<br><br>Składniki: wiązówka błotna (44%), aromat, mięta pieprzowa (10%), pokrzywa, rozmaryn (8%), trawa cytrynowa, anyż, czarna porzeczka.",
-      "amount" : 17.6,
-      "stars" : 4.5,
-      "brewing" : {
-        "temperature" : 100,
-        "time" : 5,
-        "reuses" : null,
-        "grams" : "1.6:200"
+        "grams" : "6.5:250"
       }
     } ]
   }, {
@@ -732,47 +831,21 @@
       }
     } ]
   }, {
-    "id" : "oolong",
-    "name" : "Oolong",
-    "color" : "#173b33",
+    "id" : "herbal_tea",
+    "name" : "Herbaty ziołowe",
+    "color" : "#386823",
     "tea_boxes" : [ {
-      "id" : "ksiezycowa_rapsodia",
-      "name" : "Księżycowa Rapsodia",
-      "brand_id" : "five_o_clock",
-      "description" : "Energetyzująca i tajemnicza, Księżycowa Rapsodia to połączenie herbaty typu oolong z rześkim melonem. Pełne uroku cukrowe półksiężyce rozpuszczają się podczas parzenia i nadają kompozycji lekkiej słodyczy, dzięki zawartemu w nim maśle kakaowym. Liście ukształtowane w zgrabne kuleczki, rozwijają się podczas parzenia i dają napar o lekko słodkim i kwiatowym akcencie. Pomimo swojej nazwy, herbata świetnie sprawdzi się w pierwszej połowie dnia - zawarte w niej związki pobudzą i dodadzą sił witalnych.",
-      "amount" : 50.0,
-      "stars" : 0.0,
-      "brewing" : {
-        "temperature" : 85,
-        "time" : 3,
-        "reuses" : "2/1",
-        "grams" : "4:250/11:600"
-      }
-    }, {
-      "id" : "lazurowe_wybrzeze",
-      "name" : "Lazurowe Wybrzeże",
-      "brand_id" : "czas_na_herbate",
-      "description" : "Spędź urlop na Lazurowym Wybrzeżu. W wyjątkowy nastrój wprawi Cię herbata oolong z dodatkiem blue butterfly, cytryna pomoże odzyskać energię, a w imprezowy szał wciągną płatki różowego i niebieskiego bławatka.<br><br>Składniki: herbata oolong, cytryna suszona, blue butterfly, bławatek, bławatek różowy, aromat",
-      "amount" : 54.0,
-      "stars" : 4.0,
-      "brewing" : {
-        "temperature" : 95,
-        "time" : 3,
-        "reuses" : null,
-        "grams" : "5:250/14:600"
-      }
-    }, {
-      "id" : "thailand_jing_shuan",
-      "name" : "Thailand Jing Shuan",
-      "brand_id" : "five_o_clock",
-      "description" : "Wysokiej klasy tajlandzka herbata poddawana krótkiemu procesowi utleniania, które nie przekracza 20%. Niezwyklej urody listki zostały uformowane na kształt regularnych perełek, które po zaparzeniu prezentują dwa listki i pączek.<br>Napar klarowny o słomkowej barwie z jasnym odcieniem bursztynu. W odczuciach smakowych dominuje kwiatowa nuta na wzór kwiatu storczyka. Dopełnieniem jest subtelny akcent słodkiej śmietanki i nawiązanie do zapachu cukru trzcinowego. Całkowity brak goryczki zachwyci amatorów subtelnych doznań.<br><br>Składniki: 100% herbata oolong",
-      "amount" : 43.0,
+      "id" : "lipton_detox",
+      "name" : "Detox",
+      "brand_id" : "lipton",
+      "description" : "Odzyskaj dobrą formę, dzięki smakowitej mieszance orzeźwiającej w smaku wiązówki błotnej, rześkiej mięty i aromatycznego rozmarynu. Wiązówka błotna i rozmaryn tradycyjnie uważane są za zioła wspomagające prawidłową gospodarkę wodną organizmu oraz proces oczyszczania. Rozkoszuj się smakiem naszej herbatki, która doskonale uzupełnienia urozmaiconą i zbilansowaną dietę oraz wspiera zdrowy tryb życia.<br><br>Składniki: wiązówka błotna (44%), aromat, mięta pieprzowa (10%), pokrzywa, rozmaryn (8%), trawa cytrynowa, anyż, czarna porzeczka.",
+      "amount" : 14.4,
       "stars" : 4.5,
       "brewing" : {
-        "temperature" : 85,
-        "time" : 2,
-        "reuses" : "2/1",
-        "grams" : "4:250/11:600"
+        "temperature" : 100,
+        "time" : 5,
+        "reuses" : null,
+        "grams" : "1.6:200"
       }
     } ]
   }, {
@@ -790,7 +863,7 @@
         "temperature" : 80,
         "time" : 2,
         "reuses" : "2/1",
-        "grams" : "4:250/11:600"
+        "grams" : "4:250"
       }
     }, {
       "id" : "jablkowy_poncz",
@@ -803,7 +876,7 @@
         "temperature" : 75,
         "time" : 3,
         "reuses" : "2/1",
-        "grams" : "4:250/11:600"
+        "grams" : "4:250"
       }
     }, {
       "id" : "japonska_wisnia",
@@ -816,7 +889,7 @@
         "temperature" : 75,
         "time" : 3,
         "reuses" : "3/1",
-        "grams" : "3.5:250/10:600"
+        "grams" : "3.5:250"
       }
     }, {
       "id" : "mate_iq",
