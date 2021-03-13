@@ -109,6 +109,19 @@
         "grams" : "3:250"
       }
     }, {
+      "id" : "japonska_wisnia",
+      "name" : "Japońska wiśnia",
+      "brand_id" : "five_o_clock",
+      "description" : "Zielona herbata wzbogacona cząstkami wiśni, hibiskusem i skórką pomarańczy. Owocową nutę urozmaicają cząstki kandyzowanego ananasa i akcent słodkiego marcepana. Pączki róży dopełniają całość, nadając delikatnej kwiatowej nuty. Uwodzi oryginalnym zapachem, którzy towarzyszy wiośnie w Kraju Kwitnącej Wiśni i nie tylko.<br><br>Składniki: zielona herbata liściasta (39%), hibiskus, cząstki wiśni (8%), płatki i pąki róży, kandyzowane kawałki ananasa, skórka pomarańczy, aromaty.",
+      "amount" : 96.0,
+      "stars" : 0.0,
+      "brewing" : {
+        "temperature" : 75,
+        "time" : 3,
+        "reuses" : "3/1",
+        "grams" : "3.5:250"
+      }
+    }, {
       "id" : "jasmine_tea",
       "name" : "Jasmine Tea",
       "brand_id" : "greeting_pine",
@@ -261,12 +274,12 @@
       "name" : "Japan Gyokuro Hiki",
       "brand_id" : "five_o_clock",
       "description" : "Najwykwintniejszy specjał herbaciany z Japonii, określany jako najlepsza herbata na świecie. Listki Gyokuro Hiki zachwycają wyglądem i pięknym zapachem. Zielono - nefrytowy odcień jest zasługą pieczołowitej produkcji. Jedwabistość naparu przy wysokiej aromatyczności sprawia prawdziwą rozkosz degustatorom specjałów herbacianych. W posmaku słodka z wyraźnie wyczuwalnym smakiem umami. Swoisty kanon i obowiązkowy punkt degustacyjny miłośników  herbat japońskich.",
-      "amount" : 14.5,
+      "amount" : 12.0,
       "stars" : 5.0,
       "brewing" : {
-        "temperature" : 55,
-        "time" : 2,
-        "reuses" : "4/1",
+        "temperature" : 65,
+        "time" : 3,
+        "reuses" : "2/1",
         "grams" : "2.5:250"
       }
     }, {
@@ -275,7 +288,7 @@
       "brand_id" : "five_o_clock",
       "description" : "Wysokiej klasy japońska zielona herbata typu sencha. Herbata pochodzi z plantacji położonych nieopodal miasta Fuji z prefektury Shizuoka. Po zaparzeniu unosi się woń słodkiego szpinaku, a napar zyskuje intensywnie seledynowy kolor. Odznacza się wyjątkową świeżością i subtelnym smakiem. Podczas degustacji wyczuwa się delikatne morskie akcenty i słód. Używając miękkiej wody wyraziście odczuwa się umami. Herbata polecana do codziennej degustacji.",
       "amount" : 59.5,
-      "stars" : 4.5,
+      "stars" : 5.0,
       "brewing" : {
         "temperature" : 75,
         "time" : 3,
@@ -405,6 +418,19 @@
         "grams" : "2.5:250"
       }
     }, {
+      "id" : "nepal_hor_jun_chiyabari",
+      "name" : "Nepal Hor Jun Chiyabari",
+      "brand_id" : "five_o_clock",
+      "description" : "Nepal słynie z najwyżej na świecie usytuowanych upraw herbaty. Plantacja Jun Chiyabari położona jest w dystrykcie Dhankuta na wschodzie kraju. Srebrzyste i zielone listki tej czarnej herbaty prezentują się niezwykle okazale, a ich zapach jest bardzo subtelnie kwiatowy i wzmacnia się po zaparzeniu. Napar w kolorze jasnego bursztynu ze złotymi refleksami, jest klarowny. Smak jest bardzo delikatny łączący w sobie lekkość świeżego orzecha i zielonych migdałów. Subtelna wytrawność jest dopełnieniem i domknięciem posmaków. Można dodać do niej o drobinę słodkiego dodatku cukru lub miodu.",
+      "amount" : 36.5,
+      "stars" : 0.0,
+      "brewing" : {
+        "temperature" : 95,
+        "time" : 3,
+        "reuses" : null,
+        "grams" : "2.5:250"
+      }
+    }, {
       "id" : "rize_turist_cayi",
       "name" : "Rize Turist Çayı",
       "brand_id" : "caykur",
@@ -418,10 +444,10 @@
         "grams" : "1:150"
       }
     }, {
-      "id" : "spice_and_roses",
-      "name" : "Spice and Roses",
+      "id" : "space_and_roses",
+      "name" : "Space and Roses",
       "brand_id" : "czas_na_herbate",
-      "description" : "Składniki: Herbata czarna Yunnan FOP, skórka owocu dzikiej róży, płatki i pąki róży, pieprz czerwony, naturalny aromat",
+      "description" : "Czarna herbata Yunnan z dodatkiem skórki owocu dzikiej róży, płatków i pączków róży oraz rozgrzewających imbiru i ziaren czerwonego pieprzu, całość otulona jest gładkim, naturalnym aromatem śmietanki i czekolady.<br><br>Składniki: Herbata czarna Yunnan FOP, skórka owocu dzikiej róży, płatki i pąki róży, pieprz czerwony, naturalny aromat",
       "amount" : 5.0,
       "stars" : 0.0,
       "brewing" : {
@@ -497,7 +523,7 @@
       "name" : "China Yellow Sun",
       "brand_id" : "five_o_clock",
       "description" : "Jedna z najrzadziej produkowanych i spotykanych herbat. Piękne, puszyste i pełne liście mają nietuzinkowy kolor brązu, ciemnej zieleni i złota. Napar ma ciepły, brązowy kolor i pachnie jak świeże orzechy laskowe. Smak jest lekki i zwiewny, ale jednocześnie pozostawia cięższe odczucie na języku. W odczuciach dominują nuty orzecha ze szlachetnie dymnym akcentem. Można także doszukać się akcentów słodkich kwiatów i subtelnej, kremowej roślinności. Delikatna miodowość pozostawia po sobie przyjemne i długie posmaki.<br><br>Składniki: 100% żółta herbata liściasta",
-      "amount" : 79.0,
+      "amount" : 53.0,
       "stars" : 4.5,
       "brewing" : {
         "temperature" : 80,
@@ -571,9 +597,9 @@
       "id" : "frutos_del_valle",
       "name" : "Frutos del Valle",
       "brand_id" : "cbse",
-      "description" : "",
-      "amount" : 500.0,
-      "stars" : 0.0,
+      "description" : "Ciekawe połączenie smaku i aromatu, wersja owocowej yerby z dodatkiem gruszki oraz jabłka. Prosto z plantacji w Argentynie. Doskonała propozycja dla miłośników owocowych smaków. W sam raz do tereré. W letnie dni warto się skusić na zalanie zimnym sokiem owocowym (np. jabłkowym dla intensywności jabłkowych doznań). Słodki, owocowy aromat dominuje nad dymnymi właściwościami yerba mate. Niewielkie doznania goryczki doskonale uzupełniają owocowe cechy naparu.<br><br>Składniki:<br>yerba mate (drobne listki, patyczki i pyłu), aromat jabłkowy, aromat gruszkowy.",
+      "amount" : 460.0,
+      "stars" : 4.5,
       "brewing" : {
         "temperature" : 70,
         "time" : 0,
@@ -611,7 +637,7 @@
       "name" : "Mate Mint",
       "brand_id" : "czas_na_herbate",
       "description" : "Składniki: yerba mate 75%, mięta 15%, eukaliptus",
-      "amount" : 130.0,
+      "amount" : 120.0,
       "stars" : 5.0,
       "brewing" : {
         "temperature" : 80,
@@ -877,19 +903,6 @@
         "time" : 3,
         "reuses" : "2/1",
         "grams" : "4:250"
-      }
-    }, {
-      "id" : "japonska_wisnia",
-      "name" : "Japońska wiśnia",
-      "brand_id" : "five_o_clock",
-      "description" : "Zielona herbata wzbogacona cząstkami wiśni, hibiskusem i skórką pomarańczy. Owocową nutę urozmaicają cząstki kandyzowanego ananasa i akcent słodkiego marcepana. Pączki róży dopełniają całość, nadając delikatnej kwiatowej nuty. Uwodzi oryginalnym zapachem, którzy towarzyszy wiośnie w Kraju Kwitnącej Wiśni i nie tylko.<br><br>Składniki: zielona herbata liściasta (39%), hibiskus, cząstki wiśni (8%), płatki i pąki róży, kandyzowane kawałki ananasa, skórka pomarańczy, aromaty.",
-      "amount" : 0.0,
-      "stars" : 0.0,
-      "brewing" : {
-        "temperature" : 75,
-        "time" : 3,
-        "reuses" : "3/1",
-        "grams" : "3.5:250"
       }
     }, {
       "id" : "mate_iq",

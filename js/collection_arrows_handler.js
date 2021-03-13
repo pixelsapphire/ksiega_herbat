@@ -10,6 +10,7 @@ collectionArrowsHandlerTask = () => {
             left_arrow = shelf.parentElement.querySelector(".left-arrow"),
             right_arrow = shelf.parentElement.querySelector(".right-arrow");
         const set_arrows_visibility = () => {
+            console.log("scroll pos: " + $(shelf).scrollLeft() + "\nright edge: " + (shelf.scrollWidth - vw(100)));
             if ($(shelf).scrollLeft() == 0) {
                 left_arrow.style.visibility = "hidden";
                 left_arrow.style.opacity = "0";
@@ -18,7 +19,7 @@ collectionArrowsHandlerTask = () => {
                 left_arrow.style.opacity = "1";
                 wrapper.style.display = "block";
             }
-            if ($(shelf).scrollLeft() == shelf.scrollWidth - vw(100)) {
+            if ($(shelf).scrollLeft() >= shelf.scrollWidth - vw(100) - 1) {
                 right_arrow.style.visibility = "hidden";
                 right_arrow.style.opacity = "0";
             } else {
