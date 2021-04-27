@@ -113,7 +113,7 @@
       "name" : "Japońska wiśnia",
       "brand_id" : "five_o_clock",
       "description" : "Zielona herbata wzbogacona cząstkami wiśni, hibiskusem i skórką pomarańczy. Owocową nutę urozmaicają cząstki kandyzowanego ananasa i akcent słodkiego marcepana. Pączki róży dopełniają całość, nadając delikatnej kwiatowej nuty. Uwodzi oryginalnym zapachem, którzy towarzyszy wiośnie w Kraju Kwitnącej Wiśni i nie tylko.<br><br>Składniki: zielona herbata liściasta (39%), hibiskus, cząstki wiśni (8%), płatki i pąki róży, kandyzowane kawałki ananasa, skórka pomarańczy, aromaty.",
-      "amount" : 96.0,
+      "amount" : 93.5,
       "stars" : 0.0,
       "brewing" : {
         "temperature" : 75,
@@ -185,6 +185,19 @@
         "time" : 2,
         "reuses" : "2/1",
         "grams" : "4:250"
+      }
+    }, {
+      "id" : "sakurajima",
+      "name" : "Sakurajima",
+      "brand_id" : "five_o_clock",
+      "description" : "Wulkan smaku! Połączenie zielonej herbaty z kawałkami mandarynki i cząstkami kokosa. Całość osładza nuta wanilii. Duet orzeźwienia i słodyczy. Egzotyczne połączenie, które idealnie sprawdzi się w upalne dni, również jako cold brew.<br><br>Składniki: zielona herbata, kawałki kokosa, skórka mandarynki, aromat mandarynowy, aromat waniliowy, kokos aromat, kawałki wanilii",
+      "amount" : 44.0,
+      "stars" : 4.5,
+      "brewing" : {
+        "temperature" : 2,
+        "time" : 75,
+        "reuses" : "2/1",
+        "grams" : "2.5:250"
       }
     }, {
       "id" : "sarasvati",
@@ -313,8 +326,8 @@
       "name" : "Korea Sejak",
       "brand_id" : "five_o_clock",
       "description" : "Wspaniała zielona koreańska herbata zbierana na przełomie kwietnia i maja. Wyjątkowa pod względem produkcji: listki na kilka sekund zanurzane są w gotującej się wodzie, po czym suszone i opiekane na wokach. W zależności od czasu parzenia (30 sekund - 3 minuty), otrzymujemy całą gamę smaków. Kolor naparu jest jasny, seledynowy. Smak bardzo gładki i aksamitny. W tle dobrze wyczuwalna delikatna algowość i kremowo roślinne posmaki, a także lekka orzechowość i odrobiona słodowości. W drugim parzeniu pojawia się krótka goryczka i dużo bardziej wyrazisty, warzywny pomsak.",
-      "amount" : 76.0,
-      "stars" : 0.0,
+      "amount" : 68.5,
+      "stars" : 4.5,
       "brewing" : {
         "temperature" : 70,
         "time" : 1,
@@ -429,6 +442,19 @@
         "time" : 3,
         "reuses" : null,
         "grams" : "2.5:250"
+      }
+    }, {
+      "id" : "nepal_ruby_kanchanjungha",
+      "name" : "Nepal Ruby Kanchanjungha",
+      "brand_id" : "five_o_clock",
+      "description" : "Herbata produkowana przez nepalski ogród herbaciany leżący u podnóża trzeciej najwyższej góry świata. Napar ciepły i miękki w odczuciu, bez goryczki. Bardzo przyjemnie można wyczuć nuty palonego karmelu, skórki pieczonego chleba oraz orzecha. Pozostawia przyjemny i bardzo długi posmak. Niezwykle ciepły smak tej herbaty sprawdzi się o każdej porze dnia – zarówno w deszczowy poranek, jak i w słoneczne popołudnie.<br><br>Składniki: 100% czarna herbata liściasta",
+      "amount" : 47.5,
+      "stars" : 3.5,
+      "brewing" : {
+        "temperature" : 95,
+        "time" : 4,
+        "reuses" : null,
+        "grams" : "2:250"
       }
     }, {
       "id" : "rize_turist_cayi",
@@ -550,6 +576,32 @@
         "grams" : "3:250"
       }
     }, {
+      "id" : "jablkowy_twist",
+      "name" : "Jabłkowy Twist",
+      "brand_id" : "five_o_clock",
+      "description" : "Biała herbata Pai Mu Tan z dodatkiem cząstek jabłek i płatków chabrów. Napar pozbawiony goryczki, jest lekki i gładki, a aromat owoców soczysty. Kawałki jabłek dodają cudownie słodkiej kwaskowości. Napar doskonale orzeźwi w gorące dni. Polecamy spróbować go w wersji schłodzonej, z odrobiną lodu, co sprawi nie lada przyjemność podczas letniej degustacji. Herbatę można również przygotować w formie cold brew.<br><br>Składniki: biała herbata, jabłko, aromat jabłkowy, płatki chabrów",
+      "amount" : 80.0,
+      "stars" : 0.0,
+      "brewing" : {
+        "temperature" : 85,
+        "time" : 3,
+        "reuses" : "2/1",
+        "grams" : "2.5:250"
+      }
+    }, {
+      "id" : "kwiatowa_zaduma",
+      "name" : "Kwiatowa Zaduma",
+      "brand_id" : "five_o_clock",
+      "description" : "Kwiatowa kompozycja na bazie białej herbaty Pai Mu Tan. Finezyjne połączenie herbaty z płatkami róży i aksamitki podkreślone aromatem fiołków. Słodycz przełamuje dodatek bergamotki. Propozycja dla osób ceniących słodycz i miękkość naparu.<br> <br>Składniki: biała herbata (93.5%), płatki róż (3%), nagietek płatki kwiatów (2%), aromaty bergamotki (1%), Aromat fiołkowy (0.5%)",
+      "amount" : 47.0,
+      "stars" : 0.0,
+      "brewing" : {
+        "temperature" : 85,
+        "time" : 3,
+        "reuses" : "3/1",
+        "grams" : "2.5:250"
+      }
+    }, {
       "id" : "laponia",
       "name" : "Laponia",
       "brand_id" : "five_o_clock",
@@ -587,6 +639,32 @@
         "time" : 3,
         "reuses" : "2/1",
         "grams" : "4:250"
+      }
+    }, {
+      "id" : "pai_mu_tan_miodowy_grapefruit",
+      "name" : "Pai Mu Tan Miodowy Grapefruit",
+      "brand_id" : "five_o_clock",
+      "description" : "Biała chińska herbata Pai Mu Tan, w towarzystwie skórki grejpfruta z aromatem miodu. Efektownie udekorowana kolorowymi płatkami bławatka oraz pączkami róży. Piękna barwa naparu ucieszy oczy, a subtelnie słodki zapach zachęci do degustacji. Smak zachwyca aksamitnością oraz lekką słodyczą, z przyjemnie wyczuwalnym miodowym akcentem.<br><br>Składniki: Biała herbata liściasta, pąki róży, skórka grejpfruta, płatki bławatka, granulki miodu (maltodekstryna, miód, zagęszczacz E401), aromaty",
+      "amount" : 44.0,
+      "stars" : 0.0,
+      "brewing" : {
+        "temperature" : 85,
+        "time" : 3,
+        "reuses" : "3/1",
+        "grams" : "2.5:250"
+      }
+    }, {
+      "id" : "tajemniczy_ogrod",
+      "name" : "Tajemniczy Ogród",
+      "brand_id" : "five_o_clock",
+      "description" : "Składniki: herbata biała liściasta, owoc żurawiny, aromaty, kawałki truskawek, krokosz, pestki granatu",
+      "amount" : 50.0,
+      "stars" : 0.0,
+      "brewing" : {
+        "temperature" : 85,
+        "time" : 3,
+        "reuses" : "2/1",
+        "grams" : "2.5:250"
       }
     } ]
   }, {
@@ -746,7 +824,7 @@
       "name" : "Thailand Jing Shuan",
       "brand_id" : "five_o_clock",
       "description" : "Wysokiej klasy tajlandzka herbata poddawana krótkiemu procesowi utleniania, które nie przekracza 20%. Niezwyklej urody listki zostały uformowane na kształt regularnych perełek, które po zaparzeniu prezentują dwa listki i pączek.<br>Napar klarowny o słomkowej barwie z jasnym odcieniem bursztynu. W odczuciach smakowych dominuje kwiatowa nuta na wzór kwiatu storczyka. Dopełnieniem jest subtelny akcent słodkiej śmietanki i nawiązanie do zapachu cukru trzcinowego. Całkowity brak goryczki zachwyci amatorów subtelnych doznań.<br><br>Składniki: 100% herbata oolong",
-      "amount" : 43.0,
+      "amount" : 39.0,
       "stars" : 4.5,
       "brewing" : {
         "temperature" : 85,
