@@ -109,6 +109,19 @@
         "grams" : "3:250"
       }
     }, {
+      "id" : "japan_bancha_asakusa",
+      "name" : "Japan Bancha Asakusa",
+      "brand_id" : "five_o_clock",
+      "description" : "Japońska zielona herbata, która zachwyca intensywnym i wyrazistym zapachem. Charakterystyczny dla herbat japońskich płaski liść jest w głęboko zielonym kolorze, pięknie się rozwija podczas parzenia i pachnie zdecydowanie roślinnie. Napar w kolorze świeżej zieleni jest przyjemnie aromatyczny. Wzbogacona o kawałki słodkich malin oraz całe owoce czerwonej porzeczki. Przyjemny posmak jeżyny, czarnej porzeczki i dzikiej wiśni sprawia, że całość jest lekko wytrawna, ale jednocześnie słodko – owocowa. Płatki bławatka dodają lekkiej kwiatowości i pięknego wyglądu.<br><br>Składniki: herbata zielona liściasta (92%), cząstki malin, czerwona porzeczka, aromaty, płatki czerwonego bławatka",
+      "amount" : 44.0,
+      "stars" : 4.5,
+      "brewing" : {
+        "temperature" : 85,
+        "time" : 2,
+        "reuses" : "3/1",
+        "grams" : "2.5:250"
+      }
+    }, {
       "id" : "japonska_wisnia",
       "name" : "Japońska wiśnia",
       "brand_id" : "five_o_clock",
@@ -250,6 +263,19 @@
         "time" : 2,
         "reuses" : "3/1",
         "grams" : "3:250"
+      }
+    }, {
+      "id" : "tokyo",
+      "name" : "Tokyo",
+      "brand_id" : "five_o_clock",
+      "description" : "Japońska zielona herbata bancha o bogatym, lekko słodkim i owocowym smaku oraz intensywnym i wyrazistym zapachu, połączona z preparowanym ryżem oraz prażoną kukurydzą tworząc klasyczną Genmaichę. Dodatkowo została ona urozmaicona nasionami dzikiej róży i spiruliną. Mocno wyczuwalna jest szałwia, która odświeża przyjemną, ziołową nutą. <br><br>Składniki: herbata zielona liściasta Japan Genmaicha (herbata zielona, prażony i preparowany ryż), nasiona owoców dzikiej róży, spirulina, liście szałwii, aromaty, jagody, płatki bławatka.",
+      "amount" : 50.0,
+      "stars" : 0.0,
+      "brewing" : {
+        "temperature" : 85,
+        "time" : 2,
+        "reuses" : "3/1",
+        "grams" : "2.5:250"
       }
     } ]
   }, {
