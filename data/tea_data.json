@@ -122,6 +122,19 @@
         "grams" : "2.5:250"
       }
     }, {
+      "id" : "japan_momo",
+      "name" : "Japan Momo",
+      "brand_id" : "five_o_clock",
+      "description" : "",
+      "amount" : 50.0,
+      "stars" : 0.0,
+      "brewing" : {
+        "temperature" : 75,
+        "time" : 3,
+        "reuses" : "3",
+        "grams" : "2.5:250"
+      }
+    }, {
       "id" : "japonska_wisnia",
       "name" : "Japońska wiśnia",
       "brand_id" : "five_o_clock",
@@ -442,6 +455,19 @@
         "time" : 4,
         "reuses" : null,
         "grams" : "3:250"
+      }
+    }, {
+      "id" : "herbata_hollywoodzka",
+      "name" : "Herbata Holliwoodzka",
+      "brand_id" : "five_o_clock",
+      "description" : "Niezwykle aromatyczna i wonna. Intrygujące połączenie czarnej cejlońskiej herbaty z dodatkiem czarnej i czerwonej porzeczki. Wyrazistości nadaje obecność ziarenek kardamonu. Orzeźwia i wzmacnia. Polecana popołudniową porą z odrobiną cukru trzcinowego lub miodu.<br><br>Składniki:<br>czarna herbata liściasta (81%), czarna porzeczka (7,5%), czerwona porzeczka (3%), kardamon (5%), aromaty",
+      "amount" : 50.0,
+      "stars" : 0.0,
+      "brewing" : {
+        "temperature" : 95,
+        "time" : 4,
+        "reuses" : null,
+        "grams" : "2.5:250"
       }
     }, {
       "id" : "korea_black_tea_plus",
@@ -976,6 +1002,19 @@
         "time" : 5,
         "reuses" : null,
         "grams" : "1.6:200"
+      }
+    }, {
+      "id" : "honeybush_przygoda_w_afryce",
+      "name" : "Honeybush Przygoda w Afryce",
+      "brand_id" : "five_o_clock",
+      "description" : "Znane i cenione zioło afrykańskie z dodatkiem kandyzowanych kawałków papai i płatków krokosza. W odbiorze ciekawie złożona, owocowe aromaty wybornie komponują się z miodowym posmakiem. Polecana także w wydaniu na zimno. Stanowi naturalną skarbnicę właściwości zdrowotnych. Stanowi ciekawą alternatywę dla rooibosa.<br><br>Składniki:<br>honeybush (86,26%), papaja, aromaty, płatki krokosza",
+      "amount" : 50.0,
+      "stars" : 4.0,
+      "brewing" : {
+        "temperature" : 95,
+        "time" : 5,
+        "reuses" : "2/1",
+        "grams" : "2.5:250"
       }
     } ]
   }, {
